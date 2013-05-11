@@ -1,0 +1,16 @@
+﻿@CHARSET "UTF-8";
+/*预览图部分请自定义，不写到JS里面去*/
+.smallimgs{ position:absolute; height:57px; line-height:57px; width:100%; bottom:0; left:0; filter:alpha(opacity=70); opacity:0.7; background:black url(../images/arr2.gif) -403px top no-repeat;}
+.imgs{display:inline-block; width:60px; height:45px; margin:6px 4px; float:left; border:gray solid 1px; position:relative; _width:58px; overflow:hidden;}
+.imgs img{ width:60px; margin-top:-5px; cursor:pointer;}
+.highlight_img{border:3px #fff solid; width:56px ;height:42px; _width:54px;}
+.slide2 .smallimgs{ height:40px; line-height:30px;}
+.slide2 .imgs{height:28px; width:100px;}
+.slide2 .imgs img{width:100px;}
+.slide2  .highlight_img{width:96px; _width:98px; height:25px; _height:29px}
+/*fix ie6 imgtitle*/
+.imgtitle{_height:70px}
+/*数字导航*/
+.numNavi{ position:absolute; height:15px; line-height:15px; width:100%; bottom:10px; left:0; text-align:right;}
+.numNavi span{ background:url(../images/flashbutton.gif) 0 0 no-repeat; display:inline-block; cursor:pointer; color:#fff; height:15px; width:15px; margin:0 3px; text-align:center; }
+.numNavi span.current{background-position:-15px 0; color:#86a2b8;}

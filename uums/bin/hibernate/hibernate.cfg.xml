@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<!-- SQL dialect for generate.pojo and ddl-->
+		<!--
+			<property
+			name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+
+			<property
+			name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		-->
+		<property name="dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
+
+		<!--
+			jdbc properties for generate.pojo <property
+			name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+			<property
+			name="hibernate.connection.url">jdbc:jtds:sqlserver://localhost:1433/powerlong</property>
+			<property name="hibernate.connection.username">sa</property>
+			<property name="hibernate.connection.password">sa</property>
+		-->
+		<!--
+			<property
+			name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+			<property
+			name="hibernate.connection.url">jdbc:oracle:thin:@127.0.0.1:1521:XE</property>
+			<property name="hibernate.connection.username">miniweb</property>
+			<property name="hibernate.connection.password">miniweb</property>
+		-->
+ 
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@192.168.180.103:1521:POWERDES</property>
+		<property name="hibernate.connection.username">plas</property>
+		<property name="hibernate.connection.password">powerlong</property>
+
+<mapping class="com.hhz.uums.entity.app.AppAttachFile"/>
+<mapping class="com.hhz.uums.entity.app.AppDictData"/>
+<mapping class="com.hhz.uums.entity.app.AppDictType"/>
+<mapping class="com.hhz.uums.entity.app.AppFunction"/>
+<mapping class="com.hhz.uums.entity.app.AppMenu"/>
+<mapping class="com.hhz.uums.entity.app.AppModule"/>
+<mapping class="com.hhz.uums.entity.app.AppPage"/>
+<mapping class="com.hhz.uums.entity.app.AppParam"/>
+<mapping class="com.hhz.uums.entity.app.AppRoleFunctionRel"/>
+<mapping class="com.hhz.uums.entity.app.AppRoleMenuRel"/>
+<mapping class="com.hhz.uums.entity.app.AppRoleResourceRel"/>
+<mapping class="com.hhz.uums.entity.app.AppRoleRuleRel"/>
+<mapping class="com.hhz.uums.entity.app.AppRule"/>
+<mapping class="com.hhz.uums.entity.app.AppSeq"/>
+<mapping class="com.hhz.uums.entity.bis.BisSmsMessage"/>
+<mapping class="com.hhz.uums.entity.bis.BisSynEmailUser"/>
+<mapping class="com.hhz.uums.entity.plas.PlasAcctPosRelTmp"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOrgCheckRel"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOperApply"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOperBatch"/>
+<mapping class="com.hhz.uums.entity.plas.PlasPub"/>
+
+<mapping class="com.hhz.uums.entity.plas.PlasAcct"/>
+<mapping class="com.hhz.uums.entity.plas.PlasUser"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOrg"/>
+
+<mapping class="com.hhz.uums.entity.plas.PlasRole"/>
+<mapping class="com.hhz.uums.entity.plas.PlasRoleGroup"/>
+<mapping class="com.hhz.uums.entity.plas.PlasApp"/>
+
+<mapping class="com.hhz.uums.entity.plas.PlasDimeOrgRel"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOrgDime"/>
+
+
+
+
+<mapping class="com.hhz.uums.entity.plas.PlasSysPosition"/>
+<mapping class="com.hhz.uums.entity.plas.PlasSysPosRoleRel"/>
+<mapping class="com.hhz.uums.entity.plas.PlasOrgMgrRel"/>
+
+<mapping class="com.hhz.uums.entity.plas.PlasRolePack"/>
+<mapping class="com.hhz.uums.entity.plas.PlasRolePackRel"/>
+<mapping class="com.hhz.uums.entity.plas.PlasRolePackPosRel"/>
+
+	</session-factory>
+</hibernate-configuration>

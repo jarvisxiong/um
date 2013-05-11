@@ -1,0 +1,76 @@
+div.jqDrag {cursor: move;}
+div.jqmOverlay { background-color: #000; }
+
+div.jqmDialog {
+	display: none;
+	position: fixed;
+	top: 5%;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	overflow: hidden;
+	border:1px solid #99928C;
+	background-color: #fff;
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(5 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+/* [[[ Header ]]] */
+div.jqmHeader { 
+	background: #0167A2; 
+	color: #ffffff;
+	font-size:14px;
+	font-weight: bold;
+	height:25px;
+	line-height:25px;
+	* zoom: 1;
+}
+div.projectHeader{ 
+	background: #EEEEEE; 
+	font-size:14px;
+	font-weight: bold;
+	height:30px;
+	line-height:30px;
+	* zoom: 1;
+}
+div.jqmTitle { padding-left: 10px;margin-right:20px;cursor:move;}
+div.bisTitle { padding-left: 10px;margin-right:20px;cursor:move;   background: none repeat scroll 0 0 #EEEEEE;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;}
+div.jqmClose{ padding-right: 3px;float:right;width:20px;cursor:pointer;}
+
+
+/* [[[ Body ]]] */
+div.jqmBody {
+	padding: 5px;
+	height: 400px;
+}
+.jqmConfirmBtn,.jqmCancelBtn{
+	background-color:#0167A2;
+	border:none;
+	width:60px;
+	height:25px;
+	line-height:25px;	
+	color:#fff;
+	margin:5px;
+	cursor:pointer;
+}
+.bisConfirmBtn,.bisCancelBtn{
+	background-color: #A4C45F;
+    border: 1px solid #597126;
+	width:60px;
+	height:25px;
+	line-height:25px;	
+	color:#fff;
+	margin:5px;
+	cursor:pointer;
+}
+div.projectDialog{	background-color: #fff;border:1px solid #5a5a5a;}

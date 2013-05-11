@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.convention.default.parent.package"
+		value="crud-default" />
+	<constant name="struts.convention.action.includeJars" value=".*/pl-core.*?jar(!/)?" />
+	<constant name="struts.convention.package.locators" value="web" />
+	<constant name="struts.convention.package.locators.basePackage"
+		value="com.hhz.uums.web" />
+	<constant name="struts.custom.i18n.resources" value="i18n.web.Core,i18n.web.info" />
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<constant name="struts.i18n.reload" value="true" />
+	<constant name="struts.configuration.xml.reload" value="false" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.ui.theme" value="simple" />
+	<constant name="struts.multipart.maxSize" value="204800000" />
+	<constant name="struts.convention.result.path" value="/WEB-INF/content" />
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"/>
+	
+	<!-- 用于CRUD Action的parent package -->
+	<package name="crud-default" extends="convention-default">
+		<!--
+			基于paramsPrepareParamsStack, 增加store
+			interceptor保证actionMessage在redirect后不会丢失
+		-->
+		<interceptors>
+			<interceptor-stack name="crudStack">
+				<interceptor-ref name="store">
+					<param name="operationMode">AUTOMATIC</param>
+				</interceptor-ref>
+				<interceptor-ref name="paramsPrepareParamsStack" />
+			</interceptor-stack>
+
+		</interceptors>
+		<default-interceptor-ref name="crudStack" />
+		<global-results>
+			<result name="unhandledException" type="chain">
+				<param name="actionName">pd-exception</param>
+				<param name="namespace">/com</param>
+			</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="java.lang.Exception"
+				result="unhandledException" />
+		</global-exception-mappings>
+		
+		<action name="download" class="com.hhz.uums.web.app.AppAttachmentAction"
+			method="download">
+			<result type="stream">
+				<param name="contentType">${contentType}</param>
+				<!-- ReportsAction中对应的InputStream的属性名 -->
+				<param name="inputName">targetFile</param>
+				<!-- 对应ReportsAction中的属性fileName，定义流输出格式 -->
+				<param name="contentDisposition">attachment;filename="${downFileName}"</param>
+				<!-- 定义bufferSize，可选 -->
+				<param name="bufferSize">4096</param>
+			</result>
+		</action>
+		<action name="show" class="com.hhz.uums.web.app.AppAttachmentAction"
+			method="download">
+			<result type="stream">
+				<param name="contentType">${contentType}</param>
+				<!-- ReportsAction中对应的InputStream的属性名 -->
+				<param name="inputName">targetFile</param>
+				<!-- 对应ReportsAction中的属性fileName，定义流输出格式 -->
+				<param name="contentDisposition">inline; filename="${downFileName}"</param>
+				<!-- 定义bufferSize，可选 -->
+				<param name="bufferSize">4096</param>
+			</result>
+		</action>
+		<action name="*">
+			<result>{0}.jsp</result>
+		</action>
+	</package>
+	<package name="/view" extends="convention-default,jasperreports-default">
+		<action name="*">
+			<result>{0}.jsp</result>
+		</action>
+	</package>
+	<!--
+		使用Convention插件,实现约定大于配置的零配置文件风格. 特殊的Result路径在Action类中使用@Result设定.
+	-->
+</struts>

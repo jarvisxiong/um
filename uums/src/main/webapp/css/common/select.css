@@ -1,0 +1,51 @@
+
+.mailUserLeft{float:left;width:222px;color:#000000;margin-right: 10px;padding-left: 10px;}
+.mailUserRight{float:left;width:222px;color:#000000;}
+.mailUserBorder{background-color: #fff;}
+.mailUserBorder .operateDiv{font-size: 12px;cursor: pointer;font-weight: bold;background-color:#4C4239;color:#fff;border-bottom: 1px solid #fff;}
+.mailUserBorder .operateDiv .click{background-color: #4d7b9d;color:#ffffff;}
+.mailUserBorder div{font-size: 12px;}
+.userSelected{color:#fff;background-color: #abc3d2;padding-left:15px;cursor: pointer;}
+.userUnSelected{padding-left:15px;cursor: pointer;}
+#userDisplay{margin:0;padding:0;list-style-type: none;}
+#userDisplay li{}
+#userDisplay li:hover{background-color: #abc3d2;}
+.userStatus_online{white-space:nowrap; line-height:22px; background:url(../../images/webim/member_pic.gif) no-repeat left;height:20px;padding-left: 16px;}
+.userStatus_offline{white-space:nowrap; line-height:22px;background:url(../../images/imgTree/tongxunlu_lixian.png) no-repeat;width:16px;height:15px;float:left;}
+
+.searchUserDiv{position: absolute;display: none;border: 1px solid gray;background-color: #e8e8e8}
+.searchUserDiv div{border-bottom: 1px solid #fff;cursor: pointer;}
+.searchUserDiv div:hover{background-color: #4d7b9d;color:#fff;}
+.memberBtn{background: url("../../../pics/email/member_btn.gif") no-repeat;width:63px;height:22px;line-height:22px;text-align: center;color:#000;cursor: pointer;margin-bottom:5px;}
+.memberBtn:hover{background: url("../../images/imgTree/member_btn_hover.gif") no-repeat;}
+.memberBorder{border-left: 1px solid #dbdbdb;border-right:1px solid #dbdbdb;}
+.memberContainer{background-color: #e7e7e7;margin: 0 1px;}
+.memberTitle{border-bottom: 1px solid #fff}
+.mailBlueText{
+	color: #0167a2;
+	cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	TEXT-DECORATION:underline;
+	cursor: pointer;
+}
+.groupbox{
+	cursor: pointer;
+	height:30px;
+	line-height: 30px;
+	padding-left:10px;
+	border-bottom: 1px solid #ffffff;
+	color:#0167a2;
+}
+.groupNameDiv{
+	cursor: pointer;
+	padding-left: 10px;
+	height:20px;
+	line-height: 20px;
+}
+.groupNameDiv input{
+	vertical-align:middle;
+}

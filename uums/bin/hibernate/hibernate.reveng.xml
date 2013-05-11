@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering 
+  SYSTEM "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+<hibernate-reverse-engineering>
+		<table-filter match-name="APP_ATTACH_FILE" match-schema="PLAS" />
+		<table-filter match-name="APP_DICT_DATA" match-schema="PLAS" />
+		<table-filter match-name="APP_DICT_TYPE" match-schema="PLAS" />
+		<table-filter match-name="APP_FUNCTION" match-schema="PLAS" />
+		<table-filter match-name="APP_MENU" match-schema="PLAS" />
+		<table-filter match-name="APP_MODULE" match-schema="PLAS" />
+		<table-filter match-name="APP_PAGE" match-schema="PLAS" />
+		<table-filter match-name="APP_PARAM" match-schema="PLAS" />
+		<table-filter match-name="APP_ROLE_FUNCTION_REL" match-schema="PLAS" />
+		<table-filter match-name="APP_ROLE_MENU_REL" match-schema="PLAS" />
+		<table-filter match-name="APP_ROLE_RESOURCE_REL" match-schema="PLAS" />
+		<table-filter match-name="APP_ROLE_RULE_REL" match-schema="PLAS" />
+		<table-filter match-name="APP_RULE" match-schema="PLAS" />
+		<table-filter match-name="APP_SEQ" match-schema="PLAS" />
+		<table-filter match-name="APP_ATTACH_FILE" match-schema="PLAS" />
+		<table-filter match-name="BIS_SMS_MESSAGE" match-schema="PLAS" />
+		<table-filter match-name="BIS_SYN_EMAIL_USER" match-schema="PLAS" />
+		<table-filter match-name="BIS_SEC_GROUP_USER_REL" match-schema="PLAS" />
+		<table-filter match-name="BIS_SEC_GROUP" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ACCT" match-schema="PLAS" />
+		
+		<table-filter match-name="PLAS_LOGIN_LOG" match-schema="PLAS" />
+		<table-filter match-name="PLAS_OPERATE_LOG" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ORG" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ORG_MGR_REL" match-schema="PLAS" />
+		<table-filter match-name="PLAS_REAL_POSITION" match-schema="PLAS" />
+
+		<table-filter match-name="PLAS_APP" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ROLE_GROUP" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ROLE" match-schema="PLAS" />
+
+		<table-filter match-name="PLAS_SYS_POSITION" match-schema="PLAS" />
+		<table-filter match-name="PLAS_SYS_POS_ROLE_REL" match-schema="PLAS" />
+		<table-filter match-name="PLAS_USER" match-schema="PLAS" />
+		<table-filter match-name="PLAS_DIME_ORG_REL" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ORG_DIME" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ACCT_POS_REL_TMP" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ORG_CHECK_REL" match-schema="PLAS" />
+		<table-filter match-name="PLAS_OPER_APPLY" match-schema="PLAS" />
+		<table-filter match-name="PLAS_OPER_BATCH" match-schema="PLAS" />
+		<table-filter match-name="PLAS_PUB" match-schema="PLAS" />
+		 
+		<table-filter match-name="PLAS_ROLE_PACK" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ROLE_PACK_REL" match-schema="PLAS" />
+		<table-filter match-name="PLAS_ROLE_PACK_POS_REL" match-schema="PLAS" />
+	
+</hibernate-reverse-engineering>

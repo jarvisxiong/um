@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<bean id="schedulerFactory"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean"
+		lazy-init="default">
+		<property name="triggers">
+			<list>
+				<ref bean="refreshUserCenterTrigger" /> 
+				<ref bean="openAcctsTrigger" /> 
+				<ref bean="openAcctsPwdTrigger" /> 
+			</list>
+		</property>
+	</bean>
+	
+	
+	<!-- 每天凌晨更新人员你的中心字段-->
+	<bean id="refreshUserCenterTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="refreshUserCenter" />
+		</property>
+		<property name="cronExpression">
+			<value>0 0 1 ? * *</value>
+		</property>
+	</bean>
+	<bean id="refreshUserCenter" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="plasUserManager" />
+		</property>
+		<property name="targetMethod">
+			<value>refreshUserCenter</value>
+		</property>
+	</bean>
+	
+	<!-- 自动启用账号(建议在加密软件同步plas用户信息前执行) -->
+	<bean id="openAcctsTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="openAccts" />
+		</property>
+		<property name="cronExpression">
+			<!-- 每天凌晨4点运行 -->
+			<value>0 0 4 ? * *</value>
+		</property>
+	</bean>
+	<!--  自动启用账号 -->
+	<bean id="openAccts" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="plasAcctManager" />
+		</property>
+		<property name="targetMethod">
+			<value>timerOpenAccts</value>
+		</property>
+	</bean> 
+	
+	<!--  自动发送密码,重置密码提示 -->
+	<bean id="openAcctsPwdTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="openAcctsPwd" />
+		</property>
+		<property name="cronExpression">
+			<!-- 每天早上8点运行 -->
+			<value>0 0 8 ? * *</value>
+		</property>
+	</bean>
+	<bean id="openAcctsPwd" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="bisSmsTmpManager" />
+		</property>
+		<property name="targetMethod">
+			<value>timerOpenAcctsPwd</value>
+		</property>
+	</bean> 
+	
+</beans>  

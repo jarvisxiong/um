@@ -1,0 +1,167 @@
+html,body {
+	font: 12px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+	background-color: #fff;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td{
+	margin:0;
+	padding:0;
+}
+a:link {
+	text-decoration: none;
+	color: #1B5978;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #1B5978;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+p {
+	line-height: 200%;
+}
+
+.tool-add {
+	background-image: url('../../images/edit_add.png') !important
+}
+
+.tool-edit {
+	background-image: url('../../images/pencil.png') !important
+}
+
+.tool-delete {
+	background-image: url('../../images/edit_remove.png') !important
+}
+
+.tool-cut {
+	background-image: url('../../images/cut.png') !important
+}
+
+.tool-save {
+	background-image: url('../../images/filesave.png') !important
+}
+
+.tool-find {
+	background-image: url('../../images/kmag.png') !important
+}
+
+.nav-opt {
+	background-image: url('../../images/kcmsystem.png') !important
+}
+
+.nav-config {
+	background-image: url('../../images/wizard.png') !important
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+ul.left-nav{
+	list-style-type:none;
+	text-align:left;
+	margin:0;
+	padding:0;
+	border:none;
+}
+.left-nav li{
+	height:25px;
+	line-height:25px;
+	padding: 5px 5px 5px 10px;
+	border-bottom:1px solid  #CCCCFF;
+}
+
+.left-nav li a {
+	display: block;
+	background:url(../../images/admin/go.gif) no-repeat left;
+	padding-left:20px;
+	text-decoration: none;
+}
+.left-nav li a:hover{
+	color:#1B5978;
+	font-weight:bold;
+	background-color: #FBEC88;
+}
+
+/*** select prod  begin************/
+.prod_search{
+	height:100%;
+}
+
+.products{
+	list-style:none;
+	padding:0px;
+	height:100%;
+}
+.products li.item{
+	display:inline;
+	float:left;
+	margin:10px;
+	width:150px;
+	/*
+height:100px;
+*/
+}
+.item img.thumb{
+	border:1px solid #333;
+	width:80px;
+	height:80px;
+}
+.item p{
+	margin:0;
+	text-align:left;
+}
+.item p.no{
+	color:#999999;
+}
+.item p.no strong{
+	color:#FF6600;
+}
+.sumPrice{
+	height:20px;
+	line-height:20px;
+	background-color:#eee;
+	border-bottom:1px solid #99BBE8;
+	margin-bottom:3px;
+}
+.sumPrice strong{
+	font-weight:bold;
+	color:#FF6600;
+}
+/*** select prod  end************/
+
+.input_bottomLine{
+	border-left: none;
+	border-right: none;
+	border-top:none;
+	border-bottom: 1px solid
+}
+table.showTable{
+	width:100%;
+}
+.td_title{
+	padding:0 10px;
+}
+.td_content{
+	width:100px;
+}
+
+.row_header {
+    background: url("../images/panel_title.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #99BBE8;
+    color: #15428B;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 5px;
+    position: relative;
+}

@@ -1,0 +1,78 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+		http://cxf.apache.org/jaxws 
+		http://cxf.apache.org/schemas/jaxws.xsd"
+	>
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />   
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />   
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+     
+    <!-- 安全验证
+    <bean id="wss4jOutConfiguration"  
+        class="org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor">  
+        <property name="properties">  
+            <map>  
+                <entry key="action" value="UsernameToken" />  
+                <entry key="user" value="ws-client" />  
+                <entry key="passwordType" value="PasswordText" />  
+                <entry>  
+                    <key>  
+                        <value>passwordCallbackRef</value>  
+                    </key>  
+                    <ref bean="clientPasswordCallback" />  
+                </entry>  
+            </map>  
+        </property>  
+    </bean>  
+    <bean id="clientPasswordCallback" class="com.hhz.uums.service.ClientPasswordCallback" /> 
+     -->
+<!--
+	<bean id="hello-client" class="com.hhz.uums.service.WSHelloWorld" 
+      factory-bean="hello1Factory" factory-method="create"/>
+
+    <bean id="hello1Factory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+    	<property name="serviceClass" value="com.hhz.uums.service.WSHelloWorld"/>
+	  	<property name="address" value="http://localhost:8080/plas/ws/WSHelloWorld"/>
+        <property name="outInterceptors">  
+            <list>  
+                <bean class="org.apache.cxf.binding.soap.saaj.SAAJOutInterceptor" />  
+                <ref bean="wss4jOutConfiguration" />  
+            </list>  
+        </property>  
+    </bean>
+-->
+    
+    
+    <!-- plas内部项目调用
+	<bean id="plas-client" class="com.hhz.uums.service.WSPlasService" 
+      factory-bean="plasFactory" factory-method="create"/>
+    
+    <bean id="plasFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+    	<property name="serviceClass" value="com.hhz.uums.service.WSPlasService"/>
+	  	<property name="address" value="http://localhost:9091/plas/ws/WSPlasService"/>
+    </bean>
+    --> 
+    <!-- livecyclerms 从 plas 拉取同步数据 
+	<bean id="zony-client" class="com.hhz.uums.service.WSZonyService" 
+      factory-bean="zonyFactory" factory-method="create"/>
+    
+    <bean id="zonyFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+    	<property name="serviceClass" value="com.hhz.uums.service.WSZonyService"/>
+	  	<property name="address" value="http://localhost:9091/plas/ws/WSZonyService"/>
+    </bean>
+	 --> 
+	 
+	 
+	<bean id="pd-client" class="com.hhz.org.pd.service.WSPdService" 
+      factory-bean="pdFactory" factory-method="create"/>
+    
+    <bean id="pdFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+    	<property name="serviceClass" value="com.hhz.org.pd.service.WSPdService"/>
+	  	<property name="address" value="http://localhost:8080/PowerDesk/ws/WSPdService"/>
+    </bean>
+</beans> 

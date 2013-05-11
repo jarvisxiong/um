@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+  <description><![CDATA["自定义标签库"]]></description>
+  <display-name>"Customer Tags"</display-name>
+  <tlib-version>1</tlib-version>
+  <short-name>pa</short-name>
+  <uri>/plas-tags</uri>
+  <tag>
+    <description><![CDATA[权限标签]]></description>
+    <name>permission</name>
+    <tag-class>com.hhz.uums.tags.PermissionTag</tag-class>
+    <body-content>JSP</body-content>
+    <attribute>
+      <description><![CDATA[menu,function]]></description>
+      <name>type</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+    </attribute>
+    <attribute>
+      <description><![CDATA[ menuCd,functionCd]]></description>
+      <name>key</name>
+      <required>true</required>
+      <rtexprvalue>false</rtexprvalue>
+      <type>type</type>
+    </attribute>
+    <dynamic-attributes>false</dynamic-attributes>
+  </tag>
+  </taglib>
