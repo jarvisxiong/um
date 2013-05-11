@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11268"
+   name=""
+   committed-date="2008-12-31T06:30:20.212250Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/WEB-INF/conf"
+   last-author="gong_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="11268"
+   name="axis2.xml"
+   text-time="2009-12-01T08:34:15.796875Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="529036b7f31485431f656f03701e8c74"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:15.781250Z"/>
+</wc-entries>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Warehouse"
+        table="intt_warehouse"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Warehouse.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <set
+            name="bins"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="warehouseId"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Bin"
+            />
+
+        </set>
+
+        <set
+            name="buildings"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="warehouseId"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Building"
+            />
+
+        </set>
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.WarehouseState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <property
+            name="city"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="city"
+        />
+
+        <property
+            name="area"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="area"
+        />
+
+        <property
+            name="zip"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="zip"
+        />
+
+        <property
+            name="phone"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="phone"
+        />
+
+        <property
+            name="address"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="address"
+        />
+
+        <property
+            name="code"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="code"
+        />
+
+        <property
+            name="alias"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="alias"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Warehouse.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

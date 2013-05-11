@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  
+  <body>
+  
+  	<div class="box"/>
+	<div id="title">$title</div>
+  
+  $form
+  
+  <DIV id="insert"><h3 align="center">$table</h3></DIV>
+ 
+  </body>
+</html>

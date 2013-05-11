@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14984"
+   name=""
+   committed-date="2009-05-14T09:23:42.609375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/nwms/menu"
+   last-author="sundy_wu"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14984"
+   name="Menu.java"
+   text-time="2009-12-01T08:34:06.640625Z"
+   committed-date="2009-05-14T09:23:42.609375Z"
+   checksum="a03a8f5d253435accc57bef89ef37023"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:34:06.640625Z"/>
+</wc-entries>

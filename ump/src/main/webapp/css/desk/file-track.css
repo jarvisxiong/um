@@ -1,0 +1,263 @@
+* { margin: 0; padding: 0; }
+html, body { font-size: 12px; }
+a { color: #000; text-decoration: none; }
+
+.search_panel { background-color: #D7DAD9; text-align: left; display: none; }
+.search_panel table { table-layout: fixed; height: 60px; }
+.search_panel table tr td { padding-left: 10px; }
+
+.wrapper { overflow: hidden; border-left: 1px solid #DBDBDB; height: 400px; border-right: 1px solid #DBDBDB; }
+
+.splitWord { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; height: 35px; }
+
+.file_list { table-layout: fixed; width: 100%; text-align: left; }
+.file_list tr { cursor: pointer; }
+.file_list tr.header th {
+	padding-left: 4px;
+	font-size: 14px;
+	color: #5B6B83;
+	height: 20px;
+	vertical-align: bottom;
+	border-bottom: 1px solid #dbdbdb;
+	cursor: default;
+	text-align: left;
+	background:url('../../pics/email/mail_title_line_temphight.jpg') no-repeat right bottom;
+}
+.file_list tr td {
+	padding-left: 4px;
+	color: #161616;
+	height: 35px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #e3e3e3;
+}
+.file_list tr.add_new {
+	cursor: default;
+}
+.file_list tr.add_new td {
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #e7ebee;
+}
+.file_list tr.item:hover {
+	background-color: #f3f3f3;       
+}
+.file_list tr.item:hover td {
+	color: #40a3de;
+}
+.file_list tr.item:hover td:hover {
+	background-color: #e1e1e1;
+}
+.file_list tr.detail { 
+	display: none; 
+	background-color: #f7f7f7;
+}
+.pager_style {
+	text-align: center;
+	margin-top: 5px;
+}
+.btn_addNewFile {
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/plan/btn_add.gif');
+	background-repeat:no-repeat;
+	background-position: left 90%;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+	float: left;
+}
+
+.btn_addNewFile:hover {
+	background-image: url('../../images/plan/btn_add_hover.gif');
+	background-position: left top;
+	color: #40A3DE;
+}
+.btn_userPool {
+	height: 24px;
+	line-height: 24px;
+	background-image: url('../../pics/meeting/btn_userpool.gif');
+	background-repeat:no-repeat;
+	background-position: left 90%;
+	cursor:pointer;
+	padding-left:26px;
+}
+.btn_userPool:hover {
+	background-image: url('../../pics/meeting/btn_userpool_hover.gif');
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+.btn_searchBt {
+	height: 24px;
+	line-height: 24px;
+	background-image: url('../../images/plan/btn_search.gif');
+	background-repeat:no-repeat;
+	background-position: left 90%;
+	cursor:pointer;
+	padding-left:26px;
+}
+.btn_searchBt:hover {
+	background-image: url('../../images/plan/btn_search_hover.gif');
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+.btn_refreshMeeting {
+	height: 24px;
+	line-height: 24px;
+	background-image: url('../../images/plan/btn_refresh.gif');
+	background-position: left 90%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	padding-left:26px;
+	margin-left: 10px; 
+	float: left;
+}
+.btn_refreshMeeting:hover {
+	background-image: url('../../images/plan/btn_refresh_hover.gif');
+	background-position: left top;
+	color: #40A3DE;
+}
+.btn_fullScreen {
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/plan/btn_full.gif');
+	background-position: left 90%;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+	margin-left: 10px; 
+	margin-right: 5px; 
+	float: left;
+}
+
+.btn_fullScreen:hover{
+	background-image: url('../../images/plan/btn_full_hover.gif');
+	background-repeat:no-repeat;
+	background-position: left top;
+	color: #40A3DE;
+}
+.buttonStyle {
+	background:url("../../pics/email/btnBg1.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	width:50px;
+}
+.buttonStyle_hover {
+	background:url("../../pics/email/btnBg1_hover.gif") no-repeat scroll 0 0 transparent;
+}
+
+.up_arrow {
+	display: none;
+}
+
+.corner_top_left {
+	background:url("../../pics/email/mail_corner_tl.gif") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:5px;
+	width:5px;
+}
+.corner_top_center {
+	border-top:1px solid #DBDBDB;
+	height:4px;
+	margin:0 5px;
+}
+.corner_top_right {
+	background:url("../../pics/email/mail_corner_tr.gif") no-repeat scroll 0 0 transparent;
+	float:right;
+	height:5px;
+	width:5px;
+}
+
+.corner_bottom_left {
+	background:url("../../pics/email/mail_corner_bl.gif") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:5px;
+	width:5px;
+}
+.corner_bottom_center {
+	border-bottom:1px solid #DBDBDB;
+	height:4px;
+	margin:0 5px;
+}
+.corner_bottom_right {
+	background:url("../../pics/email/mail_corner_br.gif") no-repeat scroll 0 0 transparent;
+	float:right;
+	height:5px;
+	width:5px;
+}
+
+.commentList {
+	margin: 10px 0;
+	list-style: none;
+	cursor: default;
+}
+.commentList li {
+	line-height: 20px;
+}
+
+.func_icon {
+	background-image:url("../../pics/meeting/btn_func.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	width:37px;
+}
+.func_icon:hover {
+	background:url("../../pics/meeting/btn_func_hover.gif");
+	background-position: left top;
+	background-repeat: no-repeat;
+	line-height: 20px;
+}
+.func_icon_red {
+	background:url("../../pics/meeting/btn_func_red.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	width:37px;
+	text-align: center;
+}
+.func_icon_red:hover {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background:url("../../pics/meeting/btn_func_red_hover.gif") no-repeat scroll 0 0 transparent;
+	line-height: 20px;
+}
+.func_icon_publish {
+	background:url("../../pics/meeting/btn_func_publish.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	width:50px;
+	text-align: center;
+}
+.func_icon_publish:hover {
+	background:url("../../pics/meeting/btn_func_publish_hover.gif") no-repeat scroll 0 0 transparent;
+}
+.waiting {
+	height: 300px;
+	width: 100%;
+	background: url(../../images/loading.gif) no-repeat center center;
+}
+.title_bar_h {
+	float:left; 
+	margin-left: 5px; 
+	height:29px;
+	color: #5A5A5A; 
+	font-weight: bold;
+	
+}

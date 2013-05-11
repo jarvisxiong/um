@@ -1,0 +1,220 @@
+.bodyHead {
+    background-color: #E4E7EC;
+    border-bottom: 1px solid #8C8F94;
+    color: #363636;
+    font-size: 14px;
+    height: 30px;
+    line-height: 26px;
+}
+.bodyHead .headTitle {
+    float: left;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 29px;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+.leftNav{
+	margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.tab{
+	font-size: 14px;
+	list-style-type: none;
+	background-color: #fff;
+}
+.tab li {
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	float: left;
+	line-height: 20px;
+	margin: 2px;
+	padding: 2px;
+	width: 110px;
+	text-align: center;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+.tab li:hover {
+	background-color: #0167a2;
+	border:1px solid  #0167a2;
+	color: #fff;
+}
+.li-click {
+	background-color: #0167a2;
+	border:1px solid  #0167a2;
+	color: #fff;	
+}
+.common_btn{
+	height: 20px;
+	background-color: #6eb1cf; 
+	border: 1px solid #45738d;
+}
+
+.ctdbTable{
+	width:100%;
+	text-align: left;
+}
+
+.ctdbTable thead tr th {
+	font-weight: bold;	
+	font-size:12px;
+	color:#333333;
+	border-bottom: 1px solid #AAABB0;    
+    line-height: 30px;
+    text-align: left;
+    border-width: 0 0 0 1px;
+    border-left:0px solid #E4E7EC;
+    background-image: url("../../images/common/table_title_cutline.gif");
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #AAABB0;
+    padding-left:5px;
+    text-shadow: black;
+    border-top: 0px none;
+    border-top-color: white;
+    border-top-style: none;
+    height: 30px;    
+}
+.ctdbTable tbody tr td {
+	padding-left: 5px;
+}
+
+.ctdbTable  tbody{
+	background-color: none;	
+	border:1px solid #aaabb0 ;
+	border-bottom-color: #aaabb0;
+}
+
+.ctdbTable  tbody tr{
+	background-color: none;	
+	border-bottom: 1px solid #DDDBDC;
+	line-height: 30px;
+	height: 30px;
+}
+.ctdbTable  tbody tr:hover{
+	cursor: pointer;
+	background-color: #EDEFF3;
+}
+.pageFooter{
+	margin-top:10px;
+	float: right;
+	clear: both;
+	margin-right: 30px;
+	
+}
+.hideDiv{
+	position: absolute;
+	min-width: 105px;
+	left: 0 px;
+	display: none;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.newList{
+	border-bottom: 1px solid #cccccc;
+	cursor: pointer;	
+	height: 22px;
+	line-height: 22px;
+	
+}
+.listList{
+	cursor: pointer;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;	
+	vertical-align: middle;
+	
+}
+
+.newList:hover{
+	cursor: pointer;
+	background-color: #0167a2;
+	border:1px solid  #0167a2;
+	color: #fff;
+}
+.listList:hover{
+	cursor: pointer;
+	background-color: #0167a2;
+	border:1px solid  #0167a2;
+	color: #fff;
+	}
+.default{
+	display: none;
+	cursor: pointer;
+}
+.active{
+	display: block;
+	cursor: pointer;
+}
+
+.firstPart tbody tr{
+	margin-top: 5px;
+	padding-top: 5px;
+	line-height: 26px;
+	height: 26px;
+}
+
+input:hover{
+	background-color: oranger;
+}
+input.mustInput{
+    border-color: #AAABB0 #AAABB0 #AAABB0 red;
+    border-left: 1px solid red;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.partHide{
+	 height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    width:95%;
+}
+.contentBtn{
+	height:20px; 
+	line-height:20px;
+	margin-top: 3px;
+	background-color: #6eb1cf;
+	border: 1px solid #45738d;
+	color: #fff;
+	width: 53px;
+	margin-top: 10px;
+}
+
+.hasAttachFile{
+	background-image: url("../../images/common/atta_y.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-left:15px;
+	line-height: 25px;
+	float:left;
+	cursor:pointer;
+}
+.noAttachFile{
+	background-image: url("../../images/common/atta.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-left:15px;
+	line-height: 25px;
+	float:left;
+	cursor:pointer;
+}
+.btnred{
+	height:20px; 
+	line-height:20px;
+	margin-top: 3px;
+	background-color: #AC2727;
+    border: 1px solid #5B0C0C;
+	color: #fff;
+	width: 53px;
+	margin-top: 10px;
+}
+input[type='text']:focus{
+	background-color: #ffffe1;
+}

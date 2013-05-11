@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Tier"
+        table="intt_tier"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Tier.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.TierState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <set
+            name="bins"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="tierId"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Bin"
+            />
+
+        </set>
+
+        <property
+            name="alias"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="alias"
+        />
+
+        <property
+            name="code"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="code"
+        />
+
+        <many-to-one
+            name="row"
+            class="com.intelitune.nwms.model.Row"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="row_id"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Tier.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>test1116</title>
+<link type="text/css" rel="stylesheet" href="resources/css/common/common.css" />
+<link type="text/css" rel="stylesheet" href="resources/css/test1116.css" />
+<script language="javascript" src="resources/js/jquery/jquery.js" type="text/javascript"></script>
+<script language="javascript">
+var _bodyWidth = 0;
+var _bodyHeight = 0;
+var ggxw_interval;
+var daiban_attention_height;	//待办和关注的剩余空间,首页载入后计算,关注事项forHome的页面里用到
+var IF_MENU_SHOW = false;
+$(function(){
+	//自动调整首页高度
+	_bodyWidth = $(document).width();
+	_bodyHeight = $(document).height();
+	_centerDivsWidth = _bodyWidth-56*3-64;
+	$(".jsMainLeft").css("width",parseInt(_centerDivsWidth*0.4)+"px");
+	$(".jsMainRight").css("width",parseInt(_centerDivsWidth*0.6)+"px");
+});
+//菜单div的点击事件
+function mainMenuClick(){
+	if(IF_MENU_SHOW){
+		$("#divMainMenu").animate({'width':'0px'},300);
+		IF_MENU_SHOW = false;
+	}else{
+		$("#divMainMenu").animate({'width':'200px'},300);
+		IF_MENU_SHOW = true;
+	}
+}
+</script>
+</head>
+<body>
+<div style="width:100%; height:30px;"></div>
+<div style="width:100%; height:1200px;">
+    <div style="float:left; width:64px; height:1200px; background-color:#ee7823;">
+    	<div style="width:64px; height:60px;"></div>
+    	<div style="width:64px; height:60px; background-color:#00FFFF; font-size:large; cursor:pointer;" onclick="mainMenuClick()">点击</div>
+    </div>
+	<div style="float:left; width:56px; height:1200px;"></div>
+    <div class="jsMainLeft" style="float:left; height:1200px;">
+    	<div class="jsMainLeft" style="height:320px; background-color:#68c50d;"></div>
+    	<div class="jsMainLeft" style="height:8px;"></div>
+    	<div class="jsMainLeft" style="height:120px; background-color:#68c50d;"></div>
+    	<div class="jsMainLeft" style="height:8px;"></div>
+    	<div class="jsMainLeft" style="height:120px; background-color:#68c50d;"></div>
+    	<div class="jsMainLeft" style="height:8px;"></div>
+    	<div class="jsMainLeft" style="height:120px; background-color:#68c50d;"></div>
+    </div>
+    <div style="float:left; width:56px; height:1200px;"></div>
+    <div class="jsMainRight" style="float:left; height:1200px;">
+    	<div class="jsMainRight" style="height:320px; background-color:#68c50d;"></div>
+    	<div class="jsMainRight" style="height:8px;"></div>
+    	<div class="jsMainRight" style="height:120px; background-color:#68c50d;"></div>
+    	<div class="jsMainRight" style="height:8px;"></div>
+    	<div class="jsMainRight" style="height:120px; background-color:#68c50d;"></div>
+    	<div class="jsMainRight" style="height:8px;"></div>
+    	<div class="jsMainRight" style="height:120px; background-color:#68c50d;"></div>
+    </div>
+    <div style="float:left; width:56px; height:1200px;"></div>
+</div>
+<div id="divMainMenu" style="width:0px; height:1200px; left:64px; top:30px; position:absolute; background-color:#ee7823;">
+	<div>菜单1 </div>
+    <div>菜单2 </div>
+    <div>菜单234234 </div>
+    <div>菜单1252525 </div>
+</div>
+</body>
+</html>

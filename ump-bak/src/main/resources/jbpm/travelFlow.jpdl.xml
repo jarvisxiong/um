@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="JBPM_TRAVEL_FLOW" name="travelFlow" xmlns="http://jbpm.org/4.3/jpdl">
+   <start g="6,22,48,48" name="start1">
+      <transition to="apply"/>
+   </start>
+   <task g="119,21,92,52" name="apply">
+    <on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+	</on>
+    <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition to="exclusive1"/>
+      <transition g="-59,-17" name="toCancel" to="cancel"/>
+   </task>
+   <decision g="318,23,48,48" name="exclusive1">
+   <handler class="com.hhz.ump.web.jbpm.TravelDecision" />
+      <transition g="-29,-17" name="toDept" to="dept"/>
+      <transition g="-29,-17" name="toCenter" to="center"/>
+      <transition g="-38,16" name="toAGeneral" to="a-general"/>
+      <transition g="-27,-18" name="toGroup" to="group"/>
+   </decision>
+   <task g="424,110,92,52" name="dept">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition to="center"/>
+      <transition g="312,16:-29,-17" name="back" to="apply"/>
+   </task>
+   <task g="427,197,92,52" name="center">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition to="a-general"/>	
+      <transition g="5,-10" name="back" to="apply"/>
+   </task>
+   <task g="268,197,92,52" name="a-general">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition g="-29,-17" name="back" to="apply"/>
+      <transition to="exclusive3"/>
+   </task>
+   <task g="267,279,92,52" name="v-president">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition to="exclusive2"/>
+      <transition g="-29,-17" name="back" to="apply"/>
+   </task>
+   <decision g="289,363,48,48" name="exclusive2">
+   <handler class="com.hhz.ump.web.jbpm.TravelDecision" />
+      <transition g="-29,-17" name="toPresident" to="president"/>
+      <transition g="4,-8" name="toEnd" to="end"/>
+   </decision>
+   <task g="153,362,92,52" name="president">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+   
+      <transition to="end"/>
+      <transition g="-29,-17" name="back" to="apply"/>
+   </task>
+   <end-cancel g="13,159,48,48" name="cancel">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   </end-cancel>
+   <end g="290,436,48,48" name="end">
+   <on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   </end>
+   <task g="421,22,92,52" name="group">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.TravelListener">
+        </event-listener>
+   </on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.TravelAssignment"/>
+      <transition to="dept"/>
+      <transition g="312,16:-29,-17" name="back" to="apply"/>
+   </task>
+   <decision g="202,247,48,48" name="exclusive3">
+   <handler class="com.hhz.ump.web.jbpm.TravelDecision" />
+      <transition g="-36,2" name="toV-president" to="v-president"/>
+      <transition g="-13,-1" name="toPresident" to="president"/>
+      <transition name="toEnd" to="end" g="-41,-17"/>
+   </decision>
+</process>

@@ -1,0 +1,23 @@
+<script language="javascript" src="../image/binlist.js"></script>
+
+
+<style type="text/css">
+<!--
+@import url("../templates/wms/css/wms.css");
+.box_a{color:#fffff0;
+text-decoration: underline;
+}
+-->
+</style>
+
+<!-- <div class="box" />
+	<div id="title">
+		<div style="float:left; width:400px;">$title</div>
+		<div style="float:right; margin-right:5px;">$bin_return</div>
+	</div>
+ -->
+	<DIV id="box">
+			##$table
+		$form
+		$binTableShow
+	</DIV>

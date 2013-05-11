@@ -1,0 +1,31 @@
+.searchUserDiv{position: absolute;display: none;border: 1px solid gray;background-color: #e8e8e8}
+.searchUserDiv div{border-bottom: 1px solid #fff;cursor: pointer;}
+.searchUserDiv div:hover{background-color: #4d7b9d;color:#fff;}
+
+
+
+.btn_green_golf{
+	width: 35px;
+	height: 55px;
+	line-height: 55px;
+	background-color: transparent;
+	background-image: url('../../images/common/btn_green_35_55.gif');
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+.btn_blue_golf{
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	background-color: transparent;
+	background-image: url('../../images/common/btn_blue_55_55.gif');
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+

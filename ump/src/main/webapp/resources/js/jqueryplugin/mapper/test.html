@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+<script type="text/javascript" charset="utf-8"  src="mapper.js"></script>
+<script type="text/javascript"  language="JavaScript" charset="utf-8" src="jquery.js"></script>
+<script>
+var AllStores = new Array();		//所有的商铺对象列表
+var STATUS_NONE = "0";				//状态：未出租
+var STATUS_YELLOW = "1";			//状态：出租
+var STATUS_RED = "2";				//状态：欠费
+//商铺对象
+function Store(id,coords,status){
+	this.id = id;
+	this.coords = coords;
+	this.status = status;
+}
+//初始化所有的商铺
+function InitStoreData(){
+	//加载商铺数据：商铺编号，坐标，状态
+	AllStores.push(new Store("area2911","602.625,149.5,591.5,147.25,597.875,129.75, 609.25,134.375","1"));
+	AllStores.push(new Store("area3111","554.875,156.5,577.125,156.5,577.125,145.375,555.125,142.375",'1'));
+	AllStores.push(new Store("1067111","540.875,140.5,536,155.875,554.875,155.75,555.125,142.375",'2'));
+	var areas ='';
+	for (var i = 0; i < AllStores.length; i++) {
+		var myStore = AllStores[i];
+		areas+='<area status="'+myStore.status+'" shapee="poly" id="'+myStore.id+'" coords="'+myStore.coords+'" href="#" alt="'+myStore.id+'" title="'+myStore.id+'" />';
+	}
+
+	$('#map_of_germany').append(areas);
+
+
+}
+ function loadStore() {
+	 $('area').each(function(){
+//		var status = this.attr('status');
+//		if(status=='1'){
+//			status = '255,0,0';
+//		}else if(status == '2'){
+//			status = '255,0,0';
+//		}
+		setAreaOver(this,'gmipam_0_image','0,0,255','255,0,0','0.5',1,0,0);
+	});
+}
+$(function(){
+});
+$().ready(function(){
+
+	setTimeout(function(){loadStore();},1000); //不然会提示参数未定义. 
+
+	//InitStoreData();
+});
+
+var fdat='',sdat='';
+function onAreaOver(_this){
+
+	//fdat=_this.attr('fill'); 
+	//sdat=_this.attr('stroke');
+	//_this.attr('fill','#006fb6');//多边形填充颜色
+	//_this.attr('stroke','#006fb6');//stroke 多边形 边框颜色
+	
+}
+function onAreaOut(_this){
+	
+	//_this.attr('fill',fdat);
+	//_this.attr('stroke',sdat);
+}
+
+</script>
+</head>
+<body onload="">
+<div class=""><img class="mapper noborder iradius16 iopacity50 icolor0000ff" src="wangzhuang_mall_1f.png" usemap="#map_of_germany" border="0" alt="" /></div>
+<map name="map_of_germany" id="map_of_germany">
+<area id="1164" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="737.25 152,737.25 160.5,758 160.5,757.75 152.25" fill="#ccc" stroke="#000000" />
+<area id="1165" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="737.25 160.25,757.75 160.25,757.75 169.75,737.25 169.75" fill="#FFFFFF" stroke="#000000" />
+<area id="1166" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="741.25 189,758 189,758 197.75,741.25 197.5" fill="#FFFFFF" stroke="#000000" />
+<area id="1167" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="737.25 206.875,757.875 207.125,757.875 219.125,737 218.875" fill="#FFFFFF" stroke="#000000" />
+<area id="1168" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="737 225,758 225.375,758 243.125,737 243" fill="#FFFFFF" stroke="#000000" />
+<area id="1169" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="721.375 260.875,739.125 261.125,738.75 270.5,721.125 270.5" fill="#FFFFFF" stroke="#000000" />
+<area id="1170" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="721.375 270.375,738.875 270.375,738.625 279.625,721 279.5" fill="#FFFFFF" stroke="#000000" />
+<area id="1053" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="711.75 279.75,738.625 279.875,738.875 297.625,744.25 302.625,730.625 316.25,726 311,720.75 316.125,711.875 307" fill="#FFFFFF" stroke="#000000" />
+<area id="1001" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="666.125 323.375,690.125 323.5,703 334.375,697.5 339.125,703.125 344,688.875 357.875,684.875 352.5,666 352" fill="#FFFFFF" stroke="#000000" />
+<area id="1052" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="666.125 323.375,648.5 323.125,648.625 333.75,666 334.375" fill="#FFFFFF" stroke="#000000" />
+<area id="1051" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="630.125 322.875,648.5 323,648.25 339,630.125 338.625" fill="#FFFFFF" stroke="#000000" />
+<area id="1002" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="648 343,660.25 342.875,660.25 351.75,647.875 351.875" fill="#FFFFFF" stroke="#000000" />
+<area id="1003" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="648.25 339,648.25 352.375,639.125 352,639.25 338.625" fill="#FFFFFF" stroke="#000000" />
+<area id="1004" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="639 338.625,638.875 352,630.125 351.625,630.125 338.375" fill="#FFFFFF" stroke="#000000" />
+<area id="1005A" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="611.5 322.75,630.0625 322.8125,630.1875 351.875,611.75 352" fill="#FFFFFF" stroke="none" stroke-opacity="0" />
+<area id="1005B" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="611.75 316.875,630.125 316.875,630.375 322.625,611.625 322.75" fill="#FFFFFF" stroke="#000000" />
+<area id="1006" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="611.125 331,611.125 353.0625,602.625 353.25,602.5625 331.125" fill="#FFFFFF" stroke="none" />
+<area id="1007" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="593.875 331.0625,602.5 331.0625,602.625 353.25,593.875 353.25" fill="#FFFFFF" stroke="none" stroke-opacity="0" />
+<area id="1050" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="593.9375 331,611.125 331,611 316.75,593.8125 317" fill="#FFFFFF" stroke="none" stroke-opacity="0" />
+<area id="1049" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="575.3125 316.875,593.75 317,593.875 323.875,575.3125 323.75" fill="#FFFFFF" stroke="none" stroke-opacity="0" />
+<area id="1048" shape="poly"  onmouseover="onAreaOver(this)"   onmouseout="onAreaOut(this)" coords="575.3125 316.9375,575.3125 323.75,563.0625 323.75,563.1875 316.875" fill="#FFFFFF" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+	 
+	
+</map>
+
+
+</body>
+
+<div id='hideDiv'></div>
+
+
+</html>

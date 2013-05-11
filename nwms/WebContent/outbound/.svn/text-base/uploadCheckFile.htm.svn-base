@@ -1,0 +1,22 @@
+<div class="box" />
+	<div id="title">
+		<div style="float:left; width:250px;">$title</div></div>
+	
+		$form
+		
+		
+	<div id="title">$correct_table</div>
+		$table_correct
+		<div id="title">$back_table</div>
+		#if($code2!="")
+		<img src="$code2"/>
+		#end
+		$table_back
+		<div id="title">$fetch_table</div>
+		#if($code1!="")
+		<img src="$code1"/>
+		#end
+		$table_fetch
+		
+		$form1
+		$form2

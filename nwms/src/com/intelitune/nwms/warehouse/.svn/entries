@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14179"
+   name=""
+   committed-date="2009-03-27T10:09:06.868625Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/nwms/warehouse"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14172"
+   name="RowList.java"
+   text-time="2009-12-01T08:34:02.406250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="f18778afcbc398364afd86494e2f9404"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.921875Z"/>
+<entry
+   committed-rev="14172"
+   name="BinList.java"
+   text-time="2009-12-01T08:34:02.406250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="ab13680e38d15ec605920ad415f4fb78"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.921875Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyBuilding.java"
+   text-time="2009-12-01T08:34:02.421875Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="bbc158b20b108714030616e9a8fb52d4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.937500Z"/>
+<entry
+   committed-rev="14172"
+   name="ZoneList.java"
+   text-time="2009-12-01T08:34:02.421875Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="043b039e548c280ffad4e0c506b04a04"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.937500Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyStorageZone.java"
+   text-time="2009-12-01T08:34:02.437500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="afa879e8ef34c2d41d3166c905cf6637"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.953125Z"/>
+<entry
+   committed-rev="14172"
+   name="BinListContext.java"
+   text-time="2009-12-01T08:34:02.437500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="c4f4e0c2e666d3f98d368cece8b82902"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.968750Z"/>
+<entry
+   committed-rev="14179"
+   name="BinShow.java"
+   text-time="2009-12-01T08:34:02.437500Z"
+   committed-date="2009-03-27T10:09:06.868625Z"
+   checksum="e76ad2ae6a7498093bec46eb00b7f952"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.953125Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateOwnerZone.java"
+   text-time="2009-12-01T08:34:02.453125Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="f8c9dd97dce7b77cf89fc467102fa1d8"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.984375Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyWarehouse.java"
+   text-time="2009-12-01T08:34:02.453125Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="a08ef28b112bf8a8eca935ffd95566ed"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.968750Z"/>
+<entry
+   committed-rev="14172"
+   name="FloorList.java"
+   text-time="2009-12-01T08:34:02.468750Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="031ea76d6911afbc72b586ea31118fa6"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:01.984375Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyRow.java"
+   text-time="2009-12-01T08:34:02.484375Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="732a611870a19de25c297f7493a9dd58"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.000000Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyBin.java"
+   text-time="2009-12-01T08:34:02.484375Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="3c0742b27c7de2d3041c49102fed10e0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.000000Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyOneBin.java"
+   text-time="2009-12-01T08:34:02.484375Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="d3e1ba5ee0caa9df715dedd86857e265"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.015625Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateStorageZone.java"
+   text-time="2009-12-01T08:34:02.500000Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="3c6e880e9d49a4a8bcad5aaba815c455"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.015625Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyFloor.java"
+   text-time="2009-12-01T08:34:02.500000Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="24e5e4fd75f56e114604f5fbd2adb423"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.015625Z"/>
+<entry
+   committed-rev="14172"
+   name="BuildingList.java"
+   text-time="2009-12-01T08:34:02.515625Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="6d3aa22d768d59336cd06bfeefc0c07f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.031250Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateRow.java"
+   text-time="2009-12-01T08:34:02.515625Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="c1f34c931a8d63871aea10be5cdc903b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.031250Z"/>
+<entry
+   committed-rev="14172"
+   name="ModifyOwnerZone.java"
+   text-time="2009-12-01T08:34:02.515625Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="bd7294ebf196260192b02f16ce6f1108"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.046875Z"/>
+<entry
+   committed-rev="14172"
+   name="WarehouseList.java"
+   text-time="2009-12-01T08:34:02.531250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="63c469f0fc27354c4496dc7267ac5f90"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:02.390625Z"/>
+</wc-entries>

@@ -1,0 +1,39 @@
+<html>
+	<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="box" />
+			<div id="title"></div>
+			$form
+			<table width="100%" cellpadding="0" cellspacing="0">
+				<tr>
+					<td height="36" background="../image/welcome_1.jpg"
+						style="background-repeat: no-repeat"></td>
+					<td width="140" height="36" background="../image/welcome_1_1.jpg"
+						style="background-repeat: no-repeat"></td>
+					<td colspan="2" align="right" background="../image/welcome_1_2.jpg"
+						style="background-repeat: no-repeat; background-position: right"></td>
+				</tr>
+				<tr>
+					<td width="27" height="157" background="../image/welcome_2.jpg"
+						style="background-repeat: no-repeat"></td>
+					<td colspan="3" valign="top">
+						HMG订单管理系统（V1.0）是泓明信息技术有限公司最新开发的订单管理平台。<BR/>
+						订单管理系统配合呼叫中心业务，为客户提供各类业务系统的订单服务。
+					</td>
+				</tr>
+				<tr>
+					<td height="107"
+						style="background-repeat: no-repeat; background-position: right"></td>
+					<td height="107" background="../image/welcome_3_1.jpg"
+						style="background-repeat: no-repeat; background-position: right"></td>
+					<td width="621" height="107" background="../image/welcome_3_2.jpg"
+						style=""></td>
+					<td width="151" background="../image/welcome_3.jpg"
+						style="background-repeat: no-repeat; background-position: right"></td>
+				</tr>
+			</table>
+	</body>
+</html>

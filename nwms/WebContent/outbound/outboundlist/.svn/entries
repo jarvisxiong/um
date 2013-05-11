@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="12180"
+   name=""
+   committed-date="2009-02-05T07:22:40.241750Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/outbound/outboundlist"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+</wc-entries>

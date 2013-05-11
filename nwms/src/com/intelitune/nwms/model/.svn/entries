@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17579"
+   name=""
+   committed-date="2009-12-15T03:17:16.171875Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/nwms/model"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   prop-time="2009-12-01T08:34:00.546875Z"
+   revision="17624"/>
+<entry
+   committed-rev="14767"
+   name="InttUserCustomer.java"
+   text-time="2009-12-01T08:34:00.546875Z"
+   committed-date="2009-04-23T10:14:21.219125Z"
+   checksum="ebff4230b46b3a1f36156d94a2920d89"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.125000Z"/>
+<entry
+   committed-rev="11243"
+   name="Tier.java"
+   text-time="2009-12-01T08:34:00.562500Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="6acdf84849e2253286fe77d6fa9fe47d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.125000Z"/>
+<entry
+   committed-rev="11243"
+   name="PickingItemState.java"
+   text-time="2009-12-01T08:34:00.578125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="6d19af7d605ed43396875ddf1eb02bad"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.125000Z"/>
+<entry
+   committed-rev="11243"
+   name="StorageItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.593750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="9f09d2ae9a5ab105b50d610ef889c18c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.140625Z"/>
+<entry
+   committed-rev="11443"
+   name="UnitPackagePairState.java"
+   text-time="2009-12-01T08:34:00.593750Z"
+   committed-date="2009-01-09T05:46:24.358500Z"
+   checksum="13d0f9944a0e90c59e139a21a611d897"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.140625Z"/>
+<entry
+   committed-rev="13005"
+   name="PutAwayItem.java"
+   text-time="2009-12-01T08:34:00.609375Z"
+   committed-date="2009-02-26T10:48:45.054250Z"
+   checksum="3ea903016621f391cd5c06b9c4beeb98"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.156250Z"/>
+<entry
+   committed-rev="11005"
+   name="InboundOrderItem.java"
+   text-time="2009-12-01T08:34:00.609375Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="a60225ffbda1454986a716937448dc1c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.156250Z"/>
+<entry
+   committed-rev="13049"
+   name="OutboundTxtData.hbm.xml"
+   text-time="2009-12-01T08:34:00.609375Z"
+   committed-date="2009-02-27T05:32:30.460500Z"
+   checksum="0b16d2a5ff8dfa55c30075651a2636a1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.171875Z"/>
+<entry
+   committed-rev="17579"
+   name="OutboundAssigned.java"
+   text-time="2009-12-18T05:53:27.187500Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="aa620459c66ecd46f16320ab20d580e3"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.062500Z"/>
+<entry
+   committed-rev="11243"
+   name="EntityState.java"
+   text-time="2009-12-01T08:34:00.625000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="8fbf4166081258dfc53a80ef0ca1a7b3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.187500Z"/>
+<entry
+   committed-rev="11008"
+   name="Owner.hbm.xml"
+   text-time="2009-12-01T08:34:00.625000Z"
+   committed-date="2008-12-18T11:18:41.853000Z"
+   checksum="2d814812ee430ded391e022fc8d77a70"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.187500Z"/>
+<entry
+   committed-rev="11243"
+   name="RateState.hbm.xml"
+   text-time="2009-12-01T08:34:00.640625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="917f4983369d92e9766af7efb6e70310"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.187500Z"/>
+<entry
+   committed-rev="11243"
+   name="PackingItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.640625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="b7e5f6a43f2b9dff73ecbb7cf421693e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.203125Z"/>
+<entry
+   committed-rev="12979"
+   name="InboundRePutAwayItemState.java"
+   text-time="2009-12-01T08:34:00.656250Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="fcc5e60cf7af433b6df11c321fa57929"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.203125Z"/>
+<entry
+   committed-rev="11307"
+   name="UnitState.java"
+   text-time="2009-12-01T08:34:00.703125Z"
+   committed-date="2009-01-04T08:42:55.384125Z"
+   checksum="f6e3412e9891606fd6e118711d38afed"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.218750Z"/>
+<entry
+   committed-rev="11243"
+   name="BuildingState.hbm.xml"
+   text-time="2009-12-01T08:34:00.703125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="d7fed0c74a9fe0f159ccd3ce10ff0092"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.218750Z"/>
+<entry
+   committed-rev="17579"
+   name="StorageItem.java"
+   text-time="2009-12-18T05:53:27.203125Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="d9def284b04fbcf5a4013d182dfd5019"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.078125Z"/>
+<entry
+   committed-rev="17579"
+   name="LogStorageItem.java"
+   text-time="2009-12-18T05:53:27.203125Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="ea727f346b014201776254b8de4bff28"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.093750Z"/>
+<entry
+   committed-rev="11243"
+   name="Shelflife.hbm.xml"
+   text-time="2009-12-01T08:34:00.718750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="16b97c7752aa308dfcc4cc7d96770530"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.234375Z"/>
+<entry
+   committed-rev="11243"
+   name="ShelflifeState.hbm.xml"
+   text-time="2009-12-01T08:34:00.718750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="904b23cfdc998925520290370c55184e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.250000Z"/>
+<entry
+   committed-rev="11243"
+   name="PickingItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.734375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="921a16f64263b0759e9eb9d66ed1b965"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.265625Z"/>
+<entry
+   committed-rev="14124"
+   name="OutboundTxtData.java"
+   text-time="2009-12-01T08:34:00.734375Z"
+   committed-date="2009-03-27T04:07:31.071750Z"
+   checksum="c04f9e8e7602d963402ddf9c96f710f5"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.265625Z"/>
+<entry
+   committed-rev="12052"
+   name="PackingItem.java"
+   text-time="2009-12-01T08:34:00.750000Z"
+   committed-date="2009-01-23T07:06:57.306625Z"
+   checksum="4f7e824ffd2cf4adce96f712b0730881"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.281250Z"/>
+<entry
+   committed-rev="11243"
+   name="Rate.java"
+   text-time="2009-12-01T08:34:00.734375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="85106e796ffd5131b524ac4db11e340e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.281250Z"/>
+<entry
+   committed-rev="11307"
+   name="UnitPackageState.java"
+   text-time="2009-12-01T08:34:00.765625Z"
+   committed-date="2009-01-04T08:42:55.384125Z"
+   checksum="fcaf0117012f2f3733938c0bd78fb4e8"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.296875Z"/>
+<entry
+   committed-rev="11243"
+   name="RowState.hbm.xml"
+   text-time="2009-12-01T08:34:00.750000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="03a9583ee9581419d0e4aee690536bd6"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.281250Z"/>
+<entry
+   committed-rev="11243"
+   name="Building.java"
+   text-time="2009-12-01T08:34:00.765625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="5754ae94fab96cd499eb038d122c0f75"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.312500Z"/>
+<entry
+   committed-rev="11307"
+   name="MaterialState.java"
+   text-time="2009-12-01T08:34:00.796875Z"
+   committed-date="2009-01-04T08:42:55.384125Z"
+   checksum="edd6f035bf9f42bebc81927ee44b39eb"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.328125Z"/>
+<entry
+   committed-rev="11243"
+   name="OutboundOrderItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.765625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="91ed20170099f2fe33d33bca9c8d258e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.312500Z"/>
+<entry
+   committed-rev="12979"
+   name="OutboundRePickItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.796875Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="c9253cbbc4ac4af2e544fe1647a729e2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.328125Z"/>
+<entry
+   committed-rev="11243"
+   name="Shelflife.java"
+   text-time="2009-12-01T08:34:00.796875Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="dc69fbee4238050e72a19ac9886bd316"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.328125Z"/>
+<entry
+   committed-rev="14881"
+   name="InttUser.hbm.xml"
+   text-time="2009-12-01T08:34:00.812500Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="b6d72e26f09e6bd642b5d7aef00a821f"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.343750Z"/>
+<entry
+   committed-rev="17579"
+   name="PickingItem.java"
+   text-time="2009-12-18T05:53:27.203125Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="35cef93c87da91eb834a1a013ccf9e40"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.109375Z"/>
+<entry
+   committed-rev="11243"
+   name="WarehouseState.java"
+   text-time="2009-12-01T08:34:00.828125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c68bb8b268a1672a491c1030189ea15e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.359375Z"/>
+<entry
+   committed-rev="11243"
+   name="DestroyedItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.843750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="2f241c47c263572937e2df5b9395a7f4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.375000Z"/>
+<entry
+   committed-rev="11243"
+   name="Row.java"
+   text-time="2009-12-01T08:34:00.843750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="6a9cf19219dd272b081288019dfadef7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.375000Z"/>
+<entry
+   committed-rev="11005"
+   name="OutboundOrderItem.java"
+   text-time="2009-12-01T08:34:00.843750Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="982069bb2391adf468362829bc324e50"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.375000Z"/>
+<entry
+   committed-rev="12980"
+   name="OutboundRePickItem.java"
+   text-time="2009-12-01T08:34:00.859375Z"
+   committed-date="2009-02-26T05:21:23.444875Z"
+   checksum="868c757d5af779c4d8ed3eac08519b6e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.406250Z"/>
+<entry
+   committed-rev="11243"
+   name="UnitPackageState.hbm.xml"
+   text-time="2009-12-01T08:34:00.859375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="08020c25aebb54dd6b531d453aaf7065"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.406250Z"/>
+<entry
+   committed-rev="11005"
+   name="DestroyedItem.java"
+   text-time="2009-12-01T08:34:00.859375Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="dea9de579e6963d28831c7b541a0ab85"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.421875Z"/>
+<entry
+   committed-rev="13454"
+   name="InvoiceState.hbm.xml"
+   text-time="2009-12-01T08:34:00.875000Z"
+   committed-date="2009-03-08T06:40:17.608500Z"
+   checksum="967ae305d974f5a94af3da054e303fd2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.421875Z"/>
+<entry
+   committed-rev="11364"
+   name="Material.hbm.xml"
+   text-time="2009-12-01T08:34:00.875000Z"
+   committed-date="2009-01-07T08:28:34.030375Z"
+   checksum="d4ed327a1c22d3b2a0da43b5c425d0de"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.437500Z"/>
+<entry
+   committed-rev="14881"
+   name="InttUserCustomer.hbm.xml"
+   text-time="2009-12-01T08:34:00.875000Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="9b02e402a45cade1c122c24a14d38cd9"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.437500Z"/>
+<entry
+   committed-rev="14325"
+   name="ItemType.hbm.xml"
+   text-time="2009-12-01T08:34:00.890625Z"
+   committed-date="2009-04-02T03:25:02.723875Z"
+   checksum="02936b867f000c3c45caa97cb35fe128"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.453125Z"/>
+<entry
+   committed-rev="11243"
+   name="Warehouse.hbm.xml"
+   text-time="2009-12-01T08:34:00.890625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="6fcbb1666a8a1adb490596a998ee8c3d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.453125Z"/>
+<entry
+   committed-rev="11364"
+   name="UnitPackage.java"
+   text-time="2009-12-01T08:34:00.890625Z"
+   committed-date="2009-01-07T08:28:34.030375Z"
+   checksum="c8dc67b058676b659d2faa598c92bebf"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.453125Z"/>
+<entry
+   committed-rev="17192"
+   name="Invoice.java"
+   text-time="2009-12-01T08:34:00.906250Z"
+   committed-date="2009-11-05T01:44:58.886625Z"
+   checksum="7646885b0e7296df5ab71d58b058c5df"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.468750Z"/>
+<entry
+   committed-rev="11243"
+   name="BuildingState.java"
+   text-time="2009-12-01T08:34:00.906250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c49fc8d3ed8d8727c9111f3640139ee9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.468750Z"/>
+<entry
+   committed-rev="11951"
+   name="ItemState.java"
+   text-time="2009-12-01T08:34:00.921875Z"
+   committed-date="2009-01-22T03:27:36.009750Z"
+   checksum="86ff4b75475a926938da55a429796724"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.484375Z"/>
+<entry
+   committed-rev="14767"
+   name="InttRole.java"
+   text-time="2009-12-01T08:34:00.921875Z"
+   committed-date="2009-04-23T10:14:21.219125Z"
+   checksum="a26660b1ab6189714cb6aafef1c89367"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.484375Z"/>
+<entry
+   committed-rev="12979"
+   name="OutboundRePutAwayItemState.hbm.xml"
+   text-time="2009-12-01T08:34:00.937500Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="628b166dd0a716b4ba7327747581d0f1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.500000Z"/>
+<entry
+   committed-rev="12980"
+   name="OutboundRePutAwayItem.java"
+   text-time="2009-12-01T08:34:00.937500Z"
+   committed-date="2009-02-26T05:21:23.444875Z"
+   checksum="93a6e78be215fe902cdbeb77d0fbe99a"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.640625Z"/>
+<entry
+   committed-rev="17192"
+   name="Invoice.hbm.xml"
+   text-time="2009-12-01T08:34:00.953125Z"
+   committed-date="2009-11-05T01:44:58.886625Z"
+   checksum="1cf9c77baaad063066ed626127366490"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.640625Z"/>
+<entry
+   committed-rev="12979"
+   name="OutboundRePutAwayItemState.java"
+   text-time="2009-12-01T08:34:00.968750Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="33248ab20b4465a8f28e6b0981591b0d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.687500Z"/>
+<entry
+   committed-rev="14507"
+   name="WarehouseItem.java"
+   text-time="2009-12-01T08:34:00.968750Z"
+   committed-date="2009-04-10T07:42:38.072125Z"
+   checksum="abf9efe5878713c833c490462750b816"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.703125Z"/>
+<entry
+   committed-rev="17579"
+   name="Item.hbm.xml"
+   text-time="2009-12-18T05:53:27.218750Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="f690b0fa7de31da8fd113cdc075e78ce"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.125000Z"/>
+<entry
+   committed-rev="11243"
+   name="MaterialState.hbm.xml"
+   text-time="2009-12-01T08:34:00.984375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="bfa81304a75814418056ebafe807ca84"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.718750Z"/>
+<entry
+   committed-rev="11243"
+   name="OwnerZoneState.java"
+   text-time="2009-12-01T08:34:00.984375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="99cf8ccc6d75398bd3ff4c5dbb105d31"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.750000Z"/>
+<entry
+   committed-rev="11243"
+   name="Row.hbm.xml"
+   text-time="2009-12-01T08:34:01.000000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="4e0d119a5493ed97b109ddf4307ba589"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.750000Z"/>
+<entry
+   committed-rev="11364"
+   name="Material.java"
+   text-time="2009-12-01T08:34:01.015625Z"
+   committed-date="2009-01-07T08:28:34.030375Z"
+   checksum="ad753771e61df6616400071d99880a65"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.781250Z"/>
+<entry
+   committed-rev="11243"
+   name="OutboundOrderItemState.java"
+   text-time="2009-12-01T08:34:01.015625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="1160f023b2ac2b46bfa8291e46e2ff95"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.781250Z"/>
+<entry
+   committed-rev="11243"
+   name="CheckingItemState.hbm.xml"
+   text-time="2009-12-01T08:34:01.015625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="53749d6a04c9da81d03d8bd2e0dce453"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.781250Z"/>
+<entry
+   committed-rev="11243"
+   name="ColumnState.hbm.xml"
+   text-time="2009-12-01T08:34:01.031250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="325b11ea806cb75c035e9e9af709469c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.796875Z"/>
+<entry
+   committed-rev="11243"
+   name="ItemState.hbm.xml"
+   text-time="2009-12-01T08:34:01.031250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="f6d6bd754d8743f05870f744ed17814f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:56.796875Z"/>
+<entry
+   committed-rev="11243"
+   name="StorageZoneState.hbm.xml"
+   text-time="2009-12-01T08:34:01.031250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c184814472a05d17e8bf4b7998c85500"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.000000Z"/>
+<entry
+   committed-rev="12238"
+   name="CheckingItem.java"
+   text-time="2009-12-01T08:34:01.046875Z"
+   committed-date="2009-02-09T03:25:27.773000Z"
+   checksum="0e10b0a83b172fd5dbe7c71caf28bad2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.015625Z"/>
+<entry
+   committed-rev="17579"
+   name="LogStockMoveItem.java"
+   text-time="2009-12-18T05:53:27.218750Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="066cc346fe003675f4ccb9e6d108854b"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.140625Z"/>
+<entry
+   committed-rev="11329"
+   name="Bin.hbm.xml"
+   text-time="2009-12-01T08:34:01.062500Z"
+   committed-date="2009-01-06T03:58:13.973196Z"
+   checksum="d83c0a4264209c43024b878a18bea6de"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.046875Z"/>
+<entry
+   committed-rev="11243"
+   name="Column.java"
+   text-time="2009-12-01T08:34:01.062500Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="7335c8443c212f3ed1bee103605ca06d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.062500Z"/>
+<entry
+   committed-rev="16897"
+   name="Item.java"
+   text-time="2009-12-01T08:34:01.062500Z"
+   committed-date="2009-09-22T04:29:04.559750Z"
+   checksum="561fa5cb0e519f4288fac29f44587fde"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.062500Z"/>
+<entry
+   committed-rev="14767"
+   name="InttUserRole.java"
+   text-time="2009-12-01T08:34:01.078125Z"
+   committed-date="2009-04-23T10:14:21.219125Z"
+   checksum="d8fa87d4938f25c69836a3084dbf80c0"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.078125Z"/>
+<entry
+   committed-rev="11005"
+   name="StorageZone.java"
+   text-time="2009-12-01T08:34:01.093750Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="998d15eb22c7d229a652a0c9eab73f46"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.078125Z"/>
+<entry
+   committed-rev="11243"
+   name="EntityState.hbm.xml"
+   text-time="2009-12-01T08:34:01.109375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="9e97aed45b91526eb7e4bc01fe336777"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.171875Z"/>
+<entry
+   committed-rev="17579"
+   name="OutboundAssigned.hbm.xml"
+   text-time="2009-12-18T05:53:27.234375Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="c88e4744a4ba8f9533626f585dbee55a"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.156250Z"/>
+<entry
+   committed-rev="11243"
+   name="StorageZoneState.java"
+   text-time="2009-12-01T08:34:01.093750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="befcc9414123e729f29376f6befaf059"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.156250Z"/>
+<entry
+   committed-rev="11243"
+   name="State.hbm.xml"
+   text-time="2009-12-01T08:34:01.125000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c219368132810144767cacd87866be8e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.187500Z"/>
+<entry
+   committed-rev="11243"
+   name="RowState.java"
+   text-time="2009-12-01T08:34:01.125000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="4368fe5b7ad73e477bda309cc5ca557f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.187500Z"/>
+<entry
+   committed-rev="11243"
+   name="OwnerZoneState.hbm.xml"
+   text-time="2009-12-01T08:34:01.140625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="026143fd40e958a46c66a727f89525a9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.203125Z"/>
+<entry
+   committed-rev="14124"
+   name="Entity.java"
+   text-time="2009-12-01T08:34:01.156250Z"
+   committed-date="2009-03-27T04:07:31.071750Z"
+   checksum="443430c90897a85707de4e144a828cdd"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.234375Z"/>
+<entry
+   committed-rev="17579"
+   name="LogPickedItem.java"
+   text-time="2009-12-18T05:53:27.234375Z"
+   committed-date="2009-12-15T03:17:16.171875Z"
+   checksum="e43bd7eb2a904d2cb1a46962922b2ad1"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.156250Z"/>
+<entry
+   committed-rev="11243"
+   name="Building.hbm.xml"
+   text-time="2009-12-01T08:34:01.156250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="63fe8f42febb7dba323508db2939a5ed"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.265625Z"/>
+<entry
+   committed-rev="11243"
+   name="FloorState.java"
+   text-time="2009-12-01T08:34:01.171875Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="7a3ca6867198540e0f52a9b6f1a1d186"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.312500Z"/>
+<entry
+   committed-rev="14325"
+   name="ItemTypeState.hbm.xml"
+   text-time="2009-12-01T08:34:01.171875Z"
+   committed-date="2009-04-02T03:25:02.723875Z"
+   checksum="5cc11524693f992eb5edcf941f7e84bc"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.343750Z"/>
+<entry
+   committed-rev="12223"
+   name="UnstorageItem.java"
+   text-time="2009-12-01T08:34:01.187500Z"
+   committed-date="2009-02-06T04:35:23.460500Z"
+   checksum="1ec9797fc28a0ceaae759b08cec17178"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.375000Z"/>
+<entry
+   committed-rev="14172"
+   name="OwnerZone.java"
+   text-time="2009-12-01T08:34:01.187500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="838d4ae69ec79365bd2aaedd3c279c0e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.343750Z"/>
+<entry
+   committed-rev="11443"
+   name="UnitPackagePairState.hbm.xml"
+   text-time="2009-12-01T08:34:01.187500Z"
+   committed-date="2009-01-09T05:46:24.358500Z"
+   checksum="f8fc3d84efaa0e0bfb379ee29429d64c"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.406250Z"/>
+<entry
+   committed-rev="11243"
+   name="ColumnState.java"
+   text-time="2009-12-01T08:34:01.203125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="4ceb27440f6edfbc6346f14df2b941ec"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.406250Z"/>
+<entry
+   committed-rev="12163"
+   name="Zone.hbm.xml"
+   text-time="2009-12-01T08:34:01.218750Z"
+   committed-date="2009-02-04T10:27:28.585500Z"
+   checksum="a841b775e29f2d3573ea6880dd9c532c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.421875Z"/>
+<entry
+   committed-rev="11008"
+   name="Order.hbm.xml"
+   text-time="2009-12-01T08:34:01.203125Z"
+   committed-date="2008-12-18T11:18:41.853000Z"
+   checksum="09f2bb50a78b7e72cc0fa444c0a9cc07"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.421875Z"/>
+<entry
+   committed-rev="14325"
+   name="ItemType.java"
+   text-time="2009-12-01T08:34:01.218750Z"
+   committed-date="2009-04-02T03:25:02.723875Z"
+   checksum="bad22a4726d65fe8d7144c4a7022296d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.437500Z"/>
+<entry
+   committed-rev="14325"
+   name="ItemTypeState.java"
+   text-time="2009-12-01T08:34:01.234375Z"
+   committed-date="2009-04-02T03:25:02.723875Z"
+   checksum="74ca152a2ee55bcd6b99bf17ad5c2b71"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.437500Z"/>
+<entry
+   committed-rev="11243"
+   name="UnitState.hbm.xml"
+   text-time="2009-12-01T08:34:01.234375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="6f753475c500cfbaa84dd41f5c9e647d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.453125Z"/>
+<entry
+   committed-rev="12979"
+   name="InboundRePutAwayItemState.hbm.xml"
+   text-time="2009-12-01T08:34:01.234375Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="d86518b49f59c47f73cc240b4189a29c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.453125Z"/>
+<entry
+   committed-rev="11443"
+   name="UnitPackagePair.java"
+   text-time="2009-12-01T08:34:01.250000Z"
+   committed-date="2009-01-09T05:46:24.358500Z"
+   checksum="739f2bfcc5d4add55fb036651f0d1df5"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.453125Z"/>
+<entry
+   committed-rev="11243"
+   name="InboundOrderItemState.java"
+   text-time="2009-12-01T08:34:01.250000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="2e2471eef07f03a74455c3181eafa4e4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.468750Z"/>
+<entry
+   committed-rev="14767"
+   name="InttUser.java"
+   text-time="2009-12-01T08:34:01.281250Z"
+   committed-date="2009-04-23T10:14:21.219125Z"
+   checksum="35f4400c865a128fc1c6cbac31ff656b"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.484375Z"/>
+<entry
+   committed-rev="12979"
+   name="OutboundRePickItemState.java"
+   text-time="2009-12-01T08:34:01.265625Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="7b963a1d19ee5b29dedd7d39277ec91b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.484375Z"/>
+<entry
+   committed-rev="13005"
+   name="InboundRePutAwayItem.java"
+   text-time="2009-12-01T08:34:01.296875Z"
+   committed-date="2009-02-26T10:48:45.054250Z"
+   checksum="1d6d90cde8c471ebbc838c39203685b8"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.500000Z"/>
+<entry
+   committed-rev="11243"
+   name="OwnerState.hbm.xml"
+   text-time="2009-12-01T08:34:01.296875Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="1e152de62b96237b3b5d89498830f3cf"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.500000Z"/>
+<entry
+   committed-rev="11243"
+   name="Unit.java"
+   text-time="2009-12-01T08:34:01.281250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="a2000d56690745894782c01182170d7e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.484375Z"/>
+<entry
+   committed-rev="14881"
+   name="InttUserRole.hbm.xml"
+   text-time="2009-12-01T08:34:01.312500Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="51c701b80adbe6152464c820d7dd93b8"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.515625Z"/>
+<entry
+   committed-rev="11243"
+   name="Tier.hbm.xml"
+   text-time="2009-12-01T08:34:01.328125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="ad9bf804e6ea3ec671fb3518120c6fb0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.515625Z"/>
+<entry
+   committed-rev="11005"
+   name="Owner.java"
+   text-time="2009-12-01T08:34:01.328125Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="9fbd3812f737d7707b00ebdafbf13524"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.562500Z"/>
+<entry
+   committed-rev="11243"
+   name="CheckingItemState.java"
+   text-time="2009-12-01T08:34:01.343750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="f585ee94124ffc5fdf4b34b0a35c7100"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.562500Z"/>
+<entry
+   committed-rev="13454"
+   name="InvoiceState.java"
+   text-time="2009-12-01T08:34:01.343750Z"
+   committed-date="2009-03-08T06:40:17.608500Z"
+   checksum="6487c0bdc65b9a9920bd41f67fbb045e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.562500Z"/>
+<entry
+   committed-rev="11243"
+   name="ShelflifeState.java"
+   text-time="2009-12-01T08:34:01.343750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="9106d8ecaa7baa6f25c99675ddffbcf0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.593750Z"/>
+<entry
+   committed-rev="14881"
+   name="ResourceModel.java"
+   text-time="2009-12-01T08:34:01.359375Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="24d9088a0c42fee941bbe38309fd59df"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.609375Z"/>
+<entry
+   committed-rev="12201"
+   name="UncheckedItem.java"
+   text-time="2009-12-01T08:34:01.359375Z"
+   committed-date="2009-02-05T09:52:04.101125Z"
+   checksum="88d4a21d1ccacc41f62a9464eea57306"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.593750Z"/>
+<entry
+   committed-rev="11243"
+   name="ZoneState.java"
+   text-time="2009-12-01T08:34:01.390625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="69f33f7282d627c3e886ee983a1b76df"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.687500Z"/>
+<entry
+   committed-rev="12979"
+   name="InboundRePickItemState.java"
+   text-time="2009-12-01T08:34:01.375000Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="0c2272daddbc11538eab5dd52020aaa1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.671875Z"/>
+<entry
+   committed-rev="11243"
+   name="OrderState.java"
+   text-time="2009-12-01T08:34:01.375000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="645ff48bd6e1f8132c3749e4c521d443"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.671875Z"/>
+<entry
+   committed-rev="13055"
+   name="PickedItem.java"
+   text-time="2009-12-01T08:34:01.406250Z"
+   committed-date="2009-02-27T07:03:01.241750Z"
+   checksum="541fb8874e68e423a75d857d0a25aa92"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.703125Z"/>
+<entry
+   committed-rev="11243"
+   name="Rate.hbm.xml"
+   text-time="2009-12-01T08:34:01.406250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="5124d813a2f6f21509f43ef917aceedc"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.703125Z"/>
+<entry
+   committed-rev="11243"
+   name="DestroyedItemState.java"
+   text-time="2009-12-01T08:34:01.406250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="d8f3b10abd32fb7c279ab5c74e2bc04a"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.703125Z"/>
+<entry
+   committed-rev="14881"
+   name="InttRole.hbm.xml"
+   text-time="2009-12-01T08:34:01.421875Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="18b0f734a9ec87a81570f25a7f393f7f"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:57.718750Z"/>
+<entry
+   committed-rev="14881"
+   name="Customer.hbm.xml"
+   text-time="2009-12-01T08:34:01.421875Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="7141fd0e37369e604295be0ff70b04a4"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.015625Z"/>
+<entry
+   committed-rev="11243"
+   name="WarehouseState.hbm.xml"
+   text-time="2009-12-01T08:34:01.437500Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="bbf320d6bf08ac467f909ea39654c851"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.031250Z"/>
+<entry
+   committed-rev="16418"
+   name="OrderItem.java"
+   text-time="2009-12-01T08:34:01.453125Z"
+   committed-date="2009-08-28T02:21:04.551250Z"
+   checksum="afd57736de6ce62488e237ffc18f5eac"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.046875Z"/>
+<entry
+   committed-rev="14881"
+   name="RoleResourceModel.java"
+   text-time="2009-12-01T08:34:01.437500Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="b8e6e50e5ecabe27aea150a38f8893b8"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.031250Z"/>
+<entry
+   committed-rev="11443"
+   name="UnitPackagePair.hbm.xml"
+   text-time="2009-12-01T08:34:01.453125Z"
+   committed-date="2009-01-09T05:46:24.358500Z"
+   checksum="fbfa1bf13412d0925bd0a586fe0d8f72"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.046875Z"/>
+<entry
+   committed-rev="11243"
+   name="BinState.hbm.xml"
+   text-time="2009-12-01T08:34:01.453125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="e9df6c558ead28e5366dcd515b5054b1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.062500Z"/>
+<entry
+   committed-rev="11243"
+   name="ZoneState.hbm.xml"
+   text-time="2009-12-01T08:34:01.484375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="299b15cef63ca788f498b0d0c2274443"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.078125Z"/>
+<entry
+   committed-rev="12979"
+   name="InboundRePickItemState.hbm.xml"
+   text-time="2009-12-01T08:34:01.484375Z"
+   committed-date="2009-02-26T05:10:45.882375Z"
+   checksum="5339c03f5f930d65de9ff4ce2b45ae2c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.078125Z"/>
+<entry
+   committed-rev="11243"
+   name="OrderState.hbm.xml"
+   text-time="2009-12-01T08:34:01.468750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="00fa4a935eb25b94f8f8c325c2f8dcd9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.062500Z"/>
+<entry
+   committed-rev="14881"
+   name="Customer.java"
+   text-time="2009-12-01T08:34:01.484375Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="96db4612f60d9734f3daffa0083da788"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.734375Z"/>
+<entry
+   committed-rev="11243"
+   name="Warehouse.java"
+   text-time="2009-12-01T08:34:01.500000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c79b91acde7fdc423dde6aa14b4f619b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.734375Z"/>
+<entry
+   committed-rev="11243"
+   name="Unit.hbm.xml"
+   text-time="2009-12-01T08:34:01.500000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c16a7a12d057c461fa50453c2dafe9e3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.750000Z"/>
+<entry
+   committed-rev="11243"
+   name="TierState.java"
+   text-time="2009-12-01T08:34:01.515625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="871207e16d8c8fa826e65362471b2c9d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.750000Z"/>
+<entry
+   committed-rev="11243"
+   name="Floor.hbm.xml"
+   text-time="2009-12-01T08:34:01.531250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="dab531f9b129ebf36945c156747b543b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.765625Z"/>
+<entry
+   committed-rev="11243"
+   name="FloorState.hbm.xml"
+   text-time="2009-12-01T08:34:01.531250Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c694fba8fb0e5b0d51a7cebe64e4fde3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.765625Z"/>
+<entry
+   committed-rev="11329"
+   name="Bin.java"
+   text-time="2009-12-01T08:34:01.546875Z"
+   committed-date="2009-01-06T03:58:13.973196Z"
+   checksum="8fab6dd22e3259653d6a2a90494b51a7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:58.765625Z"/>
+<entry
+   committed-rev="11243"
+   name="BinState.java"
+   text-time="2009-12-01T08:34:01.546875Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="1553cf69fb12e0e5cdda6c8458f15761"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.109375Z"/>
+<entry
+   committed-rev="11005"
+   name="Order.java"
+   text-time="2009-12-01T08:34:01.546875Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="af5bf0805ddbc9eb0d28a7545f4bc0b0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.125000Z"/>
+<entry
+   committed-rev="13005"
+   name="InboundRePickItem.java"
+   text-time="2009-12-01T08:34:01.562500Z"
+   committed-date="2009-02-26T10:48:45.054250Z"
+   checksum="fcde8da219e81682112da9b06e773c13"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.125000Z"/>
+<entry
+   committed-rev="11243"
+   name="Zone.java"
+   text-time="2009-12-01T08:34:01.578125Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="de30039c141cc3b706acbaaf29e6389f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.140625Z"/>
+<entry
+   committed-rev="11364"
+   name="UnitPackage.hbm.xml"
+   text-time="2009-12-01T08:34:01.578125Z"
+   committed-date="2009-01-07T08:28:34.030375Z"
+   checksum="07d19c04195378b3c9e8276298b0863e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.140625Z"/>
+<entry
+   committed-rev="11005"
+   name="State.java"
+   text-time="2009-12-01T08:34:01.578125Z"
+   committed-date="2008-12-18T11:17:53.774875Z"
+   checksum="6c96d2b940f7f83f2d49e23ec222fb7c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.140625Z"/>
+<entry
+   committed-rev="11243"
+   name="Floor.java"
+   text-time="2009-12-01T08:34:01.593750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="363932af0bce30980d5502a5ede483c0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.156250Z"/>
+<entry
+   committed-rev="11243"
+   name="Column.hbm.xml"
+   text-time="2009-12-01T08:34:01.593750Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="d4d403c877e536826968c196b642284d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.156250Z"/>
+<entry
+   committed-rev="13071"
+   name="StorageItemState.java"
+   text-time="2009-12-01T08:34:01.593750Z"
+   committed-date="2009-02-27T09:51:25.273000Z"
+   checksum="5551c9a7e0b11deed9bd248173a3d457"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.171875Z"/>
+<entry
+   committed-rev="11243"
+   name="TierState.hbm.xml"
+   text-time="2009-12-01T08:34:01.609375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="899f4349d0694cc945d0105750c59e8b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.515625Z"/>
+<entry
+   committed-rev="11243"
+   name="OwnerState.java"
+   text-time="2009-12-01T08:34:01.609375Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="c07a5710674af03f276e7b2a7cc67f56"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.515625Z"/>
+<entry
+   committed-rev="11243"
+   name="RateState.java"
+   text-time="2009-12-01T08:34:01.625000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="3e446e6583cc36afd0e1ac51099eafde"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.531250Z"/>
+<entry
+   committed-rev="11243"
+   name="PackingItemState.java"
+   text-time="2009-12-01T08:34:01.625000Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="61d2665ce0b33b7084e047bbef3f3fff"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.531250Z"/>
+<entry
+   committed-rev="11243"
+   name="InboundOrderItemState.hbm.xml"
+   text-time="2009-12-01T08:34:01.640625Z"
+   committed-date="2008-12-31T04:15:45.024750Z"
+   checksum="e5f0969f2f639c741ecdba6eedc40eb9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:34:00.546875Z"/>
+</wc-entries>

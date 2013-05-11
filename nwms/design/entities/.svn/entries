@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16797"
+   name=""
+   committed-date="2009-09-11T07:37:04.575375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/design/entities"
+   last-author="chase_cheng"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="16797"
+   name="allentities.html"
+   text-time="2009-12-01T08:40:46.359375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="09ac92279afb13fe58ad1c181931c5d3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:44.046875Z"/>
+<entry
+   committed-rev="16797"
+   name="summary.html"
+   text-time="2009-12-01T08:40:46.453125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="96b9149663881df00a28cb1246e89b42"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:44.046875Z"/>
+<entry
+   committed-rev="16797"
+   name="allpackages.html"
+   text-time="2009-12-01T08:40:46.546875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="5c9f82d3ace2e4762de34fc20ade86de"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:44.062500Z"/>
+<entry
+   committed-rev="16797"
+   name="index.html"
+   text-time="2009-12-01T08:40:46.546875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="c4aa2dbe42d60af08a996b99d047aa47"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:44.062500Z"/>
+<entry
+   name="com"
+   kind="dir"/>
+</wc-entries>

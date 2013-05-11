@@ -1,0 +1,10 @@
+.mainTable{
+	width:95%;
+}
+.mainTable input{
+	width:95%;
+}
+.mainTable textarea{
+	height:70px;
+	width: 99%;
+}

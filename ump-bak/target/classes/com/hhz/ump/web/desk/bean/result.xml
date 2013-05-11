@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<result>
+    <code>S_OK</code>
+    <var>
+        <meta>
+            <itemPerPage>10</itemPerPage>
+            <total>24</total>
+            <offset>0</offset>
+            <results>10</results>
+        </meta>
+        <messages>
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAIB033WdIABgAGs-</mid>
+                        <fid>1</fid>
+                        <size>1246</size>
+                        <from>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;</from>
+                        <to>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;</to>
+                        <subject>coremail</subject>
+                        <sentDate>2011-07-13 15:42:55.0</sentDate>
+                        <receivedDate>2011-07-13 15:42:56.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAIB033WdIABgAEs9</mid>
+                        <fid>1</fid>
+                        <size>1226</size>
+                        <from>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;</from>
+                        <to>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;</to>
+                        <subject>aaabb</subject>
+                        <sentDate>2011-07-13 15:15:12.0</sentDate>
+                        <receivedDate>2011-07-13 15:15:13.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAIA033WdIABQAAm+</mid>
+                        <fid>1</fid>
+                        <size>4068</size>
+                        <from>&#034;黄键&#034; &lt;huangjian@mail1.powerlong.com&gt;</from>
+                        <to>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;, &#034;黄键&#034; &lt;huangjian@mail1.powerlong.com&gt;</to>
+                        <subject>Re: Re: Re: 001</subject>
+                        <sentDate>2011-07-13 10:03:59.0</sentDate>
+                        <receivedDate>2011-07-13 10:04:00.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <replied>true</replied>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAQB033WdAASQACsu</mid>
+                        <fid>1</fid>
+                        <size>2985</size>
+                        <from>&#034;沈健&#034; &lt;shenjian@mail1.powerlong.com&gt;</from>
+                        <to>&#034;黄碧锦&#034; &lt;huangbj@mail1.powerlong.com&gt;</to>
+                        <subject>Fw: Re: 001</subject>
+                        <sentDate>2011-07-13 10:01:42.0</sentDate>
+                        <receivedDate>2011-07-13 10:01:42.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <replied>true</replied>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAQB033WdAAIQAJsN</mid>
+                        <fid>1</fid>
+                        <size>3040</size>
+                        <from>&#034;郑玉梅&#034; &lt;zhengym@powerlong.com&gt;</from>
+                        <to>&#034;黄碧锦&#034; &lt;huangbj@powerlong.com&gt;</to>
+                        <subject>答复: logo </subject>
+                        <sentDate>2011-06-30 17:06:07.0</sentDate>
+                        <receivedDate>2011-07-01 09:52:03.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAQB033WdAAIQAIsM</mid>
+                        <fid>1</fid>
+                        <size>55057</size>
+                        <from>&#034;沈健&#034; &lt;shenjian@powerlong.com&gt;</from>
+                        <to>&#034;&#039;胡锋&#039;&#034; &lt;jhu@mailtech.cn&gt;</to>
+                        <subject>coremail邮箱系统事宜</subject>
+                        <sentDate>2011-06-30 17:05:43.0</sentDate>
+                        <receivedDate>2011-07-01 09:52:03.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <attached>true</attached>
+                            
+                                
+                                
+                                <flagged>true</flagged>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAPB033Wc8AMQABsV</mid>
+                        <fid>1</fid>
+                        <size>2148</size>
+                        <from>&#034;Apple pl&#034; &lt;huangbj@mail1.powerlong.com&gt;</from>
+                        <to>&#034;Apple pl&#034; &lt;huangbj@mail1.powerlong.com&gt;</to>
+                        <subject>&lt;no subject&gt;</subject>
+                        <sentDate>2011-06-30 10:35:32.0</sentDate>
+                        <receivedDate>2011-06-30 10:28:35.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQAPB033Wc8ABQAAsg</mid>
+                        <fid>1</fid>
+                        <size>38080</size>
+                        <from>&#034;沈健&#034; &lt;shenjian@powerlong.com&gt;</from>
+                        <to>&#034;&#039;胡锋&#039;&#034; &lt;jhu@mailtech.cn&gt;</to>
+                        <subject>coremail邮箱问题</subject>
+                        <sentDate>2011-06-29 17:04:26.0</sentDate>
+                        <receivedDate>2011-06-30 09:23:34.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <attached>true</attached>
+                            
+                                
+                                
+                                <flagged>true</flagged>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQANB033WcQBEQAise</mid>
+                        <fid>1</fid>
+                        <size>8418876</size>
+                        <from>&#034;胡锋&#034; &lt;jhu@mailtech.cn&gt;</from>
+                        <to>&#034;沈健&#034; &lt;shenjian@powerlong.com&gt;</to>
+                        <subject>Re: coremail邮箱系统实施问题及后续处理建议</subject>
+                        <sentDate>2011-06-29 14:45:54.0</sentDate>
+                        <receivedDate>2011-06-30 09:23:34.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <attached>true</attached>
+                            
+                        </flags>
+                    </message>
+                
+            
+                
+                    <message>
+                        <mid>1:1tbiAQANB033WcQBEQAhsd</mid>
+                        <fid>1</fid>
+                        <size>41805</size>
+                        <from>&#034;沈健&#034; &lt;shenjian@powerlong.com&gt;</from>
+                        <to>&#034;&#039;胡锋&#039;&#034; &lt;jhu@mailtech.cn&gt;</to>
+                        <subject>coremail邮箱系统实施问题及后续处理建议</subject>
+                        <sentDate>2011-06-29 11:44:21.0</sentDate>
+                        <receivedDate>2011-06-30 09:23:31.0</receivedDate>
+                        <priority>3</priority>
+                        <antiVirusStatus>unscaned</antiVirusStatus>
+                        <flags>
+                            
+                                
+                                
+                                <read>true</read>
+                            
+                                
+                                
+                                <attached>true</attached>
+                            
+                        </flags>
+                    </message>
+                
+            
+        </messages>
+    </var>
+</result>
+

@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16797"
+   name=""
+   committed-date="2009-09-11T07:37:04.575375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/design/tables/NWMS"
+   last-author="chase_cheng"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="16797"
+   name="INTT_USER.html"
+   text-time="2009-12-01T08:40:48.015625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="8139315591328cf592349ce1cd8526fd"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.796875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_pickedItem.html"
+   text-time="2009-12-01T08:40:48.015625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3bc8e55f61c814b55c31b5a564a65bff"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.781250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unitState.html"
+   text-time="2009-12-01T08:40:48.062500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="30e5728c5ee7f508f8ac005c77f21cc6"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.812500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_logPickedItem.html"
+   text-time="2009-12-01T08:40:48.046875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="4223392f648592b74faab21e78446a7b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.812500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_nextItems.html"
+   text-time="2009-12-01T08:40:48.015625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="ae401fbce6b76852e70a43b222813bd3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.796875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_destroyedItemState.html"
+   text-time="2009-12-01T08:40:48.062500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="55065421238f828923c326d1f8aacd77"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.828125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_storageItem.html"
+   text-time="2009-12-01T08:40:48.093750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="616c0efa6657a8290bade902a55a5e30"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.828125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_zones_bin.html"
+   text-time="2009-12-01T08:40:48.109375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="262a1c3fa4269e8098a926cf023170de"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.921875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unstorageItem.html"
+   text-time="2009-12-01T08:40:48.093750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="6596b5a6f74869baeafd1f40fc293bbe"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.890625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_ownerZone.html"
+   text-time="2009-12-01T08:40:48.093750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="fb9ef4d58ce0fc6624fb616b73726a47"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.828125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_ownerZoneState.html"
+   text-time="2009-12-01T08:40:48.109375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="7325d3d08da89b6ed6c6db91e007d67b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.937500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_outboundTxtData.html"
+   text-time="2009-12-01T08:40:48.109375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="f4adc7769bfb7caddb75747634a24660"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:46.984375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_packingItem.html"
+   text-time="2009-12-01T08:40:48.125000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="6e5a3fa987233b8312d775c96bcd35aa"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.000000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_columnState.html"
+   text-time="2009-12-01T08:40:48.140625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="792d1d1a369ebd72cf2f3c720fee168b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.015625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_material.html"
+   text-time="2009-12-01T08:40:48.125000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="afec116f475155511a025608d0f8da3d"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.000000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_materialState.html"
+   text-time="2009-12-01T08:40:48.140625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="6a28785da5a2bd97df07ba423bea7fa7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.015625Z"/>
+<entry
+   committed-rev="16797"
+   name="summary.html"
+   text-time="2009-12-01T08:40:48.156250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="629e04089daf40fcbb02ee9000db1ea7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.031250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_shelflife.html"
+   text-time="2009-12-01T08:40:48.156250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="03975f76bf4658b604481fd084d21e96"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.031250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_itemTypeState.html"
+   text-time="2009-12-01T08:40:48.156250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3da5ef0136d7757985b24ab88ecaed0b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.062500Z"/>
+<entry
+   committed-rev="16797"
+   name="INTT_ROLE.html"
+   text-time="2009-12-01T08:40:48.171875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3fd9152d55c2c7b7ca2f2f089121106a"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.078125Z"/>
+<entry
+   committed-rev="16797"
+   name="INTT_CUSTOMER.html"
+   text-time="2009-12-01T08:40:48.171875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3a27c5ef99b90aecadc777e84b0e35f0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.078125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_pickingItem.html"
+   text-time="2009-12-01T08:40:48.187500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="fb42dff9f77ff7e51b4ab7fb42ef53d5"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.093750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_row.html"
+   text-time="2009-12-01T08:40:48.187500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="805ff4ea156754ad7a8a78707cedcbb2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.093750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unitPackagePair.html"
+   text-time="2009-12-01T08:40:48.187500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="673c300a103e19fe2a46b7a391e77b48"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.109375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_binState.html"
+   text-time="2009-12-01T08:40:48.203125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="2634de47ce8e60526982233f1de2335a"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.109375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_outboundOrderItem.html"
+   text-time="2009-12-01T08:40:48.203125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="48a5170bd075628cee866b86fe8b3ca3"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.125000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_inboundOrderItemState.html"
+   text-time="2009-12-01T08:40:48.203125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="c8c79f75ac3677799d13cd5999138c35"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.140625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_outboundOrderItemState.html"
+   text-time="2009-12-01T08:40:48.218750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3e6669a5d3ef51d06b3b9e05bb9b1e80"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.156250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_zone.html"
+   text-time="2009-12-01T08:40:48.218750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="53e3c570e23a0093b46483154323c7f8"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.156250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_destroyedItem.html"
+   text-time="2009-12-01T08:40:48.218750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="cfc84ec2e5b91c14c3a8fce1b4ffedcc"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.171875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_storageItemState.html"
+   text-time="2009-12-01T08:40:48.250000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="61dae3e844c974717585a7e2db7ff189"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.171875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_checkingItem.html"
+   text-time="2009-12-01T08:40:48.281250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="11075395bc17b232d5a9da72c08554f6"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.187500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_owner.html"
+   text-time="2009-12-01T08:40:48.265625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="dc90f3d515eddf19a9bd0267adada8fd"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.171875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unitPackage.html"
+   text-time="2009-12-01T08:40:48.296875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="001f01c7e6e17acb1192cb230b8e9f4e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.250000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_checkingItemState.html"
+   text-time="2009-12-01T08:40:48.296875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="de879da9b73a7426b395aa40c4e393f1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.234375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_logStockMoveItem.html"
+   text-time="2009-12-01T08:40:48.281250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="4244d5f0f21228178e1d7cb7f2a2b3f2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.203125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_ownerState.html"
+   text-time="2009-12-01T08:40:48.281250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="986b554a3f3502be621d96d3dded5f91"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.203125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_invoice.html"
+   text-time="2009-12-01T08:40:48.312500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="8e7d6f26137a24a42efa0e0c918569b9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.312500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_packingItemState.html"
+   text-time="2009-12-01T08:40:48.312500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="b256578f6d4f2d377bfb112a9350993b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.281250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_column.html"
+   text-time="2009-12-01T08:40:48.312500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="57fbb0553ab47575ccf61906a5ef84aa"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.328125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_item.html"
+   text-time="2009-12-01T08:40:48.343750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="16d31a3b8867cf950a75a1031b7b105f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.359375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_buildingState.html"
+   text-time="2009-12-01T08:40:48.328125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="eae186a83c950182df2cbcee56a89aac"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.359375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_InboundRePickItemS.html"
+   text-time="2009-12-01T08:40:48.328125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="7cc3ae42576439046ab1b5e5c30593eb"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.343750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_itemState.html"
+   text-time="2009-12-01T08:40:48.343750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="f9e09768aa2af2618139f2708821da9b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.375000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_storageZoneState.html"
+   text-time="2009-12-01T08:40:48.359375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="2ee6e013445e039ab9db3c06ecdcffeb"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.390625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_OutboundRePutAway.html"
+   text-time="2009-12-01T08:40:48.359375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="54b69a1504af37309b04da10a5cf7c59"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.375000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_tier.html"
+   text-time="2009-12-01T08:40:48.359375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="04e2b5c0712620b2dd799fde7f94380f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.390625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_pickingItemState.html"
+   text-time="2009-12-01T08:40:48.375000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="2a1cb4e934ff937a10dd6deb0b730550"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.406250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unitPackagePairState.html"
+   text-time="2009-12-01T08:40:48.390625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="9cb92e5039a803cfa2f45db8f9db4cbc"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.421875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_uncheckedItem.html"
+   text-time="2009-12-01T08:40:48.390625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="bba59bb21ec09d7a99f8e0e336c8ed5e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.421875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_rowState.html"
+   text-time="2009-12-01T08:40:48.375000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="5bf36fa258e6a277301b353f050e2fe4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.406250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_inboundOrderItem.html"
+   text-time="2009-12-01T08:40:48.390625Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="bd40c9b072ed9eb2ae030b13e71571b8"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.437500Z"/>
+<entry
+   committed-rev="16797"
+   name="tables.html"
+   text-time="2009-12-01T08:40:48.406250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="9d6b75e70bfa2b11071e0b14b01ebbe4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.453125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_zoneState.html"
+   text-time="2009-12-01T08:40:48.406250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="dca76bb2799bddbe0e6da96610d2cf61"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.437500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_outboundAssigned.html"
+   text-time="2009-12-01T08:40:48.421875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="6cd947e09b8329e384f8cf06e7226375"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.453125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unitPackagesState.html"
+   text-time="2009-12-01T08:40:48.437500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="3a516a8a821409edcf379146dbb84d77"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.468750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_warehouseItem.html"
+   text-time="2009-12-01T08:40:48.437500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="325c28748fec19feeeaa3761ece218ee"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.468750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_floorState.html"
+   text-time="2009-12-01T08:40:48.453125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="9207fa17f7a1352d4a5ca58d2ad4e7dc"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.656250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_logStorageItem.html"
+   text-time="2009-12-01T08:40:48.453125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="8a3e205cd7c28f9f5f85bb15fe300c59"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.734375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_orderItem.html"
+   text-time="2009-12-01T08:40:48.468750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="6dddea554d6d4e8338532e6171086811"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.765625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_rate.html"
+   text-time="2009-12-01T08:40:48.468750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="9679ebc11bb040d4dbb13fbb214ee8e9"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.765625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_InboundRePick.html"
+   text-time="2009-12-01T08:40:48.468750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="f05390604b71c46826e35341ec094054"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.765625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_OutboundRePick.html"
+   text-time="2009-12-01T08:40:48.484375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="5db32fd6598c5b100d4370a3797ff337"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.781250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_building.html"
+   text-time="2009-12-01T08:40:48.484375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="1b819bc89c0d7d11ed2b66b749a27729"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.796875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_OutboundRePickItemS.html"
+   text-time="2009-12-01T08:40:48.500000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="846e95c2a8b6c75c1928f9006f58ee16"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.796875Z"/>
+<entry
+   committed-rev="16797"
+   name="INTT_USER_ROLE.html"
+   text-time="2009-12-01T08:40:48.500000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="7a86d965ff98a26cebbf915f0f97b9f7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.812500Z"/>
+<entry
+   committed-rev="16797"
+   name="INTT_USER_CUSTOMER.html"
+   text-time="2009-12-01T08:40:48.500000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="51db0175940d331d5397def4a4f50f17"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.828125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_itemType.html"
+   text-time="2009-12-01T08:40:48.531250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="fb01b3290d57254cdcd316f0becc6fc4"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.843750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_InboundRePutAway.html"
+   text-time="2009-12-01T08:40:48.546875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="dc89c18ac717759196f9ed7f2cc20265"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.843750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_warehouse.html"
+   text-time="2009-12-01T08:40:48.546875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="25346b798c66a800afca396cf9529e1c"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.859375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_warehouseState.html"
+   text-time="2009-12-01T08:40:48.546875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="1d2eabe8e4313b7a3bc635ba5cb9b27e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.859375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_tierState.html"
+   text-time="2009-12-01T08:40:48.562500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="41c185cf9ded65114208cddc8a2d8cad"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.875000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_lastItems.html"
+   text-time="2009-12-01T08:40:48.578125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="c965b0675c546bd51867693c1a53b3d7"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.875000Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_bin.html"
+   text-time="2009-12-01T08:40:48.578125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="60bcb9007c91ea3faa9e83a0a3baa364"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.890625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_PutAwayItem.html"
+   text-time="2009-12-01T08:40:48.593750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="4fbea1498cd22f42f9fa5d8e95a79528"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.890625Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_order.html"
+   text-time="2009-12-01T08:40:48.593750Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="fedf1daa6dac03f65a9b3bd9b24c633f"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.906250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_rates.html"
+   text-time="2009-12-01T08:40:48.609375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="a50be495133ec3cd64556c9611299505"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.906250Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_unit.html"
+   text-time="2009-12-01T08:40:48.609375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="a045f67da27a9858d3ec49afc091ad48"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.921875Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_InboundRePutItemS.html"
+   text-time="2009-12-01T08:40:48.625000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="1e9bb96659be96013b7e544ff5f13238"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.937500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_OutboundRePutItemS.html"
+   text-time="2009-12-01T08:40:48.625000Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="5cbde95acc2d39da9ed2e93ba59108e2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.937500Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_floor.html"
+   text-time="2009-12-01T08:40:48.656250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="7772d5b13add5e94abba1f2d80b4f974"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.953125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_rateState.html"
+   text-time="2009-12-01T08:40:48.656250Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="a56a24ca885a312c2ba35d88faeed7b2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.953125Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_invoiceState.html"
+   text-time="2009-12-01T08:40:48.671875Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="9379f81b3b6701260b584a13b30d77e1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.968750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_storageZone.html"
+   text-time="2009-12-01T08:40:48.687500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="ccc13bd2fb090ade5711b88ce96d7c1e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.968750Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_shelflifeState.html"
+   text-time="2009-12-01T08:40:48.703125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="0695c1baf81e99dcd1849ac981a52d45"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.984375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_orderState.html"
+   text-time="2009-12-01T08:40:48.703125Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="beb08a178de7932c1a620cef224f49d0"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:47.984375Z"/>
+<entry
+   committed-rev="16797"
+   name="intt_zones_material.html"
+   text-time="2009-12-01T08:40:48.734375Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="91fc352f689c170cb7f4b4e0d7a2238b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:48.000000Z"/>
+</wc-entries>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17583"
+   name=""
+   committed-date="2009-12-15T03:25:07.562500Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/WEB-INF/EXCEL"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="17485"
+   name="outboundGoodListTemp.xls"
+   text-time="2009-12-18T05:53:28.765625Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="e2ebe130869f78ca8e61dca2c1427243"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.421875Z"/>
+<entry
+   committed-rev="14269"
+   name="storageListForCheckTemp.xls"
+   text-time="2009-12-01T08:34:15.437500Z"
+   committed-date="2009-03-31T09:45:14.274875Z"
+   checksum="d36ec5a71d02cc25c9a4026a95ab91a6"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:14.687500Z"/>
+<entry
+   committed-rev="17583"
+   name="logItemTemp_In.xls"
+   text-time="2009-12-18T05:53:28.781250Z"
+   committed-date="2009-12-15T03:25:07.562500Z"
+   checksum="3cea8db03c26ffdf689177c07eea3acb"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.500000Z"/>
+<entry
+   committed-rev="17485"
+   name="inboundProcess.xls"
+   text-time="2009-12-18T05:53:28.781250Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="7018cddeaf91711793af48a923cf1d8d"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.609375Z"/>
+<entry
+   committed-rev="17583"
+   name="logItemTemp_Out.xls"
+   text-time="2009-12-18T05:53:28.781250Z"
+   committed-date="2009-12-15T03:25:07.562500Z"
+   checksum="5ab2bdabb760a4057d28f207842a9d82"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.656250Z"/>
+<entry
+   committed-rev="17485"
+   name="outboundProcess.xls"
+   text-time="2009-12-18T05:53:28.796875Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="cc5ace64edfd0f52a3d136f1452d9189"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.671875Z"/>
+<entry
+   committed-rev="17485"
+   name="examineGoodListTemp.xls"
+   text-time="2009-12-18T05:53:28.796875Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="acde89e6aab66c25136997ca6cada0f4"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.687500Z"/>
+<entry
+   committed-rev="17485"
+   name="logItemTemp.xls"
+   text-time="2009-12-18T05:53:28.812500Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="d7d051d980819488b460f9740bbbccfc"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.687500Z"/>
+<entry
+   committed-rev="17583"
+   name="storageListTemp.xls"
+   text-time="2009-12-18T05:53:28.812500Z"
+   committed-date="2009-12-15T03:25:07.562500Z"
+   checksum="89abb61c89972b4482060277fd45767f"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.718750Z"/>
+<entry
+   committed-rev="17485"
+   name="logMove.xls"
+   text-time="2009-12-18T05:53:28.828125Z"
+   committed-date="2009-12-07T08:37:49.232750Z"
+   checksum="5a361352cc024073ab444a508b92d062"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:28.750000Z"/>
+</wc-entries>

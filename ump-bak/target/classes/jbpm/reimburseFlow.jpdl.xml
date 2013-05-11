@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process key="JBPM_REIMBURSE_FLOW" name="reimburseFlow" xmlns="http://jbpm.org/4.3/jpdl">
+   <start g="13,15,48,48" name="start">
+      <transition to="apply"/>
+   </start>
+   <task g="315,75,92,52" name="dept">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="center"/>
+      <transition g="290,10:-3,-5" name="back" to="apply"/>
+   </task>
+   <task g="447,78,92,52" name="center">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="exclusiveAmount1"/>
+      <transition g="244,149:-29,-17" name="back" to="apply"/>
+   </task>
+   <task g="318,239,92,52" name="accountant">
+   <on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="f-Mgr."/>
+      <transition g="186,177:-29,-17" name="back" to="apply"/>
+   </task>
+   <task g="389,326,92,52" name="f-Mgr.">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="f-v-general"/>
+      <transition g="251,242:-29,-17" name="back" to="apply"/>
+   </task>
+   <task g="252,327,92,52" name="f-v-general">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+      <transition g="156,238:-29,-17" name="back" to="apply"/><assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/><assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="f-general"/>
+   </task>
+   <task g="386,417,92,52" name="f-general">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition g="-29,-17" name="back" to="apply"/>
+      <transition to="exclusiveAmount2"/>
+   </task>
+   <task g="147,417,92,52" name="f-v-president">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition g="-10,65" name="back" to="apply"/>
+      <transition to="end"/>
+   </task>
+   <task g="2,423,92,52" name="president">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition g="-29,-17" name="back" to="apply"/>
+      <transition to="exclusivePosition1"/>
+   </task>
+   <decision g="469,160,48,48" name="exclusiveAmount1">
+   <handler class="com.hhz.ump.web.jbpm.ReimburseDecision" />
+      <transition g="-30,-12" name="toAccountant" to="accountant"/>
+      <transition g="-29,-16" name="toVPresident" to="v-president"/>
+   </decision>
+   <task g="122,12,92,52" name="apply">
+   <on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+   <transition g="-65,-17" name="toCancel" to="cancel"/>
+   <transition to="exclusivePosition"/>
+   </task>
+   <task g="317,159,92,52" name="v-president">
+   <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition g="118,138:-29,-17" name="back" to="apply"/>
+      <transition to="accountant"/>
+   </task>
+   <decision g="277,420,48,48" name="exclusiveAmount2">
+   <handler class="com.hhz.ump.web.jbpm.ReimburseDecision" />
+      <transition g="-23,4" name="toFVPresident" to="f-v-president"/>
+      <transition g="-35,3" name="toEnd" to="end"/>
+      <transition g="164,399:-61,-1" name="toPresident" to="president"/>
+   </decision>
+   <end g="150,548,48,48" name="end">
+   <on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   </end>
+   <end-cancel g="19,135,48,48" name="cancel">
+   	<on event="start">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   </end-cancel>
+   <decision g="249,14,48,48" name="exclusivePosition">
+   <handler class="com.hhz.ump.web.jbpm.ReimburseDecision" />
+      <transition g="-7,-4" name="toDept" to="dept"/>
+      <transition g="20,-12" name="toCenter" to="center"/>
+      <transition g="323,119:-30,9" name="toVPresident" to="v-president"/>
+      <transition g="-38,32" name="toPresident" to="president"/>
+      <transition g="-22,-8" name="toGroup" to="group"/>
+   </decision>
+   <decision g="26,545,48,48" name="exclusivePosition1">
+   <handler class="com.hhz.ump.web.jbpm.ReimburseDecision" />
+      <transition g="-19,2" name="toEnd" to="end"/>
+      <transition g="133,360:-29,-17" name="toAccountant" to="accountant"/>
+   </decision>
+   <task g="443,14,92,52" name="group">
+    <on event="end">
+	    <event-listener class="com.hhz.ump.web.jbpm.ReimburseListener">
+        </event-listener>
+	</on>
+   <assignment-handler class="com.hhz.ump.web.jbpm.ReimburseAssignment"/>
+      <transition to="dept"/>
+      <transition g="290,10:-3,-5" name="back" to="apply"/>
+   </task>
+</process>

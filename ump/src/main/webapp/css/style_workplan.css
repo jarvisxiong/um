@@ -1,0 +1,264 @@
+html {
+	font-size: 14px;
+}
+table.content_table{
+	font-size: 14px;
+}
+table.content_table tr th{
+	height: 25px;
+	font-size:16px;
+}
+table.content_table .mainTr td{
+	height: 35px;
+	line-height: 35px;
+}
+
+/*计划管理上面的横条*/
+.plan_title_bar{
+	color:#5a5a5a;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: #FFF;
+	font-size: 14px;
+	font-weight: bolder;
+}
+/*大中心的背景*/
+.plan_mainmenu_back{
+	font-size: 14px;
+	width: 100%;
+	height: 25px;
+	background-image: url('../images/plan/plan_menu_back.jpg');
+	background-repeat:repeat-x;
+	background-position: center top;
+}
+.plan_mainmenu_btn{
+	float: left;
+	height: 25px;
+	lint-height: 25px;
+	padding: 5px 10px 0px 10px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+}
+.plan_mainmenu_btn_press{
+	float: left;
+	height: 25px;
+	lint-height: 25px;
+	padding: 5px 10px 0px 10px;
+	color: #0167a2;
+	text-align: center;
+	cursor: pointer;
+	background-color: #cedbe1;
+	border-top: 1px solid #787f85;
+	border-left: 1px solid #787f85;
+	border-bottom: 1px solid #cedbe1;
+	border-right: 1px solid #787f85;
+}
+.plan_mainmenu_line{
+	float: left;
+	width: 1px;
+	height: 24px;
+	background-image: url('../images/plan/plan_menu_line.gif');
+	background-repeat:no-repeat;
+	background-position: center top;
+}
+/*小中心的背景*/
+.plan_submenu_back{
+	font-size: 14px;
+	width: 100%;
+	height: 22px;
+	background-color: #cedbe1;
+}
+.plan_submenu_btn{
+	float: left;
+	height: 22px;
+	lint-height: 22px;
+	padding: 3px 5px 0px 5px;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	color: #5b6b83;
+}
+.plan_submenu_btn_press{
+	float: left;
+	height: 22px;
+	lint-height: 22px;
+	padding: 3px 1px 0px 1px;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	color: #0167a2;
+}
+/*小中心的div的样式，和js效果绑定*/
+.smalls_div{
+	width: 100%;
+	height: 22px;
+	lint-height: 22px;
+	text-align: center;
+	background: transparent;
+}
+/*搜索栏的每行的样式*/
+.plan_search_panel{
+	float:left;
+	height: 33px;
+	lint-height: 33px;
+	text-align: center;
+	background: transparent;
+	padding-left: 4px;
+}
+/*增加列表的btn*/
+.btn_list_add{
+	width: 52px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_add_52_18.gif');
+	background-repeat:no-repeat;
+	background-position: right center;
+	cursor:pointer;
+	font-weight: bolder;
+	padding-top:2px;
+	padding-left: 10px;
+}
+.btn_list_add_hover{
+	width: 52px;
+	height: 18px;
+	line-height: 18px;
+	color: #fff;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_add_52_18_hover.gif');
+	background-repeat:no-repeat;
+	background-position: right center;
+	cursor:pointer;
+	font-weight: bolder;
+	padding-top:2px;
+	padding-left: 10px;
+}
+/*增加协调和成果的btn*/
+.btn_list_detail_add{
+	height: 25px;
+	line-height: 25px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_add_23_23.gif');
+	background-repeat:no-repeat;
+	background-position: right center;
+	cursor:pointer;
+	padding-top:2px;
+	padding-right:26px;
+	font-weight: bolder;
+}
+.btn_list_detail_add_hover{
+	height: 25px;
+	line-height: 25px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_add_23_23_hover.gif');
+	background-repeat:no-repeat;
+	background-position: right center;
+	cursor:pointer;
+	padding-top:2px;
+	padding-right:26px;
+	font-weight: bolder;
+}
+/*删除按钮*/
+.btn_list_detail_del{
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../pics/note/note_del.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:24px;
+	padding-top:2px;
+}
+.btn_list_detail_del_hover{
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../pics/note/note_del_hover1.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:24px;
+	padding-top:2px;
+}
+/*确认按钮*/
+.btn_list_detail_check{
+	height: 16px;
+	line-height: 16px;
+	background-color: transparent;
+	background-image: url('../pics/note/note_checked.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:18px;
+	padding-top:2px;
+}
+/*双周计划的下拉框按钮*/
+.xiala_btn_plan{
+	width:100%;
+	line-height:20px;
+	height:20px;
+	cursor:pointer;
+}
+.xiala_btn_plan:hover{
+	width:100%;
+	line-height:20px;
+	height:20px;
+	cursor:pointer;
+	background-color:#0167a2;
+	color:#FFF;
+}
+/*菜单的向左向右按钮*/
+.btn_plan_menu_left{
+	width:20px;
+	height:20px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_plan_menu_left.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.btn_plan_menu_left_hover{
+	width:20px;
+	height:20px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_plan_menu_left_hover.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.btn_plan_menu_right{
+	width:20px;
+	height:20px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_plan_menu_right.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.btn_plan_menu_right_hover{
+	width:20px;
+	height:20px;
+	background-color: transparent;
+	background-image: url('../images/plan/btn_plan_menu_right_hover.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+}
+.buttonStyle {
+	background:url("../pics/email/btnBg1.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	width:50px;
+}
+.buttonStyle_hover {
+	background:url("../pics/email/btnBg1_hover.gif") no-repeat scroll 0 0 transparent;
+}
+

@@ -1,0 +1,68 @@
+.mailContainer {
+	width: 100%;
+	height:100%;
+}
+.mailLeft {
+	float:left;
+	width:150px;
+	height:100%;
+	border:1px solid #80AB73;
+}
+
+.leftTop {
+	height:36px;
+	overflow: hidden;
+}
+.leftTop a {
+	background: transparent url(../images/email/big_btn_bg.png) repeat scroll 0 0;
+	border-left:1px solid #DCDCDC;
+	float:left;
+	width:74px;
+	padding-top: 6px;
+	height: 36px;
+}
+.leftTop a:HOVER {
+	background-position: 0 -38px;
+}
+.leftMainMenu {
+	height:24px;
+	background: transparent url(../images/email/big_btn_bg.png) repeat scroll 0 0;
+}
+.leftMenu li{
+	width: 150px;
+	height:25px;
+	
+}
+.liHilight{
+	background-image: url(../images/email/title_bg_center.gif);
+	background-repeat: : repeat-x;
+}
+.mailRight {
+	margin: 0 20px 0 150px;
+}
+.mailJia {
+	background: url(../images/email/jia.gif) no-repeat center;
+}
+.mailJian {
+	background: url(../images/email/jian.gif) no-repeat center;
+}
+.mailTextarea {
+	width: 500px;
+	height: 30px;
+}
+.recyleMail{
+	float:right;
+	margin-right: 20px;
+}
+.userSelected{
+	border: 1px solid #99ccff;
+	background-color: #6699cc;
+	margin-left: 2px;
+	text-align: center;
+	
+}
+.userUnSelected{
+	border: 1px solid #99ccff;
+	margin-left: 2px;
+	text-align: center;
+}

@@ -1,0 +1,34 @@
+.ctslt-nav{
+	list-style-type:none;
+	font-size:12px;
+	/*border-top: 1px solid #CCCCCC;*/
+	margin: 0 5px;
+}
+.ctslt-nav li{
+	height:20px;
+	line-height:20px;
+	padding:0px 5px;
+	margin-top:2px;
+	cursor:pointer;
+	word-break:break-all;
+}
+.ctslt-nav li:hover{
+	background-color:#6eb1cf;
+	color:#fff;
+}
+.ctslt-nav-click{
+	background-color:#6eb1cf;
+	color:#fff;
+}
+.ctsltTitle{
+	border-top: 4px solid #9CB6C6;
+	line-height:30px;
+	height:30px;
+	padding:0 5px;
+	font-weight:bolder;
+	font-size:14px;
+}
+
+.div_scroll_y {
+	overflow-y:scroll;
+}

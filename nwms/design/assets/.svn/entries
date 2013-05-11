@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16797"
+   name=""
+   committed-date="2009-09-11T07:37:04.575375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/design/assets"
+   last-author="chase_cheng"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="16797"
+   name="hibernate_logo.gif"
+   text-time="2009-12-01T08:40:43.937500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="0f4d17f83a0f7ed3f49458e82aaf7076"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:43.906250Z"/>
+<entry
+   committed-rev="16797"
+   name="inherit.gif"
+   text-time="2009-12-01T08:40:43.937500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="85338f94f280f2f55ad23b26ba609719"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:43.921875Z"/>
+<entry
+   committed-rev="16797"
+   name="doc-style.css"
+   text-time="2009-12-01T08:40:43.937500Z"
+   committed-date="2009-09-11T07:37:04.575375Z"
+   checksum="1c54a7698249dcb75323a00701b48aac"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:43.921875Z"/>
+</wc-entries>

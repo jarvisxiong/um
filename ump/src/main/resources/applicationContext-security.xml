@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:s="http://www.springframework.org/schema/security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.4.xsd"
+	default-autowire="byType" default-lazy-init="true">
+
+	<description>SpringSecurity</description>
+
+	<!-- http安全配置 -->
+	<s:http auto-config="true" access-decision-manager-ref="accessDecisionManager">
+		<s:form-login login-page="/login.action"
+			default-target-url="/login!login.action" authentication-failure-url="/login!logError.action" always-use-default-target="true" />
+		<s:logout logout-success-url="/login.action" invalidate-session="false" logout-url="/j_spring_security_logout" />
+<!--		<s:remember-me/>-->
+		<s:intercept-url pattern="/rs/**" filters="none"/>
+		<s:intercept-url pattern="/*.jar" filters="none"/>
+		<s:intercept-url pattern="/" filters="none"/>
+		<s:intercept-url pattern="/login!mobile.action" filters="none"/>
+		<s:intercept-url pattern="/wap/index.jsp" filters="none"/>
+		<s:intercept-url pattern="/login.action" filters="none"/>
+		<s:intercept-url pattern="/login!logError.action" filters="none"/>
+		<s:intercept-url pattern="/login!idNoValidate.action" filters="none"/>
+		<s:intercept-url pattern="/*.jsp" filters="none"/>
+		<s:intercept-url pattern="/common/**" filters="none"/>
+		<s:intercept-url pattern="/images/**" filters="none"/>
+		<s:intercept-url pattern="/resources/**" filters="none"/>
+		<s:intercept-url pattern="/css/**" filters="none"/>
+		<s:intercept-url pattern="/js/**" filters="none"/>
+		<s:intercept-url pattern="/style/**" filters="none"/>
+		<s:intercept-url pattern="/pics/**" filters="none"/>
+		<s:intercept-url pattern="/app/download.action*" filters="none"/>
+		<s:intercept-url pattern="/app/show.action*" filters="none"/>
+		<s:intercept-url pattern="/mobile/**" filters="none"/>
+		<s:intercept-url pattern="/plaspd/plas-quartz!refreshuums.action" filters="none"/>
+		<s:intercept-url pattern="/plaspd/plas-quartz!refreshDict.action" filters="none"/>
+		
+		<!-- 提供webservice服务 -->
+		<s:intercept-url pattern="/ws/**" filters="none"/>
+		
+		<!--防止多次登录		-->
+<!--		<s:concurrent-session-control-->
+<!--			max-sessions="1" exception-if-maximum-exceeded="true" />-->
+	</s:http>
+	
+	<!-- 认证配置 -->
+	<s:authentication-provider user-service-ref="userDetailsService" >
+<!--		 可设置hash使用sha1或md5散列密码后再存入数据库 -->
+		<s:password-encoder hash="md5" >
+		</s:password-encoder>
+	</s:authentication-provider>
+	<!-- 项目实现的用户查询服务 -->
+	<bean id="userDetailsService"
+		class="com.hhz.ump.service.UserDetailsServiceImpl" />
+
+	<!--
+		重新定义的FilterSecurityInterceptor,使用databaseDefinitionSource提供的url-授权关系定义
+	-->
+	<bean id="filterSecurityInterceptor"
+		class="org.springframework.security.intercept.web.FilterSecurityInterceptor">
+		<s:custom-filter before="FILTER_SECURITY_INTERCEPTOR" />
+		<property name="accessDecisionManager" ref="accessDecisionManager" />
+		<property name="objectDefinitionSource" ref="databaseDefinitionSource" />
+	</bean>
+	<bean id="customerLoginFilter" class="com.hhz.ump.service.CustomerLoginFilter">
+	   <s:custom-filter before="AUTHENTICATION_PROCESSING_FILTER" />
+	</bean>
+	<!-- DefinitionSource工厂,使用resourceDetailsService提供的URL-授权关系. -->
+	<bean id="databaseDefinitionSource"
+		class="org.springside.modules.security.springsecurity.DefinitionSourceFactoryBean">
+		<property name="resourceDetailsService" ref="resourceDetailsService" />
+	</bean>
+
+	<!-- 项目实现的URL-授权查询服务 -->
+	<bean id="resourceDetailsService"
+		class="com.hhz.ump.service.ResourceDetailsServiceImpl" />
+
+	<!-- 授权判断配置, 将授权名称的默认前缀由ROLE_改为A_. -->
+	<bean id="accessDecisionManager" class="org.springframework.security.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.springframework.security.vote.RoleVoter">
+					<property name="rolePrefix" value="A_" />
+				</bean>
+				<bean class="org.springframework.security.vote.AuthenticatedVoter" />
+			</list>
+		</property>
+	</bean>
+</beans>

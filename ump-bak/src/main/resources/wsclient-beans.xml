@@ -1,0 +1,45 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+		http://cxf.apache.org/jaxws 
+		http://cxf.apache.org/schemas/jaxws.xsd"
+	>
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />   
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml" />   
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+     
+    <!-- 安全验证 
+    <bean id="wss4jOutConfiguration" class="org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor">  
+        <property name="properties">  
+            <map>  
+                <entry key="action" value="UsernameToken" />  
+                <entry key="user" value="ws-client" />  
+                <entry key="passwordType" value="PasswordText" />  
+                <entry>  
+                    <key>  
+                        <value>passwordCallbackRef</value>  
+                    </key>  
+                    <ref bean="clientPasswordCallback" />  
+                </entry>  
+            </map>  
+        </property>  
+    </bean>  
+    <bean id="clientPasswordCallback" class="com.hhz.uums.service.ClientPasswordCallback" /> 
+   -->
+    <!-- service
+	--> 
+	<bean id="plas-client" class="com.hhz.uums.service.WSPlasService" 
+      factory-bean="plasFactory" factory-method="create"/>
+    
+    <bean id="plasFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
+    	<property name="serviceClass" value="com.hhz.uums.service.WSPlasService"/>
+
+		<!---->
+	  	<property name="address" value="http://localhost:9091/uums/ws/WSPlasService"/>
+    </bean>
+	
+</beans> 

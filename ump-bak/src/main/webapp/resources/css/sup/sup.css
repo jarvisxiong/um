@@ -1,0 +1,147 @@
+html, body {
+	font-size: 12px;
+	color:#363636;
+}
+.title_bar_sup{
+	height: 26px;
+	background-color: #e4e7ec;
+	color:#363636;
+	font-size: 14px;
+	border-bottom: 1px solid #8c8f94;
+	overflow:hidden;
+}
+.title_bar_h {
+	float:left; 
+	margin-left: 5px;
+	margin-top: 3px;
+	color: #363636; 
+	width:320px;
+}
+.title_bar_ops {
+	float:right; 
+	height:25px; 
+}
+.sup_title {
+	color: #464646; 
+	font-size:18px;
+}
+/*
+.sup_title_1 {
+	 font-size:14px;
+}
+*/
+.txtbox{
+   border-top-width:0px;
+   border-bottom-width:1px;
+   border-left-width:0px;
+   border-right-width:0px;
+   border-color:#316685;
+   color:#316685;
+   background:rgb(241, 241, 241);
+   width:98%;
+   height:22px;
+   font-size: 10px;/*add by huangbijin 2012-05-17*/
+}
+.addFile {
+cursor:pointer;
+opacity:0;
+overflow:hidden;
+position:absolute;
+width:60px;
+}
+.txtAreaBox{
+	   border-top-width:0px;
+	   border-bottom-width:1px;
+	   border-left-width:0px;
+	   border-right-width:0px;
+       border-color:#316685;
+       border-style:solid;
+       background:rgb(241, 241, 241);
+	   height:89px;
+	   width:98%;
+}
+table.sup_table {
+	border: 1px solid #8c8f94;
+	
+	height:100%;
+	width:100%;
+}
+table.sup_table th {
+  background-color: #878787;
+  height:30px;
+  color:#ffffff;
+  font-size:14px;
+}
+table.sup_table tr {
+	height:30px;
+}
+table.sup_table td {
+	border-right: 1px solid #dddbdc;
+	border-bottom: 1px solid #dddbdc;
+	overflow: hidden;
+	align:left;
+	padding:3px;
+}	
+.supEdit input{
+	margin:3px 0;
+} 
+table.contract_table{
+}
+table.contract_table td{
+	border:0px;
+}	
+/*
+.td_bold{
+	font-weight:bold;
+}	
+*/
+.tabEven {
+	background:#ffffff;
+	}
+.tabOdd {
+	background:#edeff3;
+}
+.sup_attach {
+	color:#0167A2;
+	float:left;
+}
+.td_bottom_style{
+	border-bottom:1px dotted #aaabb0;
+	}
+table.supList_table{
+	color:#464646;
+	table-layout: fixed;
+	width: 100%;
+	text-align: left;
+}
+table.supList_table tr th{
+	padding-left: 4px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: bottom;
+	border-bottom: 1px solid #aaabb0;
+	background-image: url("../../images/common/table_title_cutline.gif");
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight:normal;
+}
+table.supList_table.mainTr{
+	height: 30px;
+}
+table.supList_table.mainTr td{
+	/*padding-left:12px;*/
+	cursor: pointer;
+	overflow: hidden;
+	border-bottom: 1px solid #dddbdc;
+	padding-left: 4px;
+}
+table.supList_table.mainTr:hover td{
+	background-color: #edeff3;
+	color: #40a3de;
+}
+table.supList_table.mainTr td:hover{
+	background-color: #d9dee6;
+}
+table.supList_table.detailTr{
+	background-color: #f7f7f7;
+}

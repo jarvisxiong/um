@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://xfire.codehaus.org/config/1.0">
+<service>
+<name>WarehouseService</name>
+<serviceClass>com.intelitune.nwms.xfire.WarehouseService</serviceClass>  
+<implementationClass>com.intelitune.nwms.xfire.WarehouseServiceImp</implementationClass>  
+
+</service>
+</beans>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13125"
+   name=""
+   committed-date="2009-03-02T09:35:12.234942Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/export"
+   last-author="louis_lu"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   name="jxls"
+   kind="dir"/>
+<entry
+   committed-rev="13125"
+   name="ExporterInbound.java"
+   text-time="2009-12-01T08:33:46.625000Z"
+   committed-date="2009-03-02T09:35:12.234942Z"
+   checksum="0c9cf30f5e461fb17a18aed30c26c660"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.593750Z"/>
+<entry
+   committed-rev="11723"
+   name="Exporter.java"
+   text-time="2009-12-01T08:33:46.625000Z"
+   committed-date="2009-01-16T06:42:09.530500Z"
+   checksum="9280882e3d1ae9a1d89def3fd8600d43"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.593750Z"/>
+<entry
+   committed-rev="11723"
+   name="DataSource.java"
+   text-time="2009-12-01T08:33:46.640625Z"
+   committed-date="2009-01-16T06:42:09.530500Z"
+   checksum="d40df8498ae8b2cae8eb97b0472777e1"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.609375Z"/>
+<entry
+   committed-rev="13125"
+   name="Template.java"
+   text-time="2009-12-01T08:33:46.640625Z"
+   committed-date="2009-03-02T09:35:12.234942Z"
+   checksum="a10fe25459fd47b112e002b82b034518"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.609375Z"/>
+<entry
+   committed-rev="11723"
+   name="Document.java"
+   text-time="2009-12-01T08:33:46.656250Z"
+   committed-date="2009-01-16T06:42:09.530500Z"
+   checksum="e641eb8e45c7e8eb29fb357f5b6ab8b4"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.625000Z"/>
+</wc-entries>

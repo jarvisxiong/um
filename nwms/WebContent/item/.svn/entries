@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17617"
+   name=""
+   committed-date="2009-12-18T01:55:46.065125Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/item"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14346"
+   name="modifyItemType.htm"
+   text-time="2009-12-01T08:40:37.468750Z"
+   committed-date="2009-04-03T01:53:19.911375Z"
+   checksum="1a33abcc353f9078660083b190ac5e9c"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.375000Z"/>
+<entry
+   committed-rev="14346"
+   name="addItemType.htm"
+   text-time="2009-12-01T08:40:37.468750Z"
+   committed-date="2009-04-03T01:53:19.911375Z"
+   checksum="a1e13d184416d39ba114805914facb89"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.390625Z"/>
+<entry
+   committed-rev="11935"
+   name="editInboundOrderItem.htm"
+   text-time="2009-12-01T08:40:37.468750Z"
+   committed-date="2009-01-22T01:27:17.931625Z"
+   checksum="2791b0e62f2554456ff7b4c24f58964f"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.390625Z"/>
+<entry
+   name="importList"
+   kind="dir"/>
+<entry
+   committed-rev="17617"
+   name="normalOrderInfo.htm"
+   text-time="2009-12-18T05:53:29.921875Z"
+   committed-date="2009-12-18T01:55:46.065125Z"
+   checksum="e32e7720c1057fb4e06dda576d13bd85"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:29.906250Z"/>
+<entry
+   committed-rev="16417"
+   name="addInboundOrderItem.htm"
+   text-time="2009-12-01T08:40:37.500000Z"
+   committed-date="2009-08-28T02:20:42.832500Z"
+   checksum="684cd61d2796c218aac11069bd6c5d64"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.406250Z"/>
+<entry
+   committed-rev="16417"
+   name="addOutboundOrderItem.htm"
+   text-time="2009-12-01T08:40:37.515625Z"
+   committed-date="2009-08-28T02:20:42.832500Z"
+   checksum="741649b82f30f2d7929e6e97bf273f0a"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.421875Z"/>
+<entry
+   committed-rev="13458"
+   name="materialFilter.htm"
+   text-time="2009-12-01T08:40:37.515625Z"
+   committed-date="2009-03-08T11:13:09.249125Z"
+   checksum="acadfc878191f16d36ce98f167951de4"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.421875Z"/>
+<entry
+   committed-rev="13465"
+   name="addInvoice.htm"
+   text-time="2009-12-01T08:40:37.515625Z"
+   committed-date="2009-03-08T14:11:45.530375Z"
+   checksum="499a21e4e92ad996c519d717921cc49a"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.421875Z"/>
+<entry
+   committed-rev="17045"
+   name="commitOutBoundStatePage.htm"
+   text-time="2009-12-01T08:40:37.531250Z"
+   committed-date="2009-10-20T10:10:42.674875Z"
+   checksum="b955905c145a4c349c346a176547063a"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.437500Z"/>
+<entry
+   committed-rev="16417"
+   name="modifyNum.htm"
+   text-time="2009-12-01T08:40:37.531250Z"
+   committed-date="2009-08-28T02:20:42.832500Z"
+   checksum="f728e34b2de5d8c9eb3f79c9f979ad3d"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.453125Z"/>
+<entry
+   committed-rev="11935"
+   name="orderList.htm"
+   text-time="2009-12-01T08:40:37.531250Z"
+   committed-date="2009-01-22T01:27:17.931625Z"
+   checksum="c06fc413e4b6d162eb44ea66cf776ea8"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:40:37.453125Z"/>
+</wc-entries>

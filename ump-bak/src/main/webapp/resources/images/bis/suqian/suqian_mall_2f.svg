@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="410" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="suqian_mall_2f.png" width="770" height="450" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="2001" points="51.5 203,145.5 203,145.5 210,169.5 210,169.5 203.5,193.5 203.5,193.5 225.5,266 225.5,265.5 227,302 226.5,302 259.5,287.5 260,287.5 297,302 298,302 330.5,287.5 330.5,287.5 346,310 346,310 369,289.5 369,289.5 440.5,4.5 440.5,4.5 250.5,27.5 250.5,27.5 227,52 227" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2002" points="467 382.5,467 440.5,760 440.5,760 202.5,664 202.5,664 225.5,484.5 225.5,484.5 260,510.5 260,510.5 296.5,484 296.5,484 330.5,511 330.5,511 345,499 345,499 382.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2003" points="117 128,133 152.5,129 159,125.5 167.5,124.5 175.5,124 187.5,103.5 187.5,103.5 192,89.5 192,89.5 161,100 139.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2004" points="117.5 128,143 111.5,158 136.5,133.5 152.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2005" points="134.5 96.5,158 136,184 121.5,162 80.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2006" points="162.5 80.5,191.5 67,209 109.5,183.5 121.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2007" points="191.5 67,221.5 55.5,237 99,209 110" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2008" points="222 55.5,251.5 45.5,264 90,237 98.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2009" points="252 45.5,270.5 40.5,276 66,281.5 64.5,285.5 84.5,264 90" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2010" points="283 38,292 83,321.5 77.5,314 31.5,297 35" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2011" points="314 32,321.5 77,350.5 74,345.5 27.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2012" points="346 27.5,350.5 73.5,379 72,377.5 25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2013" points="377.5 25.5,379.5 71.5,408.5 71.5,409.5 25.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2014" points="409.5 25.5,409 71.5,437.5 73.5,441.5 27" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2015" points="441.5 27.5,438 73,466 77,473 31.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2016" points="473 31,466 76,495 83,504.5 37" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2017" points="517.5 40,536 45.5,523 90.5,502 84.5,506 64.5,511 65.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2018" points="565.5 55.5,549.5 99,523.5 90,536 45.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2019" points="565.5 55.5,550 99,577 110.5,595.5 67.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2020" points="595.5 67.5,624.5 81.5,603.5 123,577.5 110.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2021" points="624.5 81.5,604 122.5,628.5 137,653 96.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2022" points="644 111.5,628.5 136.5,653 152.5,669.5 128.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2023" points="669.5 128.5,653.5 152,657.5 158,661.5 167.5,663 176,663 187.5,684 187.5,683.5 192.5,696 192.5,698 161.5,685.5 139" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2024" points="202 159,216 186,174 186,169 183,169.5 178.5,173 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2025" points="202 159.5,226.5 147,233.5 163.5,210.5 174.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2026" points="233.5 164,243.5 186,216 186.5,211 174.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2027" points="233.5 163.5,257 153.5,251 137.5,226.5 147" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2028" points="233.5 163.5,243.5 186,269.5 186,257 153.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2029" points="251 137.5,276 130,283.5 157,261.5 164.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2030" points="261.5 164.5,269.5 185.5,292 186,284 157" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2031" points="276 130,294.5 125,298 138,280 143" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2032" points="293.5 154.5,307.5 151,314 179.5,301.5 183" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2033" points="310 121,328 118,332.5 147,316.5 149" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2034" points="307.5 151.5,332.5 147,337 175,314.5 179" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2035" points="328.5 117.5,354 115,356.5 143.5,332.5 146.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2036" points="332.5 146.5,356.5 143.5,359 172.5,336.5 174.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2037" points="354 115,380.5 113,381 141.5,356.5 143" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2038" points="356.5 143,381 141.5,383 170.5,359 172.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2039" points="406.5 113,406 141.5,431 143.5,433 115" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2040" points="405.5 141.5,404 170,427.5 172.5,430.5 143.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2041" points="433 114.5,431 143.5,455.5 147,459 117.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2042" points="431 143,428 172.5,450.5 175,455 147" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2043" points="459 117.5,455 146,471 149,477 121" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2044" points="455.5 146,479.5 151,472.5 179.5,450.5 174" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2045" points="479.5 151,495 155.5,486.5 183,472 179" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2046" points="493 124.5,489.5 136.5,507 142,512 130" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2047" points="512 130,503.5 157,526 165.5,536.5 137" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2048" points="504.5 157,495 186,518 186,526 165" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2049" points="536.5 137,561 147,554 163.5,530.5 153.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2050" points="531 153.5,518 185.5,544 186,553.5 163.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2051" points="561 147.5,585.5 159,577 174,554 163.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2052" points="554 163,544 186,571 186,576.5 174.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2053" points="585.5 159,570.5 186,607 186,613 186,615.5 184.5,617 181.5,616.5 177" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2054" points="193.5 203,193.5 226.5,217 226.5,217 202.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2055" points="217 203,217 226.5,239.5 226.5,239.5 203" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2056" points="239.5 203,239.5 225.5,266 226,266 202.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2057" points="266 205,287.5 205,287.5 226.5,266 227" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2058" points="287.5 205.5,300 205,300 226.5,288 226" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2059" points="300 205,323 205,323 226,300 226.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2060" points="302 236,323 235.5,323 251.5,302 250.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2061" points="287.5 260,323 259.5,323 274.5,287.5 274.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2062" points="288 274,288 297.5,323 298,323 274" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2063" points="323 307,323 321.5,302.5 321.5,302.5 307" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2064" points="287.5 331.5,287.5 346,323.5 346,323 331" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2065" points="288.5 376.5,288.5 369,323.5 369.5,323 376,311 376.5,310.5 382,299.5 382,299 377" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2066" points="335 370,358.5 369.5,358.5 392.5,335 391.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2067" points="358.5 369.5,382 369.5,382 393,359 392.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2068" points="382 369,406 369,405.5 391,452.5 392,453 440,334.5 440,335 392,381.5 392.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2069" points="405.5 369.5,405.5 392,429.5 392.5,429 369.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2070" points="429.5 370,453 369.5,452.5 391.5,429.5 392" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2071" points="464 346,464 382.5,499 382.5,499 345.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2072" points="464 345.5,511 345.5,511 330,464 330" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2073" points="464.5 321.5,464.5 306.5,485 306.5,485 321" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2074" points="464.5 297.5,464.5 274,510.5 274,510.5 297" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2075" points="464.5 274.5,510.5 274.5,510.5 260.5,464.5 260.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2076" points="464 250.5,464 235.5,484.5 235.5,484.5 250" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2077" points="464.5 226,464.5 204.5,487.5 204.5,487.5 226" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2078" points="487.5 204.5,487.5 225.5,500 225.5,500 204" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2079" points="500.5 204.5,500.5 226,522 226,522 204" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2080" points="522 202.5,522 225,534.5 225,534.5 202.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2081" points="534.5 202.5,548 202.5,548 219.5,535 219.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2082" points="571 203,570.5 225.5,594.5 225.5,594.5 202.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2083" points="594.5 202.5,594.5 225,618 225,618 202.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2084" points="618 202.5,641.5 202.5,641.5 225.5,618 225.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="2085" points="642 202.5,642 225,664 225,664 203" fill="#000000" stroke="none" stroke-opacity="0" />
+</svg>

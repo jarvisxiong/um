@@ -1,0 +1,105 @@
+
+.ellipsisDiv{
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 80%;
+	text-overflow:ellipsis;
+	height:24px;
+	line-height: 24px;
+}
+.ellipsisDiv_full{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	height:24px;
+	line-height: 24px;
+}
+a[title$=".doc"] ,a[title$=".docx"]{
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -108px;
+}
+a[title$=".xls"],a[title$=".xlsx"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right 0;
+}
+a[title$=".pdf"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -72px
+}
+a[title$=".mp3"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -54px
+}
+a[title$=".swf"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -18px
+}
+a[title$=".rar"],a[title$=".zip"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -90px
+}
+a[title$=".jpg"],a[title$=".gif"],a[title$=".png"],a[title$=".tif"] {
+	padding-right:18px;
+	padding-bottom:3px;
+	background:url(../../images/common/icon.png) no-repeat ;
+	background-position:right -36px
+}
+
+.download_file{
+	background-image:url(../../images/res/download_file.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	padding-left:27px;
+	cursor: pointer;
+}
+.upload_file{
+	background-image:url(../../images/res/upload_file.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	padding-left:27px;
+	cursor: pointer;
+}
+.lock_file{
+	background-image:url(../../images/res/lock_file.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	padding-left:27px;
+	cursor: pointer;
+}
+.lockdown_file{
+	background-image:url(../../images/res/lockdow_file.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	padding-left:27px;
+	cursor: pointer;
+} 
+.unlock_file{
+	background-image:url(../../images/res/unlock_file.gif);
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	padding-left:27px;
+	cursor: pointer;
+}
+
+.mailFile {
+	cursor:pointer;
+	opacity:0;
+	width:100px;
+	height: 16px;
+}
+.mailBlueText{
+	color: #0167a2;
+	cursor: pointer;
+}

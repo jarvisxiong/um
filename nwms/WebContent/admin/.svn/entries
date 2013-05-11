@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16899"
+   name=""
+   committed-date="2009-09-22T04:29:32.122250Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/admin"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14883"
+   name="ajax-CheckPasswordFirst.htm"
+   text-time="2009-12-01T08:40:36.578125Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="949cee8a0a1779e353dec342ff82a700"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.906250Z"/>
+<entry
+   committed-rev="14885"
+   name="userInfo.htm"
+   text-time="2009-12-01T08:40:36.578125Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="e55bda07fe67117cca64ce8204d1a21a"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.921875Z"/>
+<entry
+   committed-rev="14881"
+   name="welcome.htm"
+   text-time="2009-12-01T08:40:36.593750Z"
+   committed-date="2009-05-07T08:36:53.988625Z"
+   checksum="500df713e921cb94763ff37dc0d21d13"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.921875Z"/>
+<entry
+   committed-rev="14883"
+   name="customerList.htm"
+   text-time="2009-12-01T08:40:36.593750Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="103d118c0a9cf1a322e1c8db59a4aed0"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.937500Z"/>
+<entry
+   committed-rev="14885"
+   name="user-include.htm"
+   text-time="2009-12-01T08:40:36.609375Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="6e98fac0c5cf7cda3ba508cb09412c25"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.937500Z"/>
+<entry
+   committed-rev="14883"
+   name="editUserInfo.htm"
+   text-time="2009-12-01T08:40:36.609375Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="cbb4852962740b518f1983e01da198b6"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.937500Z"/>
+<entry
+   committed-rev="14883"
+   name="access.htm"
+   text-time="2009-12-01T08:40:36.609375Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="2158cd8c7b3921824533edba5d9f1fbb"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.015625Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="14883"
+   name="accessName.htm"
+   text-time="2009-12-01T08:40:36.625000Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="c40cbfe4ff3f5836335f05c449faad08"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.031250Z"/>
+<entry
+   committed-rev="14883"
+   name="ajax-RoleResourceTable.htm"
+   text-time="2009-12-01T08:40:36.625000Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="90e8291866bd6cb7ed5089ce7e833d11"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.031250Z"/>
+<entry
+   committed-rev="14885"
+   name="userList.htm"
+   text-time="2009-12-01T08:40:36.625000Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="8ae2011202078c9b118f3e1132b6d700"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.046875Z"/>
+<entry
+   committed-rev="14885"
+   name="ResourceMapping.xml"
+   text-time="2009-12-01T08:40:36.656250Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="55fb72ba6b2e6560d8d888405b42ac9b"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.062500Z"/>
+<entry
+   committed-rev="14883"
+   name="accessError.htm"
+   text-time="2009-12-01T08:40:36.640625Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="17d7fcdb27e7850115fd4a1983405409"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.046875Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="14885"
+   name="userName.htm"
+   text-time="2009-12-01T08:40:36.671875Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="8c3c1b057cd72af76388ea96c6d49260"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.390625Z"/>
+<entry
+   committed-rev="14883"
+   name="ajax-CheckUserCreate.htm"
+   text-time="2009-12-01T08:40:36.687500Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="949cee8a0a1779e353dec342ff82a700"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.406250Z"/>
+<entry
+   committed-rev="14883"
+   name="ajax-CheckPassword.htm"
+   text-time="2009-12-01T08:40:36.687500Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="949cee8a0a1779e353dec342ff82a700"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.421875Z"/>
+<entry
+   committed-rev="14883"
+   name="acessDetail.htm"
+   text-time="2009-12-01T08:40:36.718750Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="d18ca0b32ff10d35744ae80b04d0b2bb"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.421875Z"/>
+<entry
+   committed-rev="14883"
+   name="access-include.htm"
+   text-time="2009-12-01T08:40:36.734375Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="4130e1886fdf0e623f2178991aa94fec"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.421875Z"/>
+<entry
+   committed-rev="14883"
+   name="editUser.htm"
+   text-time="2009-12-01T08:40:36.734375Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="c0cfb935a72f0a8f0a31df57878ccc0f"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.437500Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="16899"
+   name="addUser.htm"
+   text-time="2009-12-01T08:40:36.734375Z"
+   committed-date="2009-09-22T04:29:32.122250Z"
+   checksum="2e2bbcc950ee58c6058d1556973fc50b"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:40:36.562500Z"/>
+</wc-entries>

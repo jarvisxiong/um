@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17553"
+   name=""
+   committed-date="2009-12-11T02:23:57.778260Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/ccos/model"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="13819"
+   name="OrderStatus.java"
+   text-time="2009-12-01T08:34:07.203125Z"
+   committed-date="2009-03-18T07:46:40.494107Z"
+   checksum="0204fb227ffd7edd8ab4b99fc0ae0ee3"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:34:07.156250Z"/>
+<entry
+   committed-rev="17553"
+   name="WmsOrder.java"
+   text-time="2009-12-18T05:53:27.687500Z"
+   committed-date="2009-12-11T02:23:57.778260Z"
+   checksum="7d4c6132f429704e888c0ff76f88661f"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.546875Z"/>
+<entry
+   committed-rev="13819"
+   name="WmsOrderStatus.java"
+   text-time="2009-12-01T08:34:07.218750Z"
+   committed-date="2009-03-18T07:46:40.494107Z"
+   checksum="89378074aaa9a84faa88a5c1e2b78641"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:34:07.156250Z"/>
+<entry
+   committed-rev="17553"
+   name="InttJobFieldCode.java"
+   text-time="2009-12-18T05:53:27.687500Z"
+   committed-date="2009-12-11T02:23:57.778260Z"
+   checksum="e251fd1963d84ce9a3ff22372848915f"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.609375Z"/>
+<entry
+   committed-rev="14476"
+   name="BasicOrder.java"
+   text-time="2009-12-01T08:34:07.234375Z"
+   committed-date="2009-04-09T08:55:13.947125Z"
+   checksum="6e3309e7009448a90c78c8f52a5ac393"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:34:07.187500Z"/>
+<entry
+   committed-rev="17553"
+   name="InttUser.java"
+   text-time="2009-12-18T05:53:27.703125Z"
+   committed-date="2009-12-11T02:23:57.778260Z"
+   checksum="2190619f27b3d2a40f36fea0ed9e89a5"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.656250Z"/>
+<entry
+   committed-rev="17553"
+   name="InttJobMode.java"
+   text-time="2009-12-18T05:53:27.703125Z"
+   committed-date="2009-12-11T02:23:57.778260Z"
+   checksum="a12640832fb3bda666429d250f1f9216"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.671875Z"/>
+</wc-entries>

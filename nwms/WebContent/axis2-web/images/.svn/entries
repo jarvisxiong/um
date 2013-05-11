@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11264"
+   name=""
+   committed-date="2008-12-31T06:15:45.493500Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/axis2-web/images"
+   last-author="gong_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="11264"
+   name="axis.jpg"
+   text-time="2009-12-01T08:40:40.531250Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="6f1444d7874d767a6c2d02900c7bc09d"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.468750Z"/>
+<entry
+   committed-rev="11264"
+   name="Thumbs.db"
+   text-time="2009-12-01T08:40:40.546875Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="ada3b7d92e45b39e676c28045b612bc5"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.484375Z"/>
+<entry
+   committed-rev="11264"
+   name="axis.gif"
+   text-time="2009-12-01T08:40:40.546875Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="43630f84911e3f741e4f69c0933b7258"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.500000Z"/>
+<entry
+   committed-rev="11264"
+   name="asf-logo.gif"
+   text-time="2009-12-01T08:40:40.562500Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="83fa69bb142b2d213d437be46abd64c5"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.500000Z"/>
+<entry
+   committed-rev="11264"
+   name="axis_l.jpg"
+   text-time="2009-12-01T08:40:40.578125Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="830fb825643b5996062aba8a78e3bf24"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.515625Z"/>
+</wc-entries>

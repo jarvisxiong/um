@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10909"
+   name=""
+   committed-date="2008-12-16T09:35:13.446750Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/assets/js"
+   last-author="gong_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="10909"
+   name="prototype.js"
+   text-time="2009-12-01T08:40:42.484375Z"
+   committed-date="2008-12-16T09:35:13.446750Z"
+   checksum="b59442933e2c3c3e7fbd55c47bd2e33c"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:42.453125Z"/>
+<entry
+   committed-rev="10909"
+   name="rico.js"
+   text-time="2009-12-01T08:40:42.500000Z"
+   committed-date="2008-12-16T09:35:13.446750Z"
+   checksum="07e1e4a2e877598097c2db60ae283594"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:42.468750Z"/>
+<entry
+   committed-rev="10909"
+   name="imports.js"
+   text-time="2009-12-01T08:40:42.500000Z"
+   committed-date="2008-12-16T09:35:13.446750Z"
+   checksum="eef0a93df3a1d33dec3148bd85d16446"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:42.468750Z"/>
+</wc-entries>

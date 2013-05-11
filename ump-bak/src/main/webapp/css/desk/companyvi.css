@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	margin: 0;
+	padding: 0px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+.wrap { height: 490px; overflow: auto; padding: 2px; }
+
+.title_bar{
+	height: 29px;
+	line-height: 29px;
+	background-color: #eee;
+	font-size: 14px;
+	border-bottom: 1px solid #5a5a5a;
+}
+
+.vi_left {
+	float:left;
+	height:430px;
+	margin-left:2px;
+	width:150px;
+	text-align: left;
+}
+
+.vi_right {
+	margin-left: 155px;
+	padding: 0 3px;
+	height: 430px;
+}
+
+.folder_title { 
+	font-weight: bold; 
+	font-size: 15px; 
+	height: 30px; 
+	line-height: 30px;
+	padding-left: 8px; 
+}
+
+.right_container {
+	margin-left: 1px;
+	margin-right: 1px;
+	display: block;
+}
+
+.pager_style {
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	float: right;
+	margin-right: 5px;
+}
+
+.btn_add {
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/plan/btn_add.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+}
+.btn_add:hover {
+	background-image: url('../../images/plan/btn_add_hover.gif');
+}
+.btn_edit {
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/plan/btn_edit.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+}
+.btn_edit:hover {
+	background-image: url('../../images/plan/btn_edit_hover.gif');
+}
+.btn_hide {
+	height: 24px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/plan/btn_full.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+}
+.btn_hide:hover{
+	background-image: url('../../images/plan/btn_full_hover.gif');
+}
+.btn_add_file {
+	height: 24px;
+	line-height: 26px;
+	background-color: transparent;
+	background-image: url('../../pics/companyvi/btn_addfile.gif');
+	background-repeat:no-repeat;
+	background-position: left center;
+	cursor:pointer;
+	padding-left:26px;
+	text-align: left;
+	width: 90px;
+}
+.btn_add_file:hover {
+	background-image: url('../../pics/companyvi/btn_addfile_hover.gif');
+}
+.corner_t_l {
+	background:url("../../pics/email/mail_corner_tl.gif") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:5px;
+	width:5px;
+}
+.corner_t_c {
+	border-top:1px solid #DBDBDB;
+	height:4px;
+	margin:0 5px;
+}
+.corner_t_r {
+	background:url("../../pics/email/mail_corner_tr.gif") no-repeat scroll 0 0 transparent;
+	float:right;
+	height:5px;
+	width:5px;
+}
+.corner_b_l {
+	background:url("../../pics/email/mail_corner_bl.gif") no-repeat scroll 0 0 transparent;
+	float:left;
+	height:5px;
+	width:5px;
+}
+.corner_b_c {
+	border-bottom:1px solid #DBDBDB;
+	height:4px;
+	margin:0 5px;
+}
+.corner_b_r {
+	background:url("../../pics/email/mail_corner_br.gif") no-repeat scroll 0 0 transparent;
+	float:right;
+	height:5px;
+	width:5px;
+}
+.file_list_div {
+	height:100%;
+	width: 100%;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.file_list_left_border {
+	overflow: hidden; background-color: #DBDBDB; width: 1px; font-size: 0; float: left;height: 100%;
+}
+.file_list_right_border {
+	overflow: hidden; background-color: #DBDBDB; width: 1px; font-size: 0; float: right;height: 100%;
+}
+.inform_div {
+	color: #6BAD42; height: 300px; line-height: 300px; font-size: 16px; font-weight: bold; text-align: center;
+}
+.file_list_table {
+	table-layout: fixed;
+	width: 100%;
+}
+.file_list_table tr.header th {
+	background:url("../../pics/email/mail_title_line_temphight.jpg") no-repeat scroll right bottom transparent;
+	border-bottom:1px solid #DBDBDB;
+	color:#5B6B83;
+	font-size:14px;
+	height:20px;
+	padding-left: 10px;
+	vertical-align: bottom;
+	text-align: left;
+}
+.file_list_table tr.data:hover {
+	background-color: #F3F3F3;
+	color: #40a3de;
+}
+.file_list_table tr.data:hover td {
+	color: #40a3de;
+}
+.file_list_table tr.data:hover td a {
+	color: #40a3de;
+}
+.file_list_table tr.data td {
+	border-bottom:1px dashed #E3E3E3;
+	color:#161616;
+	height:30px;
+	padding-left: 10px;
+}
+.file_list_table tr.data td a {
+	color: #161616;
+}
+.file_list_table tr.data td a:hover {
+	color: #0167a2;
+}
+
+.func_icon {
+	background-image:url("../../pics/meeting/btn_func.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	width:37px;
+}
+.func_icon:hover {
+	background:url("../../pics/meeting/btn_func_hover.gif");
+	background-position: left top;
+	background-repeat: no-repeat;
+	line-height: 20px;
+}
+.func_icon_red {
+	background:url("../../pics/meeting/btn_func_red.gif") no-repeat scroll 0 0 transparent;
+	color:#FFFFFF;
+	cursor:pointer;
+	height:21px;
+	line-height:21px;
+	text-align:center;
+	width:37px;
+	text-align: center;
+}
+.func_icon_red:hover {
+	background:url("../../pics/meeting/btn_func_red_hover.gif") no-repeat scroll 0 0 transparent;
+}
+#parentFolderDiv {
+	margin-top: 10px;
+	margin-left: 5px;
+}

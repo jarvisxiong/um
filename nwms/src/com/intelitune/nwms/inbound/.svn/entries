@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17580"
+   name=""
+   committed-date="2009-12-15T03:20:32.187500Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/nwms/inbound"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="12809"
+   name="ExamineGood.java"
+   text-time="2009-12-01T08:33:51.109375Z"
+   committed-date="2009-02-24T05:24:10.023105Z"
+   checksum="3565085058cdd05662e03e3ee1ec97ba"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:49.921875Z"/>
+<entry
+   committed-rev="13377"
+   name="ShowBarCode.java"
+   text-time="2009-12-01T08:33:51.125000Z"
+   committed-date="2009-03-05T12:37:50.952250Z"
+   checksum="e942ec7919024cec3da8ef6208073bb3"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:49.921875Z"/>
+<entry
+   committed-rev="14172"
+   name="ShowStorageResult.java"
+   text-time="2009-12-01T08:33:51.125000Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="28e0f5e70969fc985caaa494f3baec2e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:49.937500Z"/>
+<entry
+   committed-rev="14172"
+   name="SearchCheckItems.java"
+   text-time="2009-12-01T08:33:51.140625Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="d262ae2a4c03dfea4509bef9787290e2"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:49.937500Z"/>
+<entry
+   committed-rev="14956"
+   name="TableInbound.java"
+   text-time="2009-12-01T08:33:51.140625Z"
+   committed-date="2009-05-13T09:24:48.171875Z"
+   checksum="8ecdc5836d72379ebcf212915b021c3d"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.109375Z"/>
+<entry
+   committed-rev="14507"
+   name="TxtData.java"
+   text-time="2009-12-01T08:33:51.140625Z"
+   committed-date="2009-04-10T07:42:38.072125Z"
+   checksum="ab948f8a87ecb1f01ed279cf2770f9ba"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.125000Z"/>
+<entry
+   committed-rev="13271"
+   name="DirectInboundModel.java"
+   text-time="2009-12-01T08:33:51.156250Z"
+   committed-date="2009-03-04T08:38:38.796000Z"
+   checksum="4687502b921d55286256d91d2b58b7f9"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.125000Z"/>
+<entry
+   committed-rev="14172"
+   name="ShowCheckResult.java"
+   text-time="2009-12-01T08:33:51.156250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="5c6284ef19d4e284f6071ee6a05f0a57"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.390625Z"/>
+<entry
+   committed-rev="16359"
+   name="StorageGood.java"
+   text-time="2009-12-01T08:33:51.156250Z"
+   committed-date="2009-08-26T01:09:07.254375Z"
+   checksum="0a6254f51b62a727d3f1bf926d38565e"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.218750Z"/>
+<entry
+   committed-rev="14883"
+   name="DoAutoStorage.java"
+   text-time="2009-12-01T08:33:51.187500Z"
+   committed-date="2009-05-07T08:37:47.488625Z"
+   checksum="ca0a4907cc038425371214f8d0df05b2"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.562500Z"/>
+<entry
+   committed-rev="12809"
+   name="ExamineGoodModel.java"
+   text-time="2009-12-01T08:33:51.171875Z"
+   committed-date="2009-02-24T05:24:10.023105Z"
+   checksum="1703bb1bfbee799315904424b74a7b16"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.406250Z"/>
+<entry
+   committed-rev="15405"
+   name="SearchInboundOrder.java"
+   text-time="2009-12-01T08:33:51.171875Z"
+   committed-date="2009-06-08T06:51:55.232000Z"
+   checksum="07e391ceede9a88fe8ee8c0d1823592c"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.406250Z"/>
+<entry
+   committed-rev="17563"
+   name="UpLoadCheckItems.java"
+   text-time="2009-12-18T05:53:25.968750Z"
+   committed-date="2009-12-11T05:35:02.413500Z"
+   checksum="d468b22b5fcd1be6beceb0ccd7e39dec"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:25.953125Z"/>
+<entry
+   committed-rev="13271"
+   name="ParseDirectInbound.java"
+   text-time="2009-12-01T08:33:51.203125Z"
+   committed-date="2009-03-04T08:38:38.796000Z"
+   checksum="ab6bcfd87f1f981fc0f8c187d197167f"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.578125Z"/>
+<entry
+   committed-rev="17580"
+   name="DoStorage.java"
+   text-time="2009-12-18T05:53:25.984375Z"
+   committed-date="2009-12-15T03:20:32.187500Z"
+   checksum="b989ea3a571c5808c8d735f61445c0b1"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:25.968750Z"/>
+<entry
+   committed-rev="15633"
+   name="DirectInbound.java"
+   text-time="2009-12-01T08:33:51.218750Z"
+   committed-date="2009-06-22T07:51:10.748625Z"
+   checksum="615fa940756ffb83205417a0f0d65d61"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.796875Z"/>
+<entry
+   committed-rev="14507"
+   name="ReadInboundTxt.java"
+   text-time="2009-12-01T08:33:51.234375Z"
+   committed-date="2009-04-10T07:42:38.072125Z"
+   checksum="57f27c768ac3694268438d5b7607fc2c"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.796875Z"/>
+<entry
+   committed-rev="17299"
+   name="InboundOrderItemDetail.java"
+   text-time="2009-12-01T08:33:51.250000Z"
+   committed-date="2009-11-10T07:43:16.012250Z"
+   checksum="6e258d79accc763518b770e037ccc0b4"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:33:50.890625Z"/>
+<entry
+   committed-rev="12809"
+   name="StorageGoodModel.java"
+   text-time="2009-12-01T08:33:51.250000Z"
+   committed-date="2009-02-24T05:24:10.023105Z"
+   checksum="e37d3ac46ec8700f775d35862eb65ff0"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:51.109375Z"/>
+</wc-entries>

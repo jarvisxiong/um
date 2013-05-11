@@ -1,0 +1,98 @@
+/* CSS Document */
+.tab {
+height:23px;
+border:0px solid #8DB2E3;
+border-bottom:0;
+background-image:url(../images/tab/tab_bg.png);
+padding:1px 2px 0;
+position:relative;
+}
+.tab-line {
+height:2px;
+background-color:#DEECFD;
+border-left:1px solid #8DB2E3;
+border-right:1px solid #8DB2E3;
+line-height:0;
+overflow:hidden;
+}
+.tab-title {
+float:left;
+height:22px;
+line-height:22px;
+display:none;
+margin-right:2px;
+}
+.tab-title div,.tab-title-up div {
+float:left;
+}
+.tab-title .tab-title-left {
+overflow:hidden;
+width:2px;
+background-image:url(../images/tab/tab_title_left.png);
+}
+.tab-title .tab-title-center {
+	font-size:12px;
+width:92px;
+padding:0 4px;
+background-image:url(../images/tab/tab_title_bg.png);
+cursor:pointer;
+}
+.tab-title .tab-title-right {
+overflow:hidden;
+width:2px;
+background-image:url(../images/tab/tab_title_right.png);
+}
+.tab-title .tab-close {
+width:14px;
+height:14px;
+position: absolute;
+background-image:url(../images/tab/close.gif);
+display:inline;
+margin-left:-16px;
+cursor:pointer;
+line-height:0;
+overflow:hidden;
+}
+.tab-title-up .tab-close {
+width:14px;
+height:14px;
+position: absolute;
+background-image:url(../images/tab/close-up.gif);
+display:inline;
+margin-left:-16px;
+cursor:pointer;
+line-height:0;
+overflow:hidden;
+}
+.tab-title-up {
+float:left;
+height:22px;
+line-height:22px;
+display:none;
+margin-right:2px;
+border-bottom:1px solid #DEECFD;
+}
+.tab-title-up .tab-title-left {
+	overflow:hidden;
+width:2px;
+background-image:url(../images/tab/tab_title_left_up.png);
+}
+.tab-title-up .tab-title-center {
+	font-size:12px;
+width:92px;
+padding:0 4px;
+background-image:url(../images/tab/tab_title_bg_up.png);
+cursor:pointer;
+}
+.tab-title-up .tab-title-right {
+	overflow:hidden;
+width:2px;
+background-image:url(../images/tab/tab_title_right_up.png);
+}
+.tab-content {
+border:1px solid #8DB2E3;
+height: 100%;
+}
+.tab-iframe {
+display:none;
+}

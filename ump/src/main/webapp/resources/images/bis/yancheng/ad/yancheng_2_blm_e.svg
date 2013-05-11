@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="180" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible" xmlns="http://www.w3.org/2000/svg">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="yancheng_2_blm_e.jpg" width="770" height="180" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="E01" points="54 61.5,54 74.5,71.5 74.5,71.5 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E02" points="98 62,98 74,114 74,114 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E03" points="141.5 62,141.5 74.5,163 74.5,163 61" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E04" points="185.5 62,185.5 75,208 75,208 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E05" points="230 62,230 75,248 75,248 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E06" points="286 32.5,286 61.5,306 61.5,306 32.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E07" points="312.5 32.5,312.5 61.5,332 61.5,332 32.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E08" points="338 33,338 61.5,358 61.5,358 32.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E09" points="365 33,365 61.5,404 61.5,404 32" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E10" points="410 32.5,410 61.5,430 61.5,430 32.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E11" points="436.5 33,436.5 62,458 62,458 33" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E12" points="462 33.5,462 62,484.5 62,484.5 33" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E13" points="520.5 61.5,520.5 74.5,538 74.5,538 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E14" points="562 62,562 75,582 75,582 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E15" points="609 62,609 74.5,626 74.5,626 61.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E16" points="653 62.5,653 74.5,670 74.5,670 62" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="E17" points="697 62,697 74,714 74,714 62" fill="#000000" stroke="none" stroke-opacity="0" />
+
+</svg>
+

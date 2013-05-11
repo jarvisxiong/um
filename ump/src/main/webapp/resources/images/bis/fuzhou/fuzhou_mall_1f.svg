@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="410" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="fuzhou_mall_1f.png" width="770" height="410" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="1F001" points="682.5 138.625,691.25 146.5,709 125.5,699.375 117.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F002" points="699.375 118,689.625 110,673.625 131.25,682.5 138.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F003" points="676.625 127.375,657.625 113.25,662.75 108.5,668.5 106.5,675.375 106.375,680.875 107.625,687.75 112.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F004" points="627 72.125,617.625 88.75,638 100.5,640 95.25,640.375 90.125,639.25 85.25,637.5 80.875,633.875 76.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F005" points="628.125 69.875,615.125 93.375,604.75 87.75,617.125 64" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F006" points="617 64.125,606 58.375,594 82.625,604.875 87.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F007" points="594.875 53.625,606 58.5,594.25 82.5,583.875 77.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F008" points="584 77.75,573.5 73.5,583.375 48.75,595 53.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F009" points="571.875 44.375,583.375 49,573.75 73.5,562.375 69" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F010" points="560.25 39.875,571.875 44.5,562.5 69,551.5 64.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F011" points="549 36.125,560.375 39.875,553.125 59.5,542 56.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F012" points="549 36.25,536.5 32.75,530.75 52.5,542.125 56" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F013" points="536.625 32.875,529.25 58.375,518.125 54.875,525.25 29.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F014" points="513.25 26.125,525.375 29.5,518.375 54.875,507.125 51.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F015" points="513.375 26.375,501.5 23.5,495.5 49,507.25 51.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F016" points="501.75 23.625,489.25 20.875,484.25 46.75,495.625 49.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F017" points="489.375 21,476.5 19,472.75 45.125,484.375 46.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F018" points="472.875 45.125,476.625 19.125,464.5 17.25,461.25 43.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F019" points="464.75 17.25,452.625 15.75,449.625 42.125,461.5 43.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F020" points="450 42.125,438.25 41,440.125 14.375,452.875 15.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F021" points="440.125 14.5,428.125 13.375,426.5 40.5,438.25 41" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F022" points="426.5 40.375,415 39.875,415.625 12.75,428.375 13.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F023" points="391 13.125,391.75 39.625,380 40.25,378.875 13.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F024" points="379 13.25,366.875 14.125,368.5 41.375,380 40.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F025" points="368.75 41.375,356.75 42.125,354.125 15.25,367.125 14.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F026" points="354.25 15.375,357 42.125,345.125 43.5,341.875 16.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F027" points="342.125 16.625,345.25 43.625,334 45,329.625 18.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F028" points="329.875 18.625,334 45,322.75 46.75,317.625 20.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F029" points="317.875 20.625,305.625 23.125,311.125 48.75,323 46.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F030" points="305.75 23.125,293.375 26.375,299.5 51.25,311.5 48.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F031" points="293.375 26.125,281.75 29.25,288.375 55,299.75 51.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F032" points="281.75 29.125,269.625 32.625,277.375 58.5,288.625 54.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F033" points="269.625 32.375,257.875 36.125,264.5 56.375,275.875 52.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F034" points="257.75 36.125,264.625 56.375,253.75 60.5,246.5 40" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F035" points="246.625 40,234.875 44.25,244.25 69.25,255.5 64.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F036" points="244.5 69.25,233.625 73.625,223.375 48.625,235 44.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F037" points="223.5 48.625,233.625 73.625,223.125 78.375,211.875 53.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F038" points="212.125 53.625,200.875 58.75,212.375 83.125,223.125 78.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F039" points="212.5 83,201.875 88.25,189.625 64.25,200.875 58.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F040" points="189.75 64.375,179 69.625,191.625 93.625,201.875 88" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F041" points="179.875 71.625,189 88.5,168.75 100.25,167 95.25,167 89.875,168 85,170.25 80.75,173.375 76.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F042" points="127.875 106.5,122.875 108.375,118.25 111.75,130.125 127,148.625 113.5,146.125 110.5,142.125 107.875,137.25 106.625,131.5 106" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F043" points="117.125 110.25,133.75 131.5,124.625 138.875,107.5 118" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F044" points="107.625 118.125,98.625 125.875,115.5 146.25,124.625 138.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F045" points="115.5 146.125,124.375 138.75,134.625 151.625,126 159" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F046" points="124.5 138.875,134.5 151.625,143.5 144.5,133.75 131.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F047" points="130.25 126.875,142 142.625,146.5 138,149.25 133.5,151.125 129.125,152.125 123.625,151.625 118.375,148.625 113.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F048" points="189 88.375,197.75 105.75,189 109.375,180 109.25,172.125 104.625,168.875 100" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F049" points="191.625 93.5,198.875 107.75,209 102.5,202.125 87.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F050" points="202.125 87.875,209 102.375,219.25 97.375,212.5 83.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F051" points="212.375 83.125,219.25 97.25,229.625 92.25,223 78.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F052" points="223.125 78.375,229.625 92.125,239.875 88,233.75 73.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F053" points="233.875 73.5,239.75 87.625,250.25 83.625,244.5 69" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F054" points="244.5 69,250.25 83.5,260.875 80,255.5 64.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F055" points="257.625 70.875,271.75 66.375,274.375 75,260.75 79.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F056" points="277.5 58.375,281.875 73.125,293 69.875,288.75 54.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F057" points="288.625 54.75,299.875 51.25,303.5 67.25,292.875 69.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F058" points="299.75 51.125,303.375 67.125,314.125 64.625,311.375 48.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F059" points="311.375 48.625,323 46.5,325.25 62.5,314.125 64.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F060" points="325.125 62.375,322.875 46.5,334.125 45,336.25 60.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F061" points="334.125 44.875,345.75 43.375,347.5 59.125,336.125 60.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F062" points="345.75 43.375,357.375 42.125,358.375 57.875,347.375 59.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F063" points="357.375 42.125,369.25 41.375,370.125 57,358.25 57.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F064" points="369.25 41.25,380.25 40.25,381 56.375,370 56.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F065" points="380.125 40.25,391.875 39.75,392.25 56,380.875 56.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F066" points="415.125 40,414.5 56.375,426 56.75,426.125 40.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F067" points="426.25 40.375,438.25 40.875,437 57.375,426 56.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F068" points="436.75 57.125,438.25 41,449.75 42.25,448.375 58.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F069" points="448.5 58.125,449.75 42.125,461.25 43.5,459.375 59.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F070" points="459.25 59.375,461.125 43.375,472.875 45.125,470.5 61.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F071" points="470.375 61,472.75 45.125,484.25 46.875,481.875 63" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F072" points="481.625 62.75,484.125 46.75,495.625 49.125,492.375 65" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F073" points="495.5 49.125,507.125 51.875,503.5 67.625,492.375 65.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F074" points="503.375 67.375,507.125 51.625,518.375 54.875,514.375 70.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F075" points="514.375 70.125,518.25 54.875,529.25 58.25,524.75 73.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F076" points="535.75 66.875,549.25 71.25,546 80.5,532.375 76" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F077" points="551.75 64.5,546 80.125,556.625 83.875,562.875 69.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F078" points="567 88.25,573.75 73.375,562.625 69.125,556.625 83.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F079" points="567 88,573.625 73.5,584 77.75,577.5 92.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F080" points="577.5 92.75,583.875 77.75,594.25 82.5,587.375 97.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F082" points="587.375 97.5,594 82.625,605.125 87.75,597.5 102.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F083" points="597.375 102.375,605 88,615.125 93.375,607.125 108.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F083" points="617.625 88.625,608.5 105.5,615.75 108.875,624.125 109.875,629.625 108.5,633.625 105.5,635.75 103.25,637.875 100.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F084" points="676.625 127.25,664.875 142.375,659.75 138.125,657.25 133.25,655.5 128.125,654.625 122.875,655.375 118.375,658.125 113.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F085" points="673.625 131.125,682.5 138.375,671.75 151.375,663.125 144.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F086" points="682.375 138.5,691.25 146.375,680.625 158.625,671.75 151.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F087" points="587.25 122.75,577.25 142,556.375 131.5,565 112.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F088" points="558.5 109.25,554.25 118.375,542.875 113.25,547.125 104" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F089" points="538.5 101.625,527.5 132.5,518.25 129.375,528.375 98.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F090" points="528.375 98.125,518.25 129.25,509.125 126.125,518.25 94.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F091" points="518.25 95.125,509.25 126.25,499.625 123.75,508.125 92.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F092" points="508.25 92.375,497.75 90.125,490.375 121,499.75 123.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F093" points="490.5 121,480.375 119,487 87.75,498.125 90.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F094" points="487 87.875,476.875 85.5,470.875 117.125,480.75 119.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F095" points="465.25 90.25,475.75 91.5,470.875 117,461.625 115.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F096" points="461.75 115.5,465.375 90.375,455.25 89.375,451.875 114.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F097" points="434.25 86.25,447 87.25,446.625 95.25,444 95.125,442.875 113.375,432.75 112.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F098" points="414.25 85.25,434.125 86.5,433.375 101.125,413.875 101" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F099" points="414 100.875,433.5 100.875,432.875 112.375,413.75 111.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F100" points="373.5 101.25,392.875 100.625,393.125 111.875,374.125 112.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F101" points="392.75 85.125,392.875 100.625,373.5 101.375,372.375 86" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F102" points="360.25 87,372.5 86,374.25 112.5,364 113,363.25 95.125,360.375 95.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F103" points="341.5 89.875,351.75 89.25,354.75 114.75,344.875 115.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F104" points="341.625 90,330.75 91.375,335.375 116.75,345 115.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F105" points="329.625 85.25,335.5 116.625,325.75 118.875,319.125 87.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F106" points="319.125 87.625,325.875 119,316.375 121.375,309.25 90" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F107" points="309.375 90,299.125 92.875,306.875 123.75,316.5 121.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F108" points="299 92.625,288.5 95.625,297.5 126.5,307.125 123.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F109" points="297.5 126.375,288.625 95.375,278.125 98.75,288.125 129.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F110" points="288.25 129.375,278.25 98.625,268.5 102.25,279.125 132.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F111" points="248.25 109,252.375 118.625,263.5 113.875,259.75 104.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F112" points="219.375 122.375,241.75 112.125,248.25 127.125,250.5 132.375,246.875 133.875,229.625 142.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F113" points="248 133.25,252.25 143.625,237.875 150.375,234.25 147.125,229.625 142.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F114" points="252.25 143.5,258.5 157.875,252.125 157.875,246.125 157.375,241 153.625,237.75 150.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F115" points="248.125 133.25,257.125 130.25,268.375 157.5,258.25 157.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F116" points="257.125 130.375,267 127.375,277.875 156.5,268.375 157.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F117" points="267 127.5,276.25 124.25,287.625 155.625,277.875 156.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F118" points="279.375 132.75,287.625 155.5,296.375 154.375,288.25 129.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F119" points="288.375 129.5,297.625 126.375,305.625 152.375,296.5 154.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F120" points="297.625 126.375,307.125 123.625,314.375 150.125,305.5 152.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F121" points="307 123.625,316.75 121.375,323.125 147.625,314.25 150.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F122" points="316.75 121.25,326.125 118.75,331.5 145.375,323.125 147.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F123" points="326.125 118.875,336.625 116.375,340.5 143.5,331.5 145.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F124" points="340.375 143.375,349.25 142.375,345.375 115.75,336.5 116.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F125" points="349.125 142.375,358.5 141.875,354.875 114.5,345.25 115.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F126" points="356.25 125.125,365.5 124.625,367.125 140.75,358.375 141.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F127" points="364.375 113,366.625 140.75,376.375 139.875,374.75 112.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F128" points="374.625 112.25,393.25 111.875,393.125 122.875,375.375 123.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F129" points="375.375 123,393.125 122.875,393.375 131.125,375.875 131.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F130" points="375.875 131.25,393.25 131,393.75 139,376.25 139.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F131" points="413.875 111.75,432.375 112.25,432 123,413.5 122.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F132" points="413.625 122.875,431.75 122.75,431.375 131,413.375 131" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F133" points="413.5 131,412.875 138.625,430.875 139.625,431.375 130.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F134" points="432.5 112.375,430.875 139.5,440.25 140.5,441.625 113" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F135" points="441.125 124.25,450.75 125.375,449 141.375,440.25 140.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F136" points="452 114.125,448.875 141.125,457.375 142.625,461.5 115.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F137" points="461.5 115.375,471 117,466.625 144.625,457.375 142.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F138" points="471 117.125,480.625 119,475.25 146.375,466.625 144.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F139" points="480.5 119,490.875 121,483.875 148.75,475.125 146.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F140" points="483.75 148.5,492.625 151,499.875 123.75,490.75 121" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F141" points="499.75 123.625,509.5 126.375,501.25 152.625,492.5 150.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F142" points="509.5 126.25,518.625 129.25,510.125 153.875,501.25 152.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F143" points="518.5 129.375,527.5 132.375,519.25 155,510.25 153.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F144" points="531.25 121.875,540.625 125.625,528.875 156,519.25 155" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F145" points="540.625 125.5,550 129.25,538.625 157,528.75 155.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F146" points="549.875 129,559.875 133,548.375 157.875,538.625 156.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F147" points="559.75 133,577.125 142,574.25 146.5,570 151,554.875 144.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F148" points="554.875 143.875,570 150.875,566.875 153.25,560.875 156,555.25 157.5,548 157.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F149" points="708.875 125.75,680.75 158.375,682.5 162.75,680 185.5,702 187,700.125 214.625,721.625 216.125,724.25 188.25,737.5 189,740.625 154" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F150" points="669 185.125,668.875 192.625,679 193.375,678.125 212.875,656 211.5,657.5 184.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F151" points="657.5 184.375,656.125 211.5,644.875 210.5,647.125 183.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F152" points="647.125 183.875,636 183.125,633.875 209.5,645.125 210.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F153" points="634.125 209.375,623.125 209.125,625 182.25,636.375 182.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F154" points="625.125 182.375,614.375 182,612.5 208.25,623.125 208.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F155" points="581.375 178.25,592.5 179,590.625 205.875,579.375 205" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F156" points="581.5 178.25,570.375 177.75,568.625 204.5,579.625 204.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F157" points="570.625 177.625,559.25 177.125,557.25 203.375,569 204.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F158" points="557.375 203.25,559.375 176.875,548.25 176.375,546.5 202.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F159" points="548.5 176.125,537.25 175.625,535.75 201.875,547 202.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F160" points="537.625 175.625,526.5 174.875,524.5 200.875,536.125 201.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F161" points="526.625 174.875,515.5 174.25,513.875 200,524.75 200.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F162" points="483.125 171,504.5 171.75,503.375 187.625,482.25 187" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F163" points="482.375 186.75,503.25 187.5,502.5 199.125,481.75 197.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F164" points="481.75 197.625,502.25 198.375,501.5 210.125,481 209.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F165" points="481 209.25,501.375 210,500.75 220.75,480.25 220.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F166" points="480 220.25,500.5 220.625,499.875 232.125,479.125 231" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F167" points="479.125 231,499.75 231.875,498.875 243.125,478.25 242.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F168" points="478.25 241.75,498.875 242.75,498.5 254.25,477.375 252.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F169" points="476.125 263.375,497.5 264.75,496.375 276.125,475.5 274.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F170" points="475.625 274.625,496.375 275.875,495.875 287.125,474.875 285.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F171" points="470.5 307,493.75 308.5,493 319.5,469.75 318.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F172" points="469.875 318.125,492.875 319.25,492.5 330.375,469.125 329.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F173" points="469.375 328.875,492.375 330.125,491.75 341.375,468.625 340.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F174" points="450 305.5,448.5 327.625,457 328.125,458.375 306.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F175" points="450.125 305.625,447.75 338,436.75 337.25,439 304.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F176" points="439.125 305,436.875 337.125,425.625 336,428.125 304.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F177" points="428.375 304.25,425.625 336.125,414.625 335.25,416.625 303.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F178" points="416.875 303.25,414.625 335.125,403 335.25,403 302.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F179" points="403.125 302.375,403.125 335.25,392 335.875,390.125 303" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F180" points="390.125 303,378.75 303.75,381 336.625,392 335.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F181" points="378.75 303.75,381 336.5,370.125 337.75,367.75 304.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F182" points="370.125 337.5,367.875 304.75,357.125 306,359 338.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F183" points="350.125 327.875,358.75 327.875,357.375 306.125,348.875 306.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F185" points="316.25 354.875,315.375 341.25,338.875 340,339.25 353.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F186" points="315.375 341.5,338.75 340.25,338.375 328.75,314.75 329.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F187" points="314.75 329.875,338.125 328.75,337.375 317.875,314.25 319.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F188" points="314.25 319.625,337.375 318,336.625 306.75,313.25 308.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F189" points="312.375 295.375,332.25 294.25,332.125 285.625,311.5 286.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F190" points="311.375 286.75,310.25 275.625,331.875 274.75,332 285.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F191" points="331.75 275,331.375 263.625,309.625 264.5,310.25 275.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F192" points="307.75 253.875,329.625 252.375,329.125 241.5,307 243" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F193" points="307 243.125,306.75 232,328.125 230.625,328.875 241.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F194" points="306.625 232,305.875 220.75,327.25 219.5,328 230.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F195" points="305.75 220.75,327.125 219.625,326.125 208.75,305.25 210" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F196" points="305.125 210.125,325.875 209.125,325.125 197.75,304.5 198.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F197" points="304.375 199.25,303.875 188.125,324.25 186.75,325 197.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F198" points="324 186.875,323.625 169.875,302.375 171.25,303.75 188.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F199" points="291.5 173.875,293.125 200.125,282.25 200.75,280.75 174.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F200" points="281 174.25,282.375 200.75,270.875 201.875,269.375 175.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F201" points="269.5 175.25,271.125 201.75,260.375 202.5,258.625 176" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F202" points="258.75 176.125,247.625 176.625,249.125 203.5,260.5 202.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F203" points="249.25 203.375,247.875 176.75,236.875 177.125,238.5 204.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F204" points="238.75 204.125,227 205.5,225.75 178,237.125 177.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F205" points="227.125 205.375,216.625 206.25,214.625 178.5,225.875 178.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F206" points="192.75 181,194.625 207.875,183.625 208.5,181.875 182" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F207" points="182 182.25,170.75 182.875,172.25 209.375,184 208.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F208" points="172.5 209.375,170.875 182.875,160.125 183.5,161.125 210.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F209" points="161.25 210.25,160.25 183.375,149.625 184,150.875 211.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F210" points="128.75 213.125,126 158.875,98.75 125.875,79.875 141.5,85 216.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F211" points="72.5 190.5,83.5 189.25,85.25 216.25,74 217.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F212" points="72.625 190.5,61.375 191.25,63 218.375,74 217.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F213" points="61.625 191.375,63 218.375,40.875 220,39.375 193.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F214" points="30.75 221.375,31.875 243.25,20.875 243.625,20 221.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F215" points="20.125 222,9 222.5,10.125 244.25,20.875 243.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F216" points="10.5 244.25,44.25 242.25,44.625 253.125,11.25 255" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F217" points="11.25 255,44.5 253.25,45 263.875,12 265.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F218" points="12.375 265.75,13.125 277,45.75 275.375,45.125 263.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F219" points="13.25 277.125,46 275.5,46 285.75,13.75 287.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F220" points="15.5 298.625,47.625 297,48.375 307.75,16.125 309.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F221" points="16.25 309.625,48.625 307.75,49.25 319,17 321.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F222" points="17.375 321.5,17.875 332,49.75 329.875,49.25 318.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F223" points="18.125 332,50 329.75,50.125 341,18.375 343" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F224" points="18.5 343,50.25 341,50.5 352,18.5 353.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F231" points="270.625 334,283.75 333.125,286.25 372.375,273.625 373" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F232" points="316.375 354.75,317.25 374.625,329 373.875,328.25 354.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F233" points="328.375 354.375,340.75 353.875,341.375 372.75,329.125 373.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F234" points="360.625 352.125,352.125 352.625,353.5 371.875,362.125 371.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F235" points="359.125 338.375,362 371.25,372.75 370.75,370.75 337.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F236" points="370.75 337.5,381.75 336.5,383.375 369.875,372.625 370.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F237" points="381.875 336.625,392.5 335.875,394.5 369.375,383.25 369.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F238" points="392.25 336,403.25 335.375,403.375 369,394.25 369.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F239" points="403.125 335.25,414.5 335.125,412.25 369.25,403.375 368.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F240" points="412.125 369.25,423.25 370.125,425.5 336.25,414.5 335.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F241" points="425.625 336.125,436.5 337.125,434.25 370.625,423.125 370" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F242" points="434.375 370.5,436.5 337.125,447.625 337.875,444.875 371.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F244" points="446.25 352,455.25 352.625,453 371.875,444.5 371" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F245" points="468.875 340.125,468.125 354.25,490.25 355.625,491.5 341.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F246" points="468.25 354.25,479.125 355,477.5 374.125,467 373.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F247" points="479.125 354.875,477.5 373.875,488.625 374.5,490.25 355.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F248" points="501 356,513.625 357,512.375 376.375,499.625 375.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F249" points="514.125 344,513.625 357.25,521 357.75,519.875 372.5,533.125 373.125,535.25 345.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F250" points="535.25 345.25,546.25 346.125,543.875 379.5,532.875 378.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F251" points="546.25 346.25,557.125 347.25,554.875 379.875,543.75 379.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F252" points="557 347.25,568.375 348,566 380.5,554.625 379.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F253" points="568.25 348,579.125 348.875,576.5 381.25,565.875 380.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F254" points="599.75 363.75,611 364.875,609.5 384.375,598.5 383.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F255" points="621.625 365.75,632.75 366.5,631.75 386.125,620.5 385.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F256" points="632.625 366.5,644 367.25,642.75 386.625,631.625 386" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F257" points="677.25 356.625,688 357.125,686.625 390.5,675.125 389.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F258" points="688 357.25,686.375 390.25,696.875 391,699.25 358.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F259" points="699.25 358.25,697 390.875,708 391.5,710.5 359.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F260" points="709.5 372.875,737 374.5,735.625 393.875,707.875 391.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F261" points="709.625 372.875,710.5 359,737.75 361.25,737 374.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F262" points="710.625 359.125,711.125 347.625,738.625 349.5,737.75 361.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F263" points="713 326.125,713.875 315.25,740.625 317.375,740.125 328.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F264" points="714 315.375,714.75 303.875,741.75 305.75,740.5 317.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F265" points="715.75 293.25,716.5 282.5,743.5 284.125,742.625 295" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F266" points="716.5 282.625,717.375 271.25,744.25 273,743.5 284.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F267" points="717.375 271.375,718.125 260.125,745 262.25,744.25 273.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F268" points="745.125 262.375,746 251.5,719.125 249.25,718.125 260.375" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F269" points="719.25 249.375,719.75 238.5,746.75 240.125,746 251.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F270" points="720 238.625,720.875 227.25,747.5 229.25,746.625 240.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F271" points="720.875 227.375,747.375 229.375,748.5 218.5,721.375 215.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F272" points="721.5 216,722.875 202.875,749.5 204.875,748.5 218.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F274" points="502.5 199,722 216,716 293,737.25 294.5,736.25 305.5,715 304,710.5 359.25,677.5 356.75,676 389.5,642.5 387.25,643.25 366.75,600 364,598.5 383.5,576.25 380.75,579.25 349,514 344,513.75 356.75,501 356,499.75 375.5,488.5 374.5,493.75 308.5,479 307.5,480 286.5,496.5 287,496.75 264.5,476.75 263.75,477 252.75,498.25 253" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="1F273" points="723 203,724.25 188.125,750.75 189.875,749.375 205" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F276" points="350 327.625,358.625 327.5,359.25 338.375,350.625 339.125" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F277" points="350.625 339.25,359.125 338.375,360.375 352,351.875 352.875" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F278" points="448.5 327.625,457 328,456.125 339.25,447.625 338.625" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F279" points="447.625 338.625,446.25 352.125,455.125 352.75,456.375 339.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F280" points="139.5 344,140.5 369,164 367.5,164 387.5,186.5 385.5,183.5 340.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F281" points="196 365.5,194 340.5,248.5 335.5,252 380,231 382,228.5 362.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F282" points="248 336,270.5 334.5,274.5 377.5,251.5 380" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="1F283" points="41.25 219.75,43.75 242.5,47.25 297.75,50.25 351.75,315 330.5,304.5 198.5" fill="#000000" stroke="none" stroke-opacity="0" />
+
+</svg>

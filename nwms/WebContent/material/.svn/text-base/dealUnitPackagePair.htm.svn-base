@@ -1,0 +1,87 @@
+<div class="box" />
+	<div id="title">
+		<div style="float:left; width:200px;">$title</div>
+	</div>
+		<div style=" border-color:#999999; border:1px; background-color:#F6F6F6; border-style:dashed;font-family:Verdana, Arial, Helvetica, sans-serif;color:#333333;">
+			<table>
+				<tr>
+					<td style="width:50px">
+						$alias:
+					</td>
+					<td style="width:100px">
+					$!unitPackage.alias
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$description:
+					</td>
+					<td>
+					$!unitPackage.description
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$unit:
+					</td>
+					<td>
+					$!unitPackage.unit.alias
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$weight:
+					</td>
+					<td>
+					$!unitPackage.weight
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$length:
+					</td>
+					<td>
+					$!unitPackage.length
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$breadth:
+					</td>
+					<td>
+					$!unitPackage.breadth
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$volume:
+					</td>
+					<td>
+					$!unitPackage.volume
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$height:
+					</td>
+					<td>
+					$!unitPackage.height
+					</td>
+				</tr>
+				<tr>
+					<td>
+						$remark:
+					</td>
+					<td>
+					$!unitPackage.remark
+					</td>
+				</tr>
+			</table>
+		</div>
+	<div id="title">
+	<div style="float:left; width:200px;">$sTitle</div>
+	</div>
+		$form
+	<div class="box">
+		$table
+	</div>

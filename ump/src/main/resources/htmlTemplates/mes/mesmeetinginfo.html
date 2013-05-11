@@ -1,0 +1,65 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+<!--
+.mes_td_title{
+	text-align: right;
+	font-weight: bold;
+}
+-->
+</style>
+<div>
+<p>您好：</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${meetingDate}在${mesRoom}召集的“${subject}”会议，其纪要已签发。该纪要由${sumUserName}编写并经过审批完成。纪要编号“纪【${mesYear}】${mesTypeCd} ${serialNo} 号”。具体内容如下：<span style="font-weight: bold; color: red;">（请注意，纪要不是决议，不具备直接决策效力）</span></p>
+
+    <p style="color:blue; font-weight: bold;">当前纪要在系统中的连接：<a href="${href}" target="_blank">进入</a></p>
+</div>
+<table style="width:100%; margin:auto;font-size: 14px; margin-top: 10px; background: rgb(247, 247, 247); border: 1px solid #dedede;">
+    <col width="100">
+    <col>
+    <tr style="">
+        <td class="mes_td_title">编号 :</td>
+
+        <td style="text-align: left;">纪【${mesYear}】${mesTypeCd} ${serialNo} 号</td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center; height: 50px;">
+            <h2 style="font: 16px;font-weight: bold;">${mesTitle}</h2>
+        </td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">会议时间 :</td>
+        <td>${startDate}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">会议地点 :</td>
+        <td>${mesRoom}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">会议主题 :</td>
+        <td>${subject}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">会议主持 :</td>
+        <td>${compere}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">参会人员 :</td>
+        <td>${participators}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">抄送人员 :</td>
+        <td>${ccUsers}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">会议记录 :</td>
+        <td>${recorder}</td>
+    </tr>
+    <tr>
+        <td class="mes_td_title">纪要内容 :</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: left;padding-left: 30px;max-width: 500px;font-weight:normal">${summary}</td>
+    </tr>
+    
+</table>

@@ -1,0 +1,270 @@
+a {
+	text-decoration: none;
+}
+a:hover {
+	TEXT-DECORATION:underline;
+	cursor: pointer;
+}
+.mailTop{
+	background-color: #e4e7ec;
+	height:27px;
+	line-height:27px;
+	padding-left:10px;
+	color:#5a5a5a;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 1px solid #8c8f94;
+	width:100%;
+}
+.mailTop input{
+	font-size: 12px;
+}
+
+.mailLeft{
+	width:133px;
+	height:100%;
+	float:left;
+	background-color:#e4e7ec;
+	border-right: 1px solid #8c8f94;
+}
+.mailRight{
+	height:100%;
+	margin-left:133px;
+	+overflow: auto;
+}
+.left_btn_container{
+	padding: 5px 0 0 5px;
+	width:100%;
+	height:55px;
+	color: #fff;
+}
+.left_btn_container div{
+	float:left;
+	width:45px;
+	height:25px;
+	margin-right:5px;
+	padding:30px 0 0 10px;
+	cursor: pointer;
+}
+.collectEmailBtn{
+	background: url(../../images/email/btn_collect_email.gif) no-repeat;
+}
+.writeEmailBtn{
+	float:left;
+	width:55px;
+	height:55px;
+	background: url(../../images/email/btn_write_email.gif) no-repeat;
+}
+.leftMenu{
+	padding-top: 5px;
+}
+
+.leftMenu .box{
+	cursor: pointer;
+	height:31px;
+	line-height: 31px;
+}
+
+.leftMenu div .boxText{
+	float:left;
+	padding-left: 10px;
+}
+.leftMenu div .boxImg{
+	float:left;
+	padding:3px 0 0 10px;
+}
+.menuClick{
+	background-color:#ffffff; 
+	border-left:1px solid #b5b5b5;
+	border-top:1px solid #b5b5b5;
+	width:130px;
+	margin-left: 3px;
+}
+.menuClick .boxImg{margin-left:-3px;}
+
+.dataTable{
+	table-layout:fixed;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	color: #5a5a5a;
+	border-bottom: 1px solid #dddbdc;
+}
+.dataTable thead tr{
+	height: 24px;
+	line-height: 24px;
+	background: url(../../images/common/head_back.jpg) repeat-x;
+}
+.dataTable thead td{
+	padding-left:6px;
+	background: url(../../images/common/head_cut.jpg) no-repeat center right;
+	/*border-right: 1px solid #8c8f94;*/
+	border-bottom: 1px solid #8c8f94;
+}
+.dataTable .mainTr{
+	height: 24px;
+	line-height: 24px;
+}
+.dataTable .mainTr td{
+	padding-left:6px;
+	cursor: pointer;
+	overflow: hidden;
+	border-bottom: 1px solid #dddbdc;
+}
+.dataTable .mainTr:hover{
+	background-color: #eee;
+	color: #40a3de;
+}
+.dataTable .mainTr td:hover{
+	background-color: #e1e1e1;
+}
+.unReadEmail{
+	font-weight: bold;
+}
+.dataTable .detailTr{
+	
+}
+.read{background-color: #CEDBE1;}
+.operTip{position: absolute;z-index: 99;border: 1px solid gray;display: none;width:80px;background-color: #f3f3f3}
+.mailContent{
+	background-color:#fff;
+	vertical-align: top;
+	margin:0;
+	padding:5px 10px 0 10px;
+	/*overflow-x:auto;*/ 
+	line-height: 20px;
+}
+.mailContent table td{
+	border: 1px solid #ccc;
+	border-collapse: 0;
+	border-spacing: 0;
+}
+.attachment{
+	float:left;
+	margin-right: 5px;
+}
+.attachment a{color:#3895d1;}
+.mail_btn_del{background: url("../../images/email/del.gif") no-repeat left;padding-left:22px;}
+.mail_btn_read{background: url("../../images/email/read.gif") no-repeat left;padding-left:22px;}
+.operBar{
+	width:100%;
+	height:26px;
+	line-height: 26px;
+	background-color: #e4e7ec;
+	border-bottom: 1px solid #8c8f94;
+}
+.operBar div{
+	float:left;
+	text-align:center;
+	padding: 0 5px;
+	height:26px;
+	background: url("../../images/common/btn_cutline_3_26.jpg") no-repeat right;
+}
+.operBar input[type="checkbox"]{
+	height:26px;
+}
+.floatDiv{position: absolute;display: none;z-index: 999;border:1px solid #0167a2;left:0;top:0;background-color: #e8e8e8;}
+.floatDiv div span{display: block;cursor: pointer;height:20px;line-height: 20px;padding:2px 10px;}
+.floatDiv div span:hover{background-color: #C5C5C5;}
+/******������********************/
+.mailUserLeft{float:left;width:222px;color:#000000;margin-right: 10px;padding-left: 10px;}
+.mailUserRight{float:left;width:129px;color:#000000;}
+.mailUserBorder{background-color: #fff;}
+.userSelected{color:#fff;background-color: #abc3d2;padding-left:15px;cursor: pointer;}
+.userUnSelected{padding-left:15px;cursor: pointer;}
+.userStatus_online{background:url(../../images/email/member_pic.gif) no-repeat left;width:90px;min-height:20px;line-height:20px ;padding-left: 16px;}
+.memberBtn{background: url("../../images/email/member_btn.gif") no-repeat;width:63px;height:22px;line-height:22px;text-align: center;color:#000;cursor: pointer;margin-bottom:5px;}
+.memberBtn:hover{background: url("../../images/email/member_btn_hover.gif") no-repeat;}
+.memberBorder{border-left: 1px solid #dbdbdb;border-right:1px solid #dbdbdb;}
+.memberContainer{background-color: #e7e7e7;margin: 0 1px;}
+.memberTitle{border-bottom: 1px solid #fff}
+/******������********************/
+.mailDivBorder{
+	width:99.8%;
+	+width:100%;
+	height:100%;
+	background-color:#ffffff; 
+	overflow:auto;
+}
+.readMailTable{
+	width: 100%;
+	height: 100px;
+	table-layout: fixed;
+	margin: 0;
+	padding: 0;
+}
+.readMailTable tr{
+	height:20px;
+	line-height:20px;
+}
+.readMailTable tr td{height:20px;}
+.mailBlueText{
+	color: #0167a2;
+	cursor: pointer;
+}
+.mailFile{
+	position:absolute; width:60px; 
+	overflow:hidden;
+	filter:alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-moz-opacity:0;opacity:0;
+	cursor: pointer; 
+}
+.hand{
+	cursor: pointer;
+}
+.groupbox{
+	cursor: pointer;
+	height:30px;
+	line-height: 30px;
+	color:#0167a2;
+}
+.groupNameDiv{
+	cursor: pointer;
+	padding-left: 10px;
+	height:20px;
+	line-height: 20px;
+	color:#5A5A5A;
+}
+.inputTable{
+	table-layout:fixed;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width:100%;
+	+width:95%;
+}
+.inputTable tr{
+	height:20px;
+	line-height: 20px;
+}
+.searchUserDiv{position: absolute;display: none;border: 1px solid gray;background-color: #e8e8e8}
+.searchUserDiv div{border-bottom: 1px solid #fff;cursor: pointer;}
+.searchUserDiv div:hover{background-color: #4d7b9d;color:#fff;}
+
+.emailSearchDiv{
+	line-height: 24px;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+.emailSearchDiv input{width:100px;}
+
+.tip_email{
+	table-layout:fixed;
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	color: #5a5a5a;
+	border-bottom: 1px solid #dddbdc;
+}
+.tip_email thead tr{
+	height: 24px;
+	line-height: 24px;
+	background: url(../../images/common/head_back.jpg) repeat-x;
+}
+.tip_email th, .tip_email td{
+	padding-left:6px;
+	border-bottom: 1px solid #8c8f94;
+}

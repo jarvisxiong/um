@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title></title>
+    <SCRIPT type="text/javascript">
+function checkAll(cb) {
+	var total = document.getElementById("hf_totalCK").value;
+	for(var i = 0; i < total; i++) {
+		document.getElementById("ck_customer_" + i).checked = cb.checked;
+	}
+}
+    </SCRIPT>
+  </head>
+   <body>
+  <div class="box"/>
+	<div id="title">$title</div>
+		$form
+  </body>
+</html>

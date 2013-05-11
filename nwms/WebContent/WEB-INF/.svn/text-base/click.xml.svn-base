@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<click-app charset="UTF-8">
+
+	<pages package="com.intelitune.nwms">
+			<page path="login.htm" classname="Login"></page>
+			<page path="loginsso.htm" classname="Loginsso"></page>
+			<page path="click/error.htm" classname="common.ErrorPage"/> 
+	</pages>
+	<mode value="production" />
+</click-app>

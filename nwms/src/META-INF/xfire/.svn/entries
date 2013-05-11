@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13768"
+   name=""
+   committed-date="2009-03-17T07:47:37.830500Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/META-INF/xfire"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="13768"
+   name="services.xml"
+   text-time="2009-12-01T08:33:45.687500Z"
+   committed-date="2009-03-17T07:47:37.830500Z"
+   checksum="efc5e2be207fc5e5a9c6cd9844e001b6"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:45.671875Z"/>
+</wc-entries>

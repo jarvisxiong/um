@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14885"
+   name=""
+   committed-date="2009-05-07T08:38:17.051125Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/image"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="10934"
+   name="homepage_welcome.jpg"
+   text-time="2009-12-01T08:34:13.828125Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="cab09128f03091957e8cdc9e1b000b56"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:09.937500Z"/>
+<entry
+   committed-rev="11153"
+   name="box_mouse.jpg"
+   text-time="2009-12-01T08:34:13.828125Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="a4739db7126b365839db0d68e789415a"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.265625Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel3.jpg"
+   text-time="2009-12-01T08:34:13.843750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="3b8a04c7ad3ee969e0a8170c76821dfa"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.265625Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel4.jpg"
+   text-time="2009-12-01T08:34:13.843750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="79ab074ea9435f2d88ba9901da81781b"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.281250Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel5.jpg"
+   text-time="2009-12-01T08:34:13.843750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="e19975b7f5b760ef169f8473ccc95aa7"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.281250Z"/>
+<entry
+   committed-rev="13073"
+   name="login_button.jpg"
+   text-time="2009-12-01T08:34:13.859375Z"
+   committed-date="2009-02-27T10:35:14.054250Z"
+   checksum="81b56fd3083a4a98217753ecf5a3761f"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.296875Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel6.jpg"
+   text-time="2009-12-01T08:34:13.875000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="b334c05531b9b1de0c747605b9b58062"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.296875Z"/>
+<entry
+   committed-rev="11153"
+   name="box_default_lock.jpg"
+   text-time="2009-12-01T08:34:13.875000Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="668074f7c0c18aec7ca2d4f038de860a"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.656250Z"/>
+<entry
+   committed-rev="10934"
+   name="10.gif"
+   text-time="2009-12-01T08:34:13.875000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="e145ea64e6c880b95490bd130aeebc78"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:10.671875Z"/>
+<entry
+   committed-rev="11153"
+   name="box_mouse_lock.jpg"
+   text-time="2009-12-01T08:34:13.890625Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="1c2e44a7fbfc556c505d794995e8eeed"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.015625Z"/>
+<entry
+   committed-rev="10934"
+   name="small.JPG"
+   text-time="2009-12-01T08:34:13.890625Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="60ee0eedc7aba752be0d77ab5f5e479f"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.031250Z"/>
+<entry
+   committed-rev="10934"
+   name="username-vendor.jpg"
+   text-time="2009-12-01T08:34:13.890625Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="4520ed9d3b845a6c227986c93cfe789a"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.109375Z"/>
+<entry
+   committed-rev="10934"
+   name="remember me-vendor.jpg"
+   text-time="2009-12-01T08:34:13.906250Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="19c77ec0818dd3ba6c3d57429d2a132b"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.109375Z"/>
+<entry
+   committed-rev="11153"
+   name="box_click_delete.jpg"
+   text-time="2009-12-01T08:34:13.906250Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="2e00a74ff7cfaac258136bbf898f56a4"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.140625Z"/>
+<entry
+   committed-rev="10934"
+   name="larges.png"
+   text-time="2009-12-01T08:34:13.906250Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="c3692dcbaf7136dc25197366c44863d5"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.234375Z"/>
+<entry
+   committed-rev="10934"
+   name="homepage_welcome.gif"
+   text-time="2009-12-01T08:34:13.921875Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="0eb8e35c2ef80ad109492ce757c8b740"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.343750Z"/>
+<entry
+   committed-rev="10934"
+   name="billing_login2.jpg"
+   text-time="2009-12-01T08:34:13.937500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="531103c1142294ceab3880d565663339"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.421875Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_1_1.jpg"
+   text-time="2009-12-01T08:34:13.937500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="980d2305a62e15c302d4eff1d85f11dd"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.468750Z"/>
+<entry
+   committed-rev="11233"
+   name="view-16px.gif"
+   text-time="2009-12-01T08:34:13.937500Z"
+   committed-date="2008-12-30T10:22:08.321625Z"
+   checksum="c68820be3775e8f35c597c8174a287a0"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.421875Z"/>
+<entry
+   committed-rev="10935"
+   name="welcome_1_2.jpg"
+   text-time="2009-12-01T08:34:13.953125Z"
+   committed-date="2008-12-16T10:19:56.103000Z"
+   checksum="246cd9eada1c606a1f1ff6a04360101b"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.546875Z"/>
+<entry
+   committed-rev="10934"
+   name="hmglogo.jpg"
+   text-time="2009-12-01T08:34:13.953125Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="98e31c10af32596afae379185b1579c8"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.484375Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_3_1.jpg"
+   text-time="2009-12-01T08:34:13.968750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="7ba2f8b5da39bfd95307c9ed40e5f179"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.703125Z"/>
+<entry
+   committed-rev="10934"
+   name="small.GIF"
+   text-time="2009-12-01T08:34:13.968750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="6cea30a7ea73fd3044de57b91c803c42"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.562500Z"/>
+<entry
+   committed-rev="10934"
+   name="password-vendor.jpg"
+   text-time="2009-12-01T08:34:13.953125Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="1ff3d7b9fb4d759820ae11e002ab00c7"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.562500Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_3_2.jpg"
+   text-time="2009-12-01T08:34:13.984375Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="c148b2ad15fe3497f8b91122fece051b"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.718750Z"/>
+<entry
+   committed-rev="11161"
+   name="locked_box.gif"
+   text-time="2009-12-01T08:34:13.968750Z"
+   committed-date="2008-12-25T07:27:45.896500Z"
+   checksum="876b26b018a59c1caa3a8568872b3a84"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.718750Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_3_3.jpg"
+   text-time="2009-12-01T08:34:14.000000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="11bb9adac57f443c64fb2dbd836e14ce"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.812500Z"/>
+<entry
+   committed-rev="11723"
+   name="print_16px.gif"
+   text-time="2009-12-01T08:34:13.984375Z"
+   committed-date="2009-01-16T06:42:09.530500Z"
+   checksum="3efd0ccdbb6964e84c4db5a1a43d53c4"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.734375Z"/>
+<entry
+   committed-rev="11161"
+   name="delete_box.gif"
+   text-time="2009-12-01T08:34:13.984375Z"
+   committed-date="2008-12-25T07:27:45.896500Z"
+   checksum="6a534c0cca7bf9592ee9bc7f5e1bf5be"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.718750Z"/>
+<entry
+   committed-rev="11418"
+   name="binlist.js"
+   text-time="2009-12-01T08:34:14.031250Z"
+   committed-date="2009-01-08T08:57:08.796000Z"
+   checksum="2e41dcddf0a82cd260f9b34965d60174"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:11.828125Z"/>
+<entry
+   committed-rev="10934"
+   name="After-sales-service-Logisti.gif"
+   text-time="2009-12-01T08:34:14.031250Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="d7ad50fca99856ca12a60a3bb11930d8"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.140625Z"/>
+<entry
+   committed-rev="11153"
+   name="box_click_lock.jpg"
+   text-time="2009-12-01T08:34:14.031250Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="b04ae2f8d6f9b87e7f216dd9cee389a5"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.171875Z"/>
+<entry
+   committed-rev="10934"
+   name="vendor_login_button.gif"
+   text-time="2009-12-01T08:34:14.046875Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="90f1fa30e8c60ccf178d310d658a573a"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.265625Z"/>
+<entry
+   committed-rev="12051"
+   name="edit.gif"
+   text-time="2009-12-01T08:34:14.046875Z"
+   committed-date="2009-01-23T07:06:17.962875Z"
+   checksum="d89b6e512c0c90b4c16ce82bede2bb25"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.265625Z"/>
+<entry
+   committed-rev="10934"
+   name="prongix.gif"
+   text-time="2009-12-01T08:34:14.046875Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="a37c440d3257e3850fc4cb6c854b7e50"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.281250Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_1.jpg"
+   text-time="2009-12-01T08:34:14.062500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="66c16853186c3a35c247f37a1212bef4"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.343750Z"/>
+<entry
+   committed-rev="10934"
+   name="welcome_2.jpg"
+   text-time="2009-12-01T08:34:14.062500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="c825547222b8975d4366c453de64c93c"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.343750Z"/>
+<entry
+   committed-rev="11153"
+   name="box_default_delete.jpg"
+   text-time="2009-12-01T08:34:14.062500Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="452d3c8901015053b727a02bbda78d0f"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.359375Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel1_1.jpg"
+   text-time="2009-12-01T08:34:14.078125Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="927213644dc7ca9c889f60c171a9488c"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.421875Z"/>
+<entry
+   committed-rev="10934"
+   name="tms_logo-vendor.jpg"
+   text-time="2009-12-01T08:34:14.078125Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="fb3aba10c6d2d2d045afc48bf5fb1dc0"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.500000Z"/>
+<entry
+   committed-rev="14885"
+   name="noCompetence.jpg"
+   text-time="2009-12-01T08:34:14.093750Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="43dabf33eaecf6ab108dd7f1d8ab9360"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.531250Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel_4_1.jpg"
+   text-time="2009-12-01T08:34:14.109375Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="32b332824cd6451e5d30f96e5c9d21d2"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.562500Z"/>
+<entry
+   committed-rev="11153"
+   name="box_mouse_delete.jpg"
+   text-time="2009-12-01T08:34:14.109375Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="a706c0fb95f927285bab7eb5d27247ee"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:12.578125Z"/>
+<entry
+   committed-rev="10934"
+   name="bg-vendor.jpg"
+   text-time="2009-12-01T08:34:14.109375Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="610968ffc7526d9c6dccf96490447cf8"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.046875Z"/>
+<entry
+   committed-rev="10934"
+   name="1.gif"
+   text-time="2009-12-01T08:34:14.125000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="cd6684bf8515de3d4ed33f90c6499046"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.046875Z"/>
+<entry
+   committed-rev="10934"
+   name="sample.png"
+   text-time="2009-12-01T08:34:14.125000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="e87724b05cbdf81ebf501eac6226e62c"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.109375Z"/>
+<entry
+   committed-rev="10934"
+   name="2.gif"
+   text-time="2009-12-01T08:34:14.125000Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="c6eaf8c7a22a003a73703facf8aecbbc"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.125000Z"/>
+<entry
+   name="userWarn"
+   kind="dir"/>
+<entry
+   committed-rev="10934"
+   name="3.gif"
+   text-time="2009-12-01T08:34:14.140625Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="9f5211dad6b44606e7677281df38487f"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.125000Z"/>
+<entry
+   committed-rev="12051"
+   name="shangjia_16px.gif"
+   text-time="2009-12-01T08:34:14.140625Z"
+   committed-date="2009-01-23T07:06:17.962875Z"
+   checksum="c45ddab3381e2d151a0ceda5959c6976"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.140625Z"/>
+<entry
+   committed-rev="10934"
+   name="4.gif"
+   text-time="2009-12-01T08:34:14.140625Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="2b38c05e3e297a3a07fe0cdc1808f8e2"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.421875Z"/>
+<entry
+   committed-rev="10934"
+   name="5.gif"
+   text-time="2009-12-01T08:34:14.156250Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="094db20926404e9ba803a5af3b5ac043"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.437500Z"/>
+<entry
+   committed-rev="10934"
+   name="6.gif"
+   text-time="2009-12-01T08:34:14.156250Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="26875b61404a82aad323ff28565e7224"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.437500Z"/>
+<entry
+   committed-rev="10934"
+   name="7.gif"
+   text-time="2009-12-01T08:34:14.171875Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="f724e39f300306c3c657c39b29b4bc81"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.546875Z"/>
+<entry
+   committed-rev="13399"
+   name="kehuguanli.jpg"
+   text-time="2009-12-01T08:34:14.171875Z"
+   committed-date="2009-03-06T06:44:42.264750Z"
+   checksum="5ccdbd5e96ab3ec00d89bf010fc1b44c"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.562500Z"/>
+<entry
+   committed-rev="11153"
+   name="box_default.jpg"
+   text-time="2009-12-01T08:34:14.187500Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="db80f2cd5a1ac07c1ed32d868f2eb75d"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.625000Z"/>
+<entry
+   committed-rev="10934"
+   name="8.gif"
+   text-time="2009-12-01T08:34:14.187500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="1e9e5ea8bdb5f152cf249503b522f49d"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.625000Z"/>
+<entry
+   committed-rev="10934"
+   name="9.gif"
+   text-time="2009-12-01T08:34:14.187500Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="b41e1d6d3c9322fc1fb71b428d85b7e4"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.640625Z"/>
+<entry
+   committed-rev="11153"
+   name="box_click.jpg"
+   text-time="2009-12-01T08:34:14.203125Z"
+   committed-date="2008-12-24T10:58:18.224625Z"
+   checksum="072d293a72d9a04b3ebf27d0d2348d3a"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.750000Z"/>
+<entry
+   committed-rev="11997"
+   name="pannel1.jpg"
+   text-time="2009-12-01T08:34:14.203125Z"
+   committed-date="2009-01-22T08:31:46.634750Z"
+   checksum="fb4f3b9e0c9b0bd18436ae5072a22f72"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.812500Z"/>
+<entry
+   committed-rev="10934"
+   name="pannel2.jpg"
+   text-time="2009-12-01T08:34:14.218750Z"
+   committed-date="2008-12-16T10:12:52.134250Z"
+   checksum="cee0ad32dc05c92fdda9f40d31440ddc"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:13.812500Z"/>
+</wc-entries>

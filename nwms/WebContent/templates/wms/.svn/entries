@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17486"
+   name=""
+   committed-date="2009-12-07T08:38:59.748375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/templates/wms"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="15071"
+   name="wms_template.htm"
+   text-time="2009-12-01T08:40:39.515625Z"
+   committed-date="2009-05-19T07:39:53.531250Z"
+   checksum="5fb5b799bfcbaaf661cb7660f07159cf"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:40:38.125000Z"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+</wc-entries>

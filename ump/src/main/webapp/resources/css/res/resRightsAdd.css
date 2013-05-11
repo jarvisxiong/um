@@ -1,0 +1,7 @@
+.next_step_tip{
+	height: 77px;
+	background-image: url("../../../resources/images/res/next_step.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	text-align: center;
+}

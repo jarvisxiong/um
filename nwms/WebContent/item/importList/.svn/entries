@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17617"
+   name=""
+   committed-date="2009-12-18T01:55:46.065125Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/item/importList"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+</wc-entries>

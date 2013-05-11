@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Bin"
+        table="intt_bin"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Bin.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <property
+            name="remark"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="remark"
+        />
+
+        <property
+            name="volume"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="volume"
+        />
+
+        <property
+            name="height"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="height"
+        />
+
+        <property
+            name="breadth"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="breadth"
+        />
+
+        <property
+            name="length"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="length"
+        />
+
+        <property
+            name="weight"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="weight"
+        />
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.BinState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <set
+            name="rates"
+            table="intt_rates"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="binId"
+            >
+            </key>
+
+            <many-to-many
+                class="com.intelitune.nwms.model.Rate"
+                column="rateId"
+                outer-join="auto"
+             />
+
+        </set>
+
+        <many-to-one
+            name="building"
+            class="com.intelitune.nwms.model.Building"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="buildingId"
+        />
+
+        <many-to-one
+            name="column"
+            class="com.intelitune.nwms.model.Column"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="columnId"
+        />
+
+        <many-to-one
+            name="tier"
+            class="com.intelitune.nwms.model.Tier"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="tierId"
+        />
+
+        <many-to-one
+            name="row"
+            class="com.intelitune.nwms.model.Row"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="row_Id"
+        />
+
+        <many-to-one
+            name="floor"
+            class="com.intelitune.nwms.model.Floor"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="floorId"
+        />
+
+        <many-to-one
+            name="warehouse"
+            class="com.intelitune.nwms.model.Warehouse"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="warehouseId"
+        />
+
+        <list
+            name="zones"
+            table="intt_zones_bin"
+            lazy="true"
+            cascade="none"
+        >
+
+            <key
+                column="binId"
+            >
+            </key>
+
+            <index
+                column="indexId"
+            />
+
+            <many-to-many
+                class="com.intelitune.nwms.model.Zone"
+                column="zoneId"
+                outer-join="auto"
+             />
+
+        </list>
+
+        <property
+            name="code"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="code"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Bin.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

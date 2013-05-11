@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14890"
+   name=""
+   committed-date="2009-05-07T08:53:30.457375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/rbac/impl"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14890"
+   name="AccessControllerXmlAcl.java"
+   text-time="2009-12-01T08:34:08.203125Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="bea7ad5cd277e3064317bfc4e5ad1a0c"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.187500Z"/>
+<entry
+   committed-rev="14890"
+   name="SimpleOperate.java"
+   text-time="2009-12-01T08:34:08.218750Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="19a8527c262c454d6e5c342799bb56f9"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.187500Z"/>
+<entry
+   committed-rev="14890"
+   name="SimpleRole.java"
+   text-time="2009-12-01T08:34:08.234375Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="5c60c6f163ebcc26f5a63a4349c21cd4"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.203125Z"/>
+</wc-entries>

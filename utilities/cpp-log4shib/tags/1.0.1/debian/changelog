@@ -1,0 +1,10 @@
+log4shib (1.0-1) unstable; urgency=low
+
+  * The debian packaging files in this directory build un-official packages. 
+
+ -- Scott Cantor <cantor.2@osu.edu>  Mon, 30 July 2007
+
+Local variables:
+mode: debian-changelog
+add-log-mailing-address: "cantor.2@osu.edu"
+End:

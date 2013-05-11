@@ -1,0 +1,75 @@
+
+$form
+
+<script type="text/javascript">
+	var xmlHttpRequest;
+
+	function changePackage(){
+		var args = arguments;	
+		var field = args[0];
+		var value = field.value;
+		sendRequest1(value);
+		
+	}
+	
+	function createXMLHTTPRequest1(){
+   		if(window.ActiveXObject){
+   			xmlHttpRequest = new ActiveXObject("Microsoft.XMLHttp");
+   		}	else if(window.XMLHttpRequest){
+   			xmlHttpRequest = new XMLHttpRequest();
+   		}
+    }
+    
+ 
+    
+      function processResult1(){
+       var args = arguments;
+    	if(xmlHttpRequest.readyState==4){
+    		if(xmlHttpRequest.status==200){
+    			var rootNode = xmlHttpRequest.responseXML;
+    			var result = rootNode.getElementsByTagName("response");
+    		    var id = result[0].getElementsByTagName("id");
+    			var name = result[0].getElementsByTagName("alias");
+    	    	var select= document.getElementById("form_unitPackage");
+    			var chd = new Array();
+    		    for(var i=0;i<select.childNodes.length;i++){
+    				chd[i] = select.childNodes[i];
+    			}
+    			if(chd!=null){
+    				for(var i=0;i<chd.length;i++){
+    					select.removeChild(chd[i]);
+    				}
+    			}
+    			//添加空元素
+    			var par = document.createDocumentFragment();
+    			
+    			//添加空元素
+    			
+    			for(var i=0;i<id.length;i++){
+    			
+    				var ch = document.createElement("option")
+    				//ch.setAttribute("id",id[i].firstChild.nodeValue)
+    				ch.value = id[i].firstChild.nodeValue;
+    				var text = document.createTextNode(name[i].firstChild.nodeValue);
+    				ch.appendChild(text);
+    				par.appendChild(ch);
+    			}
+    			select.appendChild(par);
+    		}
+    	}
+    }
+       
+   
+     function sendRequest1(){
+    	var args = arguments;
+    	var target=args[1];
+    	
+    	var sendMessage = encodeURIComponent(args[0]);
+    	xmlHttpRequest = null;
+    	createXMLHTTPRequest1();
+    	xmlHttpRequest.onreadystatechange = processResult1;
+    	
+    	xmlHttpRequest.open("get","materialFilter.htm?sendMessage="+sendMessage,true);
+    	xmlHttpRequest.send(null);	
+    }
+</script>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13355"
+   name=""
+   committed-date="2009-03-05T09:23:02.952250Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/META-INF"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="10809"
+   name="MANIFEST.MF"
+   text-time="2009-12-01T08:40:40.093750Z"
+   committed-date="2008-12-15T07:38:14.855892Z"
+   checksum="b10f37c8bb1803d98c127a01d1a71cc5"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.015625Z"/>
+<entry
+   name="xfire"
+   kind="dir"/>
+</wc-entries>

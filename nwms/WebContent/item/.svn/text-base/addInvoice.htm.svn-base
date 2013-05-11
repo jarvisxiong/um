@@ -1,0 +1,5 @@
+<div id="title">
+		订单$wmsOrder.jobId下的发票
+</div>
+$form
+$table

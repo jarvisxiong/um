@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14179"
+   name=""
+   committed-date="2009-03-27T10:09:06.868625Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/search"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="13331"
+   name="StorageItemSearch.htm"
+   text-time="2009-12-01T08:40:43.031250Z"
+   committed-date="2009-03-05T05:17:40.530375Z"
+   checksum="aeb47b4afcb195f1445cec7d563d63b6"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:43.000000Z"/>
+<entry
+   committed-rev="14179"
+   name="recordSearch.htm"
+   text-time="2009-12-01T08:40:43.046875Z"
+   committed-date="2009-03-27T10:09:06.868625Z"
+   checksum="0856660359fa2138a15659617b642872"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:43.015625Z"/>
+</wc-entries>

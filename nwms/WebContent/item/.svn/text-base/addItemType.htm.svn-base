@@ -1,0 +1,9 @@
+<div id="title">
+		$title
+</div>
+
+<div id="title">
+		$create
+</div>
+$form
+$table

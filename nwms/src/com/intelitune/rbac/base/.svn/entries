@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14890"
+   name=""
+   committed-date="2009-05-07T08:53:30.457375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/rbac/base"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14890"
+   name="Operate.java"
+   text-time="2009-12-01T08:34:08.359375Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="99798b3eabf59bec08f8605aa1bc5eb1"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.312500Z"/>
+<entry
+   committed-rev="14890"
+   name="Role.java"
+   text-time="2009-12-01T08:34:08.359375Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="b47ee276ad493f81f4138ae212230258"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.328125Z"/>
+<entry
+   committed-rev="14890"
+   name="AccessController.java"
+   text-time="2009-12-01T08:34:08.375000Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="98a7f4bfaa478a0beb5ab28269ff6f38"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.328125Z"/>
+<entry
+   committed-rev="14890"
+   name="CommonAccount.java"
+   text-time="2009-12-01T08:34:08.390625Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="4e8e31653b300c26248b31d4a5cd6a2e"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.343750Z"/>
+<entry
+   committed-rev="14890"
+   name="Resource.java"
+   text-time="2009-12-01T08:34:08.390625Z"
+   committed-date="2009-05-07T08:53:30.457375Z"
+   checksum="366c538f3a96798f7d02f78f0844e3f2"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:08.343750Z"/>
+</wc-entries>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Row"
+        table="intt_row"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Row.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <set
+            name="bins"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="row_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Bin"
+            />
+
+        </set>
+
+        <set
+            name="columns"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="row_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Column"
+            />
+
+        </set>
+
+        <set
+            name="tiers"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="row_id"
+            >
+            </key>
+
+            <one-to-many
+                  class="com.intelitune.nwms.model.Tier"
+            />
+
+        </set>
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.RowState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <property
+            name="alias"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="alias"
+        />
+
+        <many-to-one
+            name="floor"
+            class="com.intelitune.nwms.model.Floor"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="floorId"
+        />
+
+        <property
+            name="code"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="code"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Row.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

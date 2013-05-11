@@ -1,0 +1,138 @@
+body {
+	margin: 0 5px;
+}
+#content{
+	/*
+	width: 480px;
+	height:600px;
+	*/
+	margin-right: auto;
+	margin-left: auto;
+}
+#div_logo {
+	background-image: url('../../images/wap/logo_pd.png');
+	margin: 0;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	background-position: left 0;
+	padding: 8px 0 5px 35px;
+}
+
+.ul_none {
+	padding-left: 0px;
+	margin-top: 5px;
+}
+
+.ul_li_right {
+	list-style: none;
+	font-size: 18px;
+	color: #5a5a5a;
+	line-height: 35px;
+	cursor: pointer;
+	background-image: url("../../images/treePanel/triangle_right.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 8px;
+}
+.ul_li_drop {
+	list-style: none;
+	font-size: 18px;
+	color: #5a5a5a;
+	line-height: 35px;
+	cursor: pointer;
+	background-image: url("../../images/treePanel/triangle_down.gif");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 8px;
+}
+
+#div_main {
+	margin: 0 5px;
+}
+
+#div_main .div_btn {
+	width: 140px;
+	height: 90px;
+	cursor: pointer;
+	line-height: 90px;
+	text-align: center;
+	margin: 2px;
+	float: left;
+}
+
+.div_btn .div_font {
+	font-size: 28px;
+	color: #fff;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+#div_main .div_btn2 {
+	width: 140px;
+	height: 45px;
+	cursor: pointer;
+	line-height: 50px;
+	text-align: center;
+	margin: 2px;
+	float: left;
+}
+#div_logout{
+	background-image: url("../../images/wap/off.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 65px;
+	text-align: right;
+}
+#div_gotoweb{
+	background-image: url("../../images/wap/web.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 120px;
+	text-align: right;
+}
+.div_btn2 .div_font {
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.m_title_page {
+	font-size: 36px;
+	color: #333333;
+	line-height: 60px;
+}
+.search_input {
+    background-image: url("../../images/wap/search_grey.png");
+    background-position: 250px center;
+    background-repeat: no-repeat;
+    border-color: #8C8F94 #BFBFBF #BFBFBF;
+    border-style: solid;
+    border-width: 1px;
+    color: #909090;
+    font-size: 14px;
+    height: 26px;
+    line-height: 20px;
+    padding-left: 3px;
+    width: 280px;
+    margin-bottom: 5px;
+}
+.search_user_result {
+    display: none;
+    height: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: left;
+}
+.module {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.module_odd{
+	background-color: #e4e7ec;
+}
+.module_body a{
+	font-size:12px;
+	margin-left: 5px;
+}

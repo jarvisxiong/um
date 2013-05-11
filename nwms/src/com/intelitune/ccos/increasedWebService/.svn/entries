@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17556"
+   name=""
+   committed-date="2009-12-11T02:53:51.437021Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/ccos/increasedWebService"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="12154"
+   name="WMSServiceInf.java"
+   text-time="2009-12-01T08:34:07.609375Z"
+   committed-date="2009-02-04T07:08:49.132375Z"
+   checksum="a6d6d0632825248897f8f43a18a34f9c"
+   last-author="sundy_wu"
+   kind="file"
+   prop-time="2009-12-01T08:34:07.593750Z"/>
+<entry
+   committed-rev="17556"
+   name="WMSServiceImp.java"
+   text-time="2009-12-18T05:53:27.796875Z"
+   committed-date="2009-12-11T02:53:51.437021Z"
+   checksum="a2d888328fc3920b2c587626a29297e1"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:27.796875Z"/>
+</wc-entries>

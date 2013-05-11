@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Item"
+        table="intt_item"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Item.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.ItemState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <property
+            name="remark"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="remark"
+        />
+
+        <property
+            name="lastModifiedTime"
+            type="java.sql.Timestamp"
+            update="true"
+            insert="true"
+            column="lastModifiedTime"
+        />
+
+        <property
+            name="creationTime"
+            type="java.sql.Timestamp"
+            update="true"
+            insert="true"
+            column="creationTime"
+        />
+        
+         <property
+            name="f_unit_price"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unit_price"
+        />
+        <property
+            name="f_unit_weight"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unit_weight"
+        />
+        <property
+            name="f_gross_price"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="gross_price"
+        />
+        <property
+            name="f_gross_weight"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="gross_weight"
+        />
+         <property
+            name="f_currency"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="currency"
+        />
+
+        <set
+            name="nextItems"
+            table="intt_nextItems"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="mainItemId"
+            >
+            </key>
+
+            <many-to-many
+                class="com.intelitune.nwms.model.Item"
+                column="nextItemId"
+                outer-join="auto"
+             />
+
+        </set>
+
+        <set
+            name="lastItems"
+            table="intt_lastItems"
+            lazy="true"
+            cascade="none"
+            sort="unsorted"
+        >
+
+            <key
+                column="mainItemId"
+            >
+            </key>
+
+            <many-to-many
+                class="com.intelitune.nwms.model.Item"
+                column="lastItemId"
+                outer-join="auto"
+             />
+
+        </set>
+
+        <property
+            name="qty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="qty"
+        />
+
+        <many-to-one
+            name="unitPackage"
+            class="com.intelitune.nwms.model.UnitPackage"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="unitPackage"
+        />
+
+        <many-to-one
+            name="material"
+            class="com.intelitune.nwms.model.Material"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="material"
+        />
+
+        <property
+            name="sn"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="intt_sn"
+        />
+
+        <many-to-one
+            name="invoice"
+            class="com.intelitune.nwms.model.Invoice"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="invoice_id"
+        />
+
+        <many-to-one
+            name="itemType"
+            class="com.intelitune.nwms.model.ItemType"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="intt_itemTypeId"
+        />
+
+        <many-to-one
+            name="outboundInvoice"
+            class="com.intelitune.nwms.model.Invoice"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="intt_outbound_invoice_id"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Item.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+        <joined-subclass
+            name="com.intelitune.nwms.model.WarehouseItem"
+            table="intt_warehouseItem"
+        >
+            <key
+                column="itemId"
+            />
+
+        <many-to-one
+            name="bin"
+            class="com.intelitune.nwms.model.Bin"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="bin"
+        />
+
+        <many-to-one
+            name="warehouse"
+            class="com.intelitune.nwms.model.Warehouse"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="warehouse"
+        />
+
+        <property
+            name="jobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="job_id"
+        />
+
+        <property
+            name="orderId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="order_id"
+        />
+
+        <property
+            name="crn"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="intt_crn"
+        />
+
+        <joined-subclass
+            name="com.intelitune.nwms.model.OutboundRePickItem"
+            table="intt_OutboundRePick"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="tempJobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="tempJobId"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.UnstorageItem"
+            table="intt_unstorageItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="unwantedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unwantedQty"
+        />
+
+        <property
+            name="wantQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="wantQty"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.LogPickedItem"
+            table="intt_logPickedItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+             <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+        	 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.PutAwayItem"
+            table="intt_PutAwayItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.DestroyedItem"
+            table="intt_destroyedItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.UncheckedItem"
+            table="intt_uncheckedItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="unwantedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unwantedQty"
+        />
+
+        <property
+            name="wantQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="wantQty"
+        />
+
+        <property
+            name="arrivedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="arrivedQty"
+        />
+
+        <property
+            name="destroyedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="destroyedQty"
+        />
+
+        <property
+            name="putawayQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="putawayQty"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.InboundRePutAwayItem"
+            table="intt_InboundRePutAway"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="tempJobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="tempJobId"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.PickedItem"
+            table="intt_pickedItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.PickingItem"
+            table="intt_pickingItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+            
+            <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+        	 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.CheckingItem"
+            table="intt_checkingItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="errorBinQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_errorBinQty"
+        />
+
+        <property
+            name="putawayQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_putawayQty"
+        />
+
+        <property
+            name="arrivedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="arrived_qty"
+        />
+
+        <property
+            name="destroyedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="destroyed_qty"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.StorageItem"
+            table="intt_storageItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+			 <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+        	 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.InboundRePickItem"
+            table="intt_InboundRePick"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="tempJobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="tempJobId"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.LogStorageItem"
+            table="intt_logStorageItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+			  <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+        	 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.PackingItem"
+            table="intt_packingItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.LogStockMoveItem"
+            table="intt_logStockMoveItem"
+        >
+            <key
+                column="warehouseItemId"
+            />
+			  <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+        	 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+        <many-to-one
+            name="formStorageItem"
+            class="com.intelitune.nwms.model.StorageItem"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="intt_fromId"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.OutboundRePutAwayItem"
+            table="intt_OutboundRePutAway"
+        >
+            <key
+                column="warehouseItemId"
+            />
+        <property
+            name="tempJobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="tempJobId"
+        />
+
+        </joined-subclass>
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.OrderItem"
+            table="intt_orderItem"
+        >
+            <key
+                column="itemId"
+            />
+        <property
+            name="arrivedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_ArrivedQty"
+        />
+
+        <property
+            name="unArrivedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_UnArrivedQty"
+        />
+
+        <property
+            name="destoryedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_destoryedQty"
+        />
+
+        <property
+            name="jobId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="job_id"
+        />
+        <property
+            name="unit_price"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unit_price"
+        />
+        <property
+            name="unit_weight"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="unit_weight"
+        />
+        <property
+            name="gross_price"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="gross_price"
+        />
+        <property
+            name="gross_weight"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="gross_weight"
+        />
+         <property
+            name="currency"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="currency"
+        />
+
+        <many-to-one
+            name="warehouse"
+            class="com.intelitune.nwms.model.Warehouse"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="warehouse_id"
+        />
+
+        <property
+            name="orderId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="order_id"
+        />
+
+        <joined-subclass
+            name="com.intelitune.nwms.model.InboundOrderItem"
+            table="intt_inboundOrderItem"
+        >
+            <key
+                column="orderItemId"
+            />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.OutboundOrderItem"
+            table="intt_outboundOrderItem"
+        >
+            <key
+                column="orderItemId"
+            />
+
+        </joined-subclass>
+
+        </joined-subclass>
+
+    </class>
+
+</hibernate-mapping>

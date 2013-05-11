@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="536" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible" xmlns="http://www.w3.org/2000/svg">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="taian_2_b.jpg" width="770" height="536" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="01" points="416.5 84,415 101,462.5 103.5,462.5 86.5,450 83,440 81.5,429 81" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="02" points="463.5 86,522.5 86,523 103,463.5 103" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="03" points="524 86,524 103,546 101,562.5 101.5,577.5 103,577.5 85,568 80.5,554.5 79.5,537.5 81.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="04" points="613.5 91,627 100.5,626 120,612 120" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="05" points="627.5 101,627.5 119.5,721.5 119.5,721.5 99.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="06" points="722 99,722 119,736.5 118,735 86.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="07" points="393.5 240,392 265.5,498.5 264.5,498 240.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="08" points="533.5 250.5,530.5 269,567 266,565.5 247.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="09" points="565.5 248,567 265.5,573.5 256.5,573 232" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="10" points="573.5 232,573.5 254.5,678.5 242.5,677 220.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="11" points="677 220.5,678.5 242,742.5 251,741 232.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="12" points="741.5 233,742.5 250.5,750 271.5,751 254.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="13" points="22.5 407,20.5 429,30 425,44.5 421.5,62 422,79 424,89 426,97.5 432,95.5 406.5,82 402,69.5 400,53.5 400,37.5 402.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="14" points="142 451,141 457.5,185 459.5,185.5 452" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="15" points="245.5 406,242 426,283 424.5,283.5 403.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="16" points="241 431.5,237 460,281.5 460,281.5 430.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="17" points="283.5 403.5,283 424,329.5 423,326.5 399.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="18" points="282 430.5,282 460,330 459.5,328.5 429" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="19" points="363 419,363 436.5,399.5 436,398 416.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="20" points="398.5 415.5,399.5 435,443 431.5,453.5 428,450 407.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="21" points="452 404,452.5 427.5,472 424.5,484.5 424,502.5 424,517 425,516 403,507 399.5,492 398,480 397.5,465 400" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="22" points="539 403,538.5 427,599 427.5,599 403.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="23" points="599 403,599 427,607 433.5,608 412.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="24" points="608 412.5,607 433.5,677 434,676.5 412" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="25" points="677 411.5,677 434,689.5 427,688.5 403.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="26" points="688.5 403.5,690 426.5,750 427,750 403" fill="#000000" stroke="none" stroke-opacity="0" />
+
+
+</svg>
+

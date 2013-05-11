@@ -1,0 +1,257 @@
+@import url("../common/common.css");
+input[type="text"] {
+	width:150px;
+	height:20px;
+	line-height:20px;
+	padding:2px;
+    background:#fff;
+    border: 1px solid #aac0d5;
+}
+select {
+	width:150px;
+	height:22px;
+	line-height:20px;
+	padding:2px;
+	border:1px solid #333;
+}
+body {
+	font-size: 12px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+
+input[type="button"]{
+	cursor: pointer;
+	outline: none;
+	border: none;
+	font-size: 12px;
+}
+.title_bar {
+	background: #eaeaea;
+	border-bottom: 1px solid #cccccc;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e4e7ec;
+	color: #363636;
+	font-size: 14px;
+}
+.title_bar div.left  {
+	float: left;
+	height: 40px;
+	line-height:40px;
+	font-size: 14px;
+	
+}
+
+.title_bar div.left input[type="text"] {
+	width:150px;
+	height:20px;
+	line-height:20px;
+	padding:2px;
+    background:#fff;
+    border: 1px solid #aac0d5;
+}
+
+.title_bar div.left select {
+	width:150px;
+	height:24px;
+	line-height:20px;
+	padding:2px;
+	border:1px solid #333;
+}
+.title_bar h2 {
+	width: 120px;
+	float: left;
+	padding-left: 10px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.btn_blue{
+	width: 65px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #0072bb;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+.btn_green{
+	width: 65px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #449139;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+.btn_grey{
+	width: 55px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #666666;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+.btn_orange{
+	width: 55px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #f46614;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+.btn_red{
+	width: 65px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #ac2727;
+	color: #FFF;
+	cursor:pointer;
+	text-align: center;
+}
+
+.btn_full_white{
+	margin-top:5px;
+	width: 62px;
+	height: 26px;
+	line-height: 24px;
+	background-color: transparent;
+	background-image: url('../../images/common/btn_full_white.gif');
+	background-repeat:no-repeat;
+	background-position: center;
+	color: #FFF;
+	cursor:pointer;
+	float:left;
+	text-align: center;
+}
+
+.btn_cutline_3_26{
+	width: 3px;
+	height: 26px;
+	line-height: 24px;
+	margin-top:5px;
+	background-color: transparent;
+	background-image: url('../../images/common/btn_cutline_3_26.jpg');
+	background-repeat:no-repeat;
+	background-position: center;
+	text-align: center;
+	float:left;
+}
+
+
+
+
+
+table.content_table{
+	color:#000;
+	table-layout: fixed;
+	width: 100%;
+	text-align: left;
+	margin-top: -1px;
+	border-collapse:collapse; 
+	word-break:break-all;
+}
+table.content_table tr th{
+	padding:3px; clear:both;
+	border: 1px solid #cccccc;
+	background:#eaeaea;
+	text-align:center;
+	height: 30px; line-height: 25px;
+}
+table.content_table .mainTr{
+	height: 30px;
+}
+table.content_table .mainTr td{
+	/*padding-left:12px;*/
+	cursor: pointer;
+	overflow: hidden;
+	border: 1px solid #dddbdc;
+	padding-left: 4px;
+}
+table.content_table .mainTr:hover td{
+	background-color: #edeff3;
+	color: #40a3de;
+}
+table.content_table .mainTr td:hover{
+	background-color: #d9dee6;
+}
+table.content_table .detailTr{
+	background-color: #f7f7f7;
+}
+
+
+table.main_content {
+	width: 100%;
+	height:30px;
+	line-height:30px;
+	color: #5a5a5a;
+}
+table.main_content td{
+	word-wrap: break-word;
+	padding: 0 5px;
+}
+table.main_content input[type="text"] {
+	width: 94%;
+	height:16px;
+	padding:3px;
+    background:#fff;
+    line-height:20px;
+    border: 1px solid #aac0d5;	
+}
+table.main_content input[type="text"].required {
+	border-left:2px solid red;
+}
+table.main_content input[type="text"].requiredStore {
+	border-left:2px solid red;
+}
+table.main_content textarea {
+	width: 99%;
+	margin-top:5px;
+	padding:3px;
+    background:#fff;
+    line-height:20px;
+    border: 1px solid #aac0d5;
+}
+table.main_content textarea.required{
+	border-left:2px solid red;
+}
+
+table.main_content textarea.requiredStore{
+	border-left:2px solid red;
+}
+table.main_content select {
+	width: 100%;
+	height:22px;
+	line-height:20px;
+	padding:2px;
+    background:#fff;
+	border:1px solid #333;
+}
+table.main_content select.required{
+	border-left:2px solid red;
+}
+table.main_content select.requiredStore{
+	border-left:2px solid red;
+}
+
+table.main_content font {
+	height: 100%;
+}
+
+.button_new{
+	background:url("../../images/res/res_add.png") no-repeat scroll 5px center #0072BB;
+    margin-bottom:0px;
+	margin-left:0px;
+	padding-left:12px;
+	color:#fff;
+	border: 1px solid #0072bb;
+	width:80px;
+	height:26px;
+	font-size:12px;
+	text-align:center;
+	cursor:default;
+}

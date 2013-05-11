@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11731"
+   name=""
+   committed-date="2009-01-16T07:23:02.046125Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/Output/FileManagement"
+   last-author="louis_lu"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+</wc-entries>

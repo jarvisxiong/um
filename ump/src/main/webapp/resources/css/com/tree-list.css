@@ -1,0 +1,7 @@
+.treerow{
+	cursor: pointer;	
+}
+.treerow:hover{
+	cursor: pointer;	
+	background-color: #C5CDD8;
+}

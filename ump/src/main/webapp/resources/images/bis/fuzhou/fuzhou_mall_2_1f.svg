@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="410" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible" xmlns="http://www.w3.org/2000/svg">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+				image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="fuzhou_mall_2_1f.png" width="770" height="410" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="dt001" points="34.5 122.5,124 123,116.5 283,96 273.5,80 263.5,65 248,53 233.5,42.5 211.5,36.5 194.5,33.5 168.5" fill="#000000" stroke="none" />
+<polygon id="dt001A" points="124.5 100.5,116.5 282.5,138.5 288,161 289.5,183.5 287,228 278.5,208.5 192,229.5 187.5,221.5 143,243.5 140,235.5 118.5,224 103.5,212 93,200.5 86,190.5 82,169.5 78.5,169 88.5,167 95.5,159.5 100" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt002" points="169 33.5,169 88.5,167.5 95,159.5 100,145 100.5,146.5 33.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt003" points="146.5 33.5,145.5 100.5,124 100.5,124 33.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt004" points="124.5 34,101.5 33.5,101 100.5,124.5 100.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt005" points="101.5 34,79.5 33.5,79 100,101 100" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt006" points="79.5 34,57.5 34,57.5 100.5,79.5 100" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt007" points="58 34,34.5 34,34 101,57.5 100.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="dt008" points="65.5 247.5,41 270,35.5 260.5,34 251.5,34.5 242,37.5 235,41.5 229,48 224" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt009" points="79.5 262,51 296,74 312.5,96.5 272.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt010" points="96.5 273,116.5 282,101 324.5,74.5 312.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt011" points="116.5 282.5,100.5 324,116 329.5,132 331,138 287.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt012" points="138 287.5,131.5 332,162.5 334,161 288.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt013" points="161 288.5,161.5 333,191.5 331,182.5 286" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt014" points="182 286.5,190.5 330,214 327.5,205 283" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt015" points="205 282.5,214 327,236 321.5,227.5 277.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt016" points="258.5 317,325.5 302.5,320 281.5,254 295" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt017" points="254 295,249 273,315.5 260,319.5 281.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt018" points="249 273.5,244 252,310.5 239,315.5 260.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt019" points="244.5 251.5,240 231,306 217,310 239.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt020" points="240.5 231,234.5 209.5,300.5 196,306 217" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt021" points="235 209.5,229.5 187.5,295.5 173.5,301 197" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt022" points="230 188,226 167,291.5 153.5,295.5 174" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="dt023" points="226 166.5,222 143.5,285.5 130,291 154" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh001" points="701 74,697 79,695.5 86,696.5 93.5,701.5 100,711 104,721 101.5,727 94.5,729.5 85.5,727 78,721 72.5,710.5 70" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh002" points="690.5 63.5,691 107,668.5 107.5,667.5 64" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh003" points="668 64,646 63.5,646 107.5,667.5 108" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh004" points="629 64,646 64,646 107.5,628 108" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh005" points="483 63,466 63,465 108,482 108" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh006" points="466 63.5,443 63,443 108,465.5 108" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh007" points="420.5 62.5,443 63.5,443 99.5,420.5 100" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh008" points="393.5 70,386.5 75,383.5 82.5,384 92.5,388.5 99,397.5 103.5,408 100.5,413.5 94,415.5 87,413.5 78,408 71.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh009" points="376 107.5,375.5 124,420.5 124.5,421.5 107" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh010" points="420.5 124,420.5 141.5,375.5 141,376 123.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh011" points="376.5 140,375.5 163.5,442.5 163.5,443 140.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh012" points="442.5 163.5,443 186,375 185,375.5 163" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh013" points="375.5 185,375 207.5,442.5 207.5,443.5 185" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh014" points="442.5 207,443 229.5,375 229,375.5 207" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh015" points="375.5 229,374 251.5,443 250.5,442.5 230" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh016" points="375 251.5,374.5 271.5,443 273.5,442.5 251" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh017" points="374 295,375 315,421 316.5,420 294" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh018" points="386.5 326,382 333,382 340.5,384 346,388.5 351,397 354,406.5 351.5,413.5 345.5,415 337.5,413 329,407 323.5,396 321.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh019" points="420.5 294.5,420 360.5,442.5 362.5,442.5 295" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh020" points="442.5 295.5,443 361,464 362,465 294.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh021" points="465.5 295,464.5 361,487 362,488 295.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh022" points="488 295.5,510.5 295.5,511 362,487 362" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh023" points="510.5 295.5,532.5 296,532.5 361.5,510.5 361.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh024" points="533 296.5,556 295.5,555.5 361,532 361" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh025" points="556 295.5,578 296,578 361.5,555 360.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh026" points="577.5 296,600.5 296.5,600.5 360,578 361" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh027" points="600.5 296,623 296,624 361,600.5 360.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh028" points="623.5 296,645.5 295.5,645.5 360.5,623 359.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh029" points="645 296.5,668 296.5,669 361,644.5 360" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh030" points="668 296.5,690 295.5,690 360,668.5 360" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh031" points="714 322,704.5 323.5,697.5 329.5,695.5 339.5,699 349.5,707.5 354.5,718.5 354,726.5 347.5,729 338,726.5 329.5,723 325" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh032" points="690 317.5,735.5 317,735.5 295.5,690 294.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh033" points="668 273.5,735.5 273,735 252,668 252" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh034" points="668 252,667.5 229.5,736 229,735.5 252.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh035" points="668 229.5,667.5 208.5,735.5 208.5,735.5 230" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh036" points="668 208.5,668 186,735.5 186,735.5 209" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh037" points="735 186.5,735.5 165,667.5 164.5,668 186" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh038" points="668 165,735.5 165,734 142,668 142" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh039" points="690 125.5,735 125.5,735 142.5,690 141.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh040" points="690.5 124.5,690 108,735 109,734.5 125" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="yzh041" points="443.5 108,443 274,668 273.5,668 108,600 109,600 77,511 77,510 107.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+
+</svg>

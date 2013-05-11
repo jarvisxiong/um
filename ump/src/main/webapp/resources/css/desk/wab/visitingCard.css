@@ -1,0 +1,82 @@
+.visitingCard {
+	min-height:159px;
+	min-width: 312px;
+	border: 1px #6d6d6d solid;
+	background-color: white;
+	position: absolute;
+	z-index: 999;
+	border: 1px solid #6d6d6d;
+}
+
+.visitingCard .operate {
+	height: 26px;
+	line-height: 26px;
+	margin: 0;
+	padding: 2px 8px 2px 8px;
+	background-color: #e4e7ec;
+	border-bottom:1px solid #AAABB0;
+}
+
+.visitingCard .operate span{
+	float: left;
+	display: inline;	
+	margin:0 5px 0 5px; 
+}
+.visitingCard .operate .mail {
+	float:left;
+	padding-left:20px;
+	height: 26px;
+	line-height: 26px;
+	background: url("../../../images/desk/wab/namecard_mail.gif") no-repeat left;
+	cursor: pointer;
+	display: inline;
+}
+
+.visitingCard .operate .copy {
+	float:left;
+	padding-left:20px;
+	height: 26px;
+	line-height: 26px;
+	background: url("../../../images/desk/wab/namecard_copy.gif") no-repeat left;
+	cursor: pointer;
+	display: inline;
+}
+.visitingCard .operate .copy:hover{
+	text-decoration: underline;
+}
+.visitingCard .content {
+	padding: 8px;
+}
+
+.visitingCard .employeeInfo {
+	/*padding-top: 5px;*/
+}
+
+.visitingCard .employeePicOnline {
+	height: 114px;
+	width:91px;
+	text-align: center;
+	background: url("../../../images/desk/wab/namecard_online.jpg") no-repeat left;
+	float: left;
+	margin-right:10px;
+}
+
+.visitingCard .employeePicOffline {
+	height: 114px;
+	text-align: center;
+	background: url("../../../images/desk/wab/namecard_offline.jpg") no-repeat left;
+	float: left;
+	margin-right:10px;
+}
+
+.visitingCard .employeeInfo .cardTitle {
+	padding-bottom: 2px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.visitingCard .employeeInfo .positionName {
+	white-space: normal;
+	word-wrap: break-word;
+}
+}

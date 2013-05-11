@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11264"
+   name=""
+   committed-date="2008-12-31T06:15:45.493500Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/axis2-web"
+   last-author="gong_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="11264"
+   name="disengage.jsp"
+   text-time="2009-12-01T08:40:41.187500Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="53b3e4075cad31f2a9c0887e17383b01"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.171875Z"/>
+<entry
+   committed-rev="11264"
+   name="admin.jsp"
+   text-time="2009-12-01T08:40:41.203125Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="14c45037cd4a8437a7de0f294e4296f2"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.171875Z"/>
+<entry
+   committed-rev="11264"
+   name="globalModules.jsp"
+   text-time="2009-12-01T08:40:41.218750Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="7150cf12871d9e5ddbf4755218c0edde"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.187500Z"/>
+<entry
+   committed-rev="11264"
+   name="listService.jsp"
+   text-time="2009-12-01T08:40:41.234375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="bf3bccce6bbefc375193b5f3d11d8eda"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.187500Z"/>
+<entry
+   committed-rev="11264"
+   name="listSingleService.jsp"
+   text-time="2009-12-01T08:40:41.250000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="b5c508089a724699cfb6a793de0ea4f5"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.203125Z"/>
+<entry
+   committed-rev="11264"
+   name="MainFrame.jsp"
+   text-time="2009-12-01T08:40:41.265625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="c655eeef0fcd094bfac763f21eaa15fc"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.203125Z"/>
+<entry
+   committed-rev="11264"
+   name="SelectService.jsp"
+   text-time="2009-12-01T08:40:41.312500Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="e6de0d0f5b523f28878f9442cc38899a"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.218750Z"/>
+<entry
+   committed-rev="11264"
+   name="engagingtoaservice.jsp"
+   text-time="2009-12-01T08:40:41.359375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="9cf781c34ddd9c8e5bcac1fa105f9c54"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.234375Z"/>
+<entry
+   committed-rev="11264"
+   name="LeftFrame.jsp"
+   text-time="2009-12-01T08:40:41.359375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="29b1f1ee1ac98c9d7ab877f22e9e5e06"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.234375Z"/>
+<entry
+   committed-rev="11264"
+   name="HappyAxis.jsp"
+   text-time="2009-12-01T08:40:41.359375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="97fa88074e9f3f32bc4481fb61fce5a5"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.250000Z"/>
+<entry
+   committed-rev="11264"
+   name="index.jsp"
+   text-time="2009-12-01T08:40:41.375000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="e695bc02c326d2ea58ecac66e536b801"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.281250Z"/>
+<entry
+   committed-rev="11264"
+   name="Login.jsp"
+   text-time="2009-12-01T08:40:41.390625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="264a825200ae9e8958a74725f8cefeb4"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.281250Z"/>
+<entry
+   committed-rev="11264"
+   name="InActivateService.jsp"
+   text-time="2009-12-01T08:40:41.375000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="86184bbfffdc2ce1f58561410def345e"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.281250Z"/>
+<entry
+   committed-rev="11264"
+   name="listGroupService.jsp"
+   text-time="2009-12-01T08:40:41.390625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="9a1ca5a32c3e2e0c91fe0b5167b5db34"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.296875Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="11264"
+   name="TopFrame.jsp"
+   text-time="2009-12-01T08:40:41.390625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="484f226268c51fdd8cb76a850ebbdd40"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.625000Z"/>
+<entry
+   committed-rev="11264"
+   name="listServices.jsp"
+   text-time="2009-12-01T08:40:41.406250Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="fed8757d420d19a6afd62e669c1d9c43"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.625000Z"/>
+<entry
+   committed-rev="11264"
+   name="ActivateService.jsp"
+   text-time="2009-12-01T08:40:41.421875Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="bd957a0a9c9555cf6fc715c89af2979a"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.640625Z"/>
+<entry
+   committed-rev="11264"
+   name="upload.jsp"
+   text-time="2009-12-01T08:40:41.437500Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="abc341fe02bad101c161325d552549eb"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.640625Z"/>
+<entry
+   committed-rev="11264"
+   name="EngageToServiceGroup.jsp"
+   text-time="2009-12-01T08:40:41.437500Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="cf3dd154f9c3f66a119e4904f092e654"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.640625Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="11264"
+   name="error.jsp"
+   text-time="2009-12-01T08:40:41.468750Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="ca00c71cb0d152ae57cd0af6005fb968"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:40.859375Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   name="Error"
+   kind="dir"/>
+<entry
+   committed-rev="11264"
+   name="errorModule.jsp"
+   text-time="2009-12-01T08:40:41.468750Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="7b672da7bd89e52dddff9c0ace9dfb1d"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.093750Z"/>
+<entry
+   committed-rev="11264"
+   name="viewServiceContext.jsp"
+   text-time="2009-12-01T08:40:41.468750Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="0c2caa42e750d3af23328897065d5317"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.093750Z"/>
+<entry
+   committed-rev="11264"
+   name="ViewContexts.jsp"
+   text-time="2009-12-01T08:40:41.484375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="6fc6695d87975399d3801dc0d90f80cc"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.109375Z"/>
+<entry
+   committed-rev="11264"
+   name="listModules.jsp"
+   text-time="2009-12-01T08:40:41.484375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="19101e8661e86cc42d95d0b4cbea6c5a"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.109375Z"/>
+<entry
+   committed-rev="11264"
+   name="engagingglobally.jsp"
+   text-time="2009-12-01T08:40:41.484375Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="492c8bd07dbf45d3914b23642ec16f2d"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.125000Z"/>
+<entry
+   committed-rev="11264"
+   name="ListServiceGroup.jsp"
+   text-time="2009-12-01T08:40:41.500000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="cefeb9b6633ff225f6a066e131483e3f"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.125000Z"/>
+<entry
+   committed-rev="11264"
+   name="ServiceParaEdit.jsp"
+   text-time="2009-12-01T08:40:41.500000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="e1b7a9305429a61fb73f7b59cb891384"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.140625Z"/>
+<entry
+   committed-rev="11264"
+   name="ViewGlobalHandlers.jsp"
+   text-time="2009-12-01T08:40:41.500000Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="c848b2a8e4df82668e3bdc6186d9ddf6"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.140625Z"/>
+<entry
+   committed-rev="11264"
+   name="ViewServiceHandlers.jsp"
+   text-time="2009-12-01T08:40:41.515625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="8f74397a08eed396b9b8b9e81bc7f857"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.156250Z"/>
+<entry
+   committed-rev="11264"
+   name="viewServiceGroupContext.jsp"
+   text-time="2009-12-01T08:40:41.515625Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="1a746822b37c2d7d3372c006d2127545"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.156250Z"/>
+<entry
+   committed-rev="11264"
+   name="viewphases.jsp"
+   text-time="2009-12-01T08:40:41.531250Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="f4d499140552b9098ee886a51352ee13"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.171875Z"/>
+<entry
+   committed-rev="11264"
+   name="listFaultyService.jsp"
+   text-time="2009-12-01T08:40:41.531250Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="578d54d260c65f9d45f8aec93fc29d76"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.171875Z"/>
+<entry
+   committed-rev="11264"
+   name="engagingtoanoperation.jsp"
+   text-time="2009-12-01T08:40:41.531250Z"
+   committed-date="2008-12-31T06:15:45.493500Z"
+   checksum="1bd645f2d8823e4752aaf09c33bb797b"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:41.187500Z"/>
+</wc-entries>

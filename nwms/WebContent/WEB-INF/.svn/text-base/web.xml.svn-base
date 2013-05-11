@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>nwms</display-name>
+	<servlet>
+	<servlet-name>XFireServlet</servlet-name>
+	<servlet-class>org.codehaus.xfire.transport.http.XFireConfigurableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>XFireServlet</servlet-name>
+	<url-pattern>/servlet/XFireServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>XFireServlet</servlet-name>
+	<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ClickServlet</servlet-name>
+		<servlet-class>net.sf.click.ClickServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ClickServlet</servlet-name>
+		<url-pattern>*.htm</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.htm</welcome-file>
+	</welcome-file-list>
+	<filter>
+		<filter-name>HibernateFilter</filter-name>
+		<filter-class>
+			com.intelitune.nwms.common.HibernateFilter
+		</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>HibernateFilter</filter-name>
+		<url-pattern>*.htm</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>CAS Filter</filter-name>
+		<filter-class>
+			edu.yale.its.tp.cas.client.filter.CASFilter
+		</filter-class>
+		<init-param>
+			<param-name>
+				edu.yale.its.tp.cas.client.filter.loginUrl
+			</param-name>
+			<param-value>
+				https://www.hmglog.com:8443/sso/login
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>
+				edu.yale.its.tp.cas.client.filter.validateUrl
+			</param-name>
+			<param-value>
+				https://www.hmglog.com:8443/sso/serviceValidate
+			</param-value>
+		</init-param>
+		<init-param>
+			<param-name>
+				edu.yale.its.tp.cas.client.filter.serverName
+			</param-name>
+			<param-value>www.hmglog.com</param-value>
+		</init-param>
+		<init-param>
+			<param-name>
+				edu.yale.its.tp.cas.client.filter.serviceUrl
+			</param-name>
+			<param-value>
+				http://www.hmgtech.com:9080/nwms/loginsso.htm
+			</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CAS Filter</filter-name>
+		<url-pattern>/loginsso.htm</url-pattern>
+	</filter-mapping>
+	<mime-mapping>
+		<extension>xls</extension>
+		<mime-type>application/x-download</mime-type>
+	</mime-mapping>
+
+
+
+</web-app>

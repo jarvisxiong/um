@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	default-lazy-init="true">
+
+	<description>Spring公共配置 </description>
+	<!--国际化配置	-->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basenames">
+			<list>
+				<value>i18n/service/messages</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 定义受环境影响易变的变量 -->
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+		<property name="ignoreResourceNotFound" value="true" />
+		<property name="locations">
+			<list>
+				<!-- 标准配置 -->
+				<value>classpath*:/application.properties</value>
+				<!-- 集群中节点配置 -->
+				<value>classpath*:/application.cluster.properties</value>
+				<!-- 本地开发环境配置 -->
+				<value>classpath*:/application.local.properties</value>
+				<!-- 服务器生产环境配置 -->
+				<!-- <value>file:/var/myapp/application.server.properties</value> -->
+			</list>
+		</property>
+	</bean>
+
+	<!-- 使用annotation 自动注册bean,并保证@Required,@Autowired的属性被注入 -->
+	<context:component-scan base-package="com.hhz" />
+
+	<!-- 数据源配置,使用应用内的DBCP数据库连接池 -->
+	<!--	
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+		<property name="initialSize" value="1" />
+		<property name="maxActive" value="3" />
+		<property name="maxIdle" value="1" />
+		<property name="maxWait" value="1000" />
+		<property name="poolPreparedStatements" value="false" />
+		<property name="defaultAutoCommit" value="false" />
+	</bean>
+	-->
+	
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}" />
+        <property name="jdbcUrl" value="${jdbc.url}" />
+        <property name="user" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="autoCommitOnClose" value="false"/>
+        <property name="initialPoolSize" value="${cpool.minPoolSize}"/>
+        <property name="minPoolSize" value="${cpool.minPoolSize}"/>
+        <property name="maxPoolSize" value="${cpool.maxPoolSize}"/>
+        <property name="maxIdleTime" value="${cpool.maxIdleTime}"/>
+        <property name="acquireIncrement" value="${cpool.acquireIncrement}"/>
+        <property name="maxIdleTimeExcessConnections" value="${cpool.maxIdleTimeExcessConnections}"/>
+        <property name="idleConnectionTestPeriod" value="60"/>
+        <property name="testConnectionOnCheckout" value="false"/>
+        <property name="maxStatements" value="0"/>
+    </bean>
+	
+	<!-- 数据源配置,使用应用服务器的数据库连接池 -->
+	<!--
+		<jee:jndi-lookup id="dataSource"
+		jndi-name="java:comp/env/jdbc/ExampleDB" />
+	-->
+
+	<!-- Hibernate配置 -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="namingStrategy">
+			<bean class="org.hibernate.cfg.ImprovedNamingStrategy" />
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.autoReconnect">true</prop>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+				<prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>
+				<prop key="hibernate.cache.provider_configuration_file_resource_path">${hibernate.ehcache_config_file}</prop>
+			</props>
+		</property>
+
+		<property name="packagesToScan">
+			<list>
+				<value>com.hhz.core.entity</value>
+				<value>com.hhz.ump.entity</value>
+				<value>com.hhz.ump.entity.app</value>
+				<value>com.hhz.ump.entity.dly</value>
+				<value>com.hhz.ump.entity.fin</value>
+				<value>com.hhz.ump.entity.sup</value>
+				<value>com.hhz.ump.entity.hr</value>
+				<value>com.hhz.ump.entity.oa</value>
+				<value>com.hhz.ump.entity.jbpm</value>
+				<value>com.hhz.ump.entity.webim</value>
+				<value>com.hhz.ump.entity.plan</value>
+				<value>com.hhz.ump.entity.old</value>
+				<value>com.hhz.ump.entity.res</value>
+				<value>com.hhz.ump.entity.cont</value>
+				<value>com.hhz.ump.entity.vw</value>
+				<value>com.hhz.ump.entity.mate</value>
+				<value>com.hhz.ump.entity.bis</value>
+				<value>com.hhz.ump.entity.biz</value>
+				<value>com.hhz.ump.entity.bid</value>
+				<value>com.hhz.ump.entity.bid.pl</value>
+				<value>com.hhz.ump.entity.ct</value>
+				<value>com.hhz.ump.entity.prod</value>
+				<value>com.hhz.ump.entity.ctdb</value>
+				<value>com.hhz.ump.entity.sc</value>
+				<value>com.hhz.ump.entity.mes</value>
+				<value>com.hhz.ump.entity.cost</value>
+				<value>com.hhz.ump.entity.assm</value>
+				<value>com.hhz.ump.web.res.bean</value>
+				<value>com.hhz.ump.entity.engineer</value>
+				<!-- 企划资料库 -->
+				<value>com.hhz.ump.entity.pm</value>
+			</list>
+		</property>
+	</bean>
+	<!-- 事务管理器配置,单数据源事务 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	<!--
+		<bean id="repositoryService" factory-bean="processEngine"
+		factory-method="getRepositoryService"/>
+	-->
+	<!--
+		<bean id="executionService" factory-bean="processEngine"
+		factory-method="getExecutionService"/>
+	-->
+
+	<!--end jpbm -->
+
+
+	<bean id="md5PasswordEncoder"
+		class="org.springframework.security.providers.encoding.Md5PasswordEncoder" />
+
+	<bean id="SpringContextHolder" class="org.springside.modules.spring.SpringContextHolder"
+		lazy-init="false" />
+	<!-- 
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="get*" propagation="NOT_SUPPORTED" />
+			<tx:method name="find*" propagation="NOT_SUPPORTED" />
+			<tx:method name="load*" propagation="NOT_SUPPORTED" />
+			<tx:method name="query*" propagation="NOT_SUPPORTED" />
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="*" propagation="SUPPORTS" />
+		</tx:attributes>
+	</tx:advice>
+	<aop:config>
+		<aop:pointcut id="interceptorPointCuts"
+			expression="execution(* com.hhz.ump.dao.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="interceptorPointCuts" />
+	</aop:config>
+	 -->
+	<!-- 使用annotation定义事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager"
+		proxy-target-class="true" />
+
+	<bean
+		class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator">
+		<property name="proxyTargetClass" value="true" />
+	</bean>
+
+	<bean id="hibernateAspect" class="com.hhz.ump.aop.HibernateAspect" />
+	<bean id="bisAspect" class="com.hhz.ump.aop.BisAspect" />
+</beans>

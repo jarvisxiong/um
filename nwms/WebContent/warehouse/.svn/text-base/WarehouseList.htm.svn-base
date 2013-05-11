@@ -1,0 +1,13 @@
+<div class="box" />
+	<div id="title">
+	
+		$title
+	</div>
+	<div id="title">
+			$warehouse_title
+	</div>
+
+	$form
+	<DIV id="box">
+		$table
+	</DIV>

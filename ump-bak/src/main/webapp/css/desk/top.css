@@ -1,0 +1,74 @@
+.topBar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 27px;
+	z-index: 1;
+}
+
+.top1 {
+	background-image: url(../../images/desk/daohangtiao_01.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+.top2 {
+	background-image: url(../../images/desk/daohangtiao_02.png);
+	background-position: center top;
+	background-repeat: repeat-x;
+}
+
+.top3 {
+	background-image: url(../../images/desk/daohangtiao_03.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	letter-spacing: 10px;
+}
+
+.top3 img {
+	cursor: pointer;
+}
+
+.userInfo {
+	position: absolute;
+	top: 3px;
+	left: 100px;
+	z-index: 2;
+	font-weight: bolder;
+}
+
+.logo_pd0 {
+	position: absolute;
+	top: 0px;
+	width: 80px;
+	height: 56px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.logo_pd1 {
+	position: absolute;
+	top: 21px;
+	width: 37px;
+	height: 38px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.logo_pd2 {
+	position: absolute;
+	top: 20px;
+	width: 41px;
+	height: 42px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.iframeContainer {
+	position: absolute;
+	left: 0px;
+	top: 23px;
+	width: 100%;
+	z-index: 0;
+}

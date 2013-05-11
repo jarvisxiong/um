@@ -1,0 +1,28 @@
+<div class="box" />
+	<div id="title">
+	
+		$title
+	</div>
+
+	$form
+	
+<script type="text/javascript">	
+   function showPrice(){
+    	var qty = document.getElementById("form_qty").value;
+    	var price = document.getElementById("form_unit_price").value;
+    	if(price==null||price==""){
+    		return;
+    	}
+    	var gross_price = document.getElementById("gross_price");
+    	gross_price.innerHTML = Math.round(qty*1000*price*1000)/1000000;
+    }
+    function showWeight(){
+    	var qty = document.getElementById("form_qty").value;
+    	var weight = document.getElementById("form_unit_weight").value;
+    	if(weight==null||weight==""){
+    		return;
+    	}
+    	var gross_weight = document.getElementById("gross_weight");
+    	gross_weight.innerHTML = Math.round(qty*1000*weight*1000)/1000000;
+    }
+  </SCRIPT>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<node id="1">
+		<nameCN>仓库管理系统</nameCN>
+		<nameEN>WMS</nameEN>
+		<icon>images/system.gif</icon>
+		<explain>WMS</explain>
+	</node>
+	<node id="2" parentid="1">
+		<nameCN>用户管理</nameCN>
+		<nameEN>User Management</nameEN>
+		<icon>images/menu.gif</icon>
+		<explain>UserAdmin</explain>
+	</node>
+	<node id="3" parentid="2">
+		<nameCN>编辑用户</nameCN>
+		<nameEN>Edit User</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.EditUser</explain>
+	</node>
+	<node id="4" parentid="2">
+		<nameCN>编辑当前用户</nameCN>
+		<nameEN>Edit Current User</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.EditUserInfo</explain>
+	</node>
+	<node id="5" parentid="2">
+		<nameCN>用户信息</nameCN>
+		<nameEN>User Information</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.UserInfo</explain>
+	</node>
+	<node id="6" parentid="2">
+		<nameCN>权限列表</nameCN>
+		<nameEN>Access List</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.Access</explain>
+	</node>
+	<node id="7" parentid="2">
+		<nameCN>设置权限</nameCN>
+		<nameEN>Access Detail</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.AcessDetail</explain>
+	</node>
+	<node id="8" parentid="2">
+		<nameCN>用户列表</nameCN>
+		<nameEN>User List</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.UserList</explain>
+	</node>
+	<node id="9" parentid="2">
+		<nameCN>添加用户</nameCN>
+		<nameEN>Add User</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.AddUser</explain>
+	</node>
+	<!--
+	<node id="10" parentid="2">
+		<nameCN>客户管理</nameCN>
+		<nameEN>Customer Admin</nameEN>
+		<icon>images/page.gif</icon>
+		<explain>com.intelitune.nwms.admin.CustomerList</explain>
+	</node>
+	-->
+</root>

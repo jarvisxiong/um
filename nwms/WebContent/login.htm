@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+		<title>WarehouseSystem</title> $imports
+		<style type="text/css">
+<!--
+@import url("login/css/login.css");
+body {
+	background-image: url(login/image/billing_login2.jpg);
+}
+-->
+</style>
+	</head>
+	<body>
+		<div id="container">
+
+<div id="head"></div>
+<div id="body">
+
+$form.startTag()
+<table align="center"  cellpadding="0" cellspacing="0" width="269">
+<tr>
+    <td height="161"><img src="login/image/pannel1.jpg" width="269" height="161" /></td>
+</tr>
+<tr>
+    <td  height="21" background="login/image/pannel2.jpg">&nbsp;&nbsp;&nbsp;Username</td>
+</tr>
+<tr>
+    <td  height="29" background="login/image/pannel3.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
+      $form.fields.tfAccount</td> 
+</tr>
+<tr>
+    <td  height="29" valign="bottom" background="login/image/pannel4.jpg">&nbsp;&nbsp;&nbsp;Password</td>
+</tr>
+<tr>
+    <td  height="29" background="login/image/pannel_4_1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
+      $form.fields.pfPassword</td>
+</tr>
+<tr>
+    <td height="53"  background="login/image/pannel5.jpg"><div align="right">
+      $form.fields.sbLogin
+    </div></td>
+</tr>
+<tr>
+    <td height="48" background="login/image/pannel6.jpg"></td>
+</tr>
+</table>
+<TABLE align="center"  cellpadding="0" cellspacing="0">
+	<TR>
+		<TD>
+			<FONT color="red">
+			$form.fields.label_message
+			</FONT>
+		</TD>
+	</TR>
+</TABLE>
+$form.endTag()
+
+</div>
+<!--
+<div id="foot">
+  <div align="center"><img src="image/hmglogo.jpg"/></div>
+</div>
+-->
+</div>
+	</body>
+</html>

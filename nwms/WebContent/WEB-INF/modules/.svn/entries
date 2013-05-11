@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11268"
+   name=""
+   committed-date="2008-12-31T06:30:20.212250Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/WEB-INF/modules"
+   last-author="gong_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="11268"
+   name="scripting-1.4.mar"
+   text-time="2009-12-01T08:40:35.609375Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="9a94c18add7a7af996e6cf5220d90b24"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.203125Z"/>
+<entry
+   committed-rev="11268"
+   name="addressing-1.4.mar"
+   text-time="2009-12-01T08:40:35.609375Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="c67eb3eaa5f25aca1ecf07ca2664e2a0"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.218750Z"/>
+<entry
+   committed-rev="11268"
+   name="modules.list"
+   text-time="2009-12-01T08:40:35.671875Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="95dc4f08a399b0dfc92ae142dbd5c432"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.218750Z"/>
+<entry
+   committed-rev="11268"
+   name="mex-1.4.mar"
+   text-time="2009-12-01T08:40:35.671875Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="e8f72caf8c270cf8d3c8303f3925dbcb"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.328125Z"/>
+<entry
+   committed-rev="11268"
+   name="soapmonitor-1.4.mar"
+   text-time="2009-12-01T08:40:35.687500Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="0ab66ac3accf7097edb1bb9d42c71ec7"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.500000Z"/>
+<entry
+   committed-rev="11268"
+   name="ping-1.4.mar"
+   text-time="2009-12-01T08:40:35.687500Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="dd38ef6b491165c6e447a35812f2fad6"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.562500Z"/>
+<entry
+   committed-rev="11268"
+   name="smtpfault.mar"
+   text-time="2009-12-01T08:40:35.703125Z"
+   committed-date="2008-12-31T06:30:20.212250Z"
+   checksum="792d5fcbdf9119825c6937c2e441133e"
+   last-author="gong_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:35.578125Z"/>
+</wc-entries>

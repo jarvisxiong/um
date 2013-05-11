@@ -1,0 +1,59 @@
+/*--------------------------------------------------|
+| dTree 2.05 | www.destroydrop.com/javascript/tree/ |
+|---------------------------------------------------|
+| Copyright (c) 2002-2003 Geir Landr?              |
+|--------------------------------------------------*/
+
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	white-space: nowrap;
+}
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+	font-size: 12px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	background-color: #c0d2ec;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+.cx{
+	line-height:12px;
+	padding:0px; 
+	margin:0px;
+	width:12px;
+	height:12px;
+	vertical-align:middle;
+}
+.dtree .dTreeNode{
+
+}
+.dtree .dTreeNodeSelected{
+	background: url("../images/dtree/tongxunlu_xuanze.png") no-repeat;
+}
+
+.dtree .noneChecked{
+	background: url("../images/dtree/checkbox_0.gif") no-repeat;
+}
+.dtree .halfChecked{
+	background: url("../images/dtree/checkbox_2.gif") no-repeat;
+}
+div .allChecked{
+	background: url("../images/dtree/checkbox_1.gif") no-repeat;
+}

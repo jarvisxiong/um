@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-family:"宋体";
+	font-size: 12px;
+	min-width:900px;
+	background-color: #bebdc2;
+	scrollbar-face-color:#C0C0C0;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-darkshadow-color:#737373;
+	scrollbar-shadow-color:#a6a6a6;
+	scrollbar-arrow-color:#696969;
+	scrollbar-track-color:#e0e0e0;
+}

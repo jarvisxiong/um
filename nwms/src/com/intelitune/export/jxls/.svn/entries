@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13125"
+   name=""
+   committed-date="2009-03-02T09:35:12.234942Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/export/jxls"
+   last-author="louis_lu"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="11730"
+   name="DocumentImpl.java"
+   text-time="2009-12-01T08:33:46.531250Z"
+   committed-date="2009-01-16T07:15:32.811750Z"
+   checksum="d6966126ec1f55d3d19cb3f51db732da"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.390625Z"/>
+<entry
+   committed-rev="13125"
+   name="ExporterInboundImpl.java"
+   text-time="2009-12-01T08:33:46.562500Z"
+   committed-date="2009-03-02T09:35:12.234942Z"
+   checksum="831a413522a1656dbad67ec6643f542a"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.406250Z"/>
+<entry
+   committed-rev="11723"
+   name="ExporterImpl.java"
+   text-time="2009-12-01T08:33:46.562500Z"
+   committed-date="2009-01-16T06:42:09.530500Z"
+   checksum="c66123fa718c52441c20f708f2ad1eee"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.515625Z"/>
+<entry
+   committed-rev="13125"
+   name="TemplateImpl.java"
+   text-time="2009-12-01T08:33:46.562500Z"
+   committed-date="2009-03-02T09:35:12.234942Z"
+   checksum="c64e6c38ce5a65092d237419c9526691"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:46.531250Z"/>
+</wc-entries>

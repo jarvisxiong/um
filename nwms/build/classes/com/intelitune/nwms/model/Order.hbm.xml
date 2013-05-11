@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Order"
+        table="intt_order"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Order.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <property
+            name="lastModifiedTime"
+            type="java.sql.Timestamp"
+            update="true"
+            insert="true"
+            column="lastModifiedTime"
+        />
+
+        <property
+            name="createTime"
+            type="java.sql.Timestamp"
+            update="true"
+            insert="true"
+            column="createTime"
+        />
+
+        <property
+            name="code"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="code"
+        />
+
+        <many-to-one
+            name="warehouse"
+            class="com.intelitune.nwms.model.Warehouse"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="warehouse"
+        />
+
+        <many-to-one
+            name="owner"
+            class="com.intelitune.nwms.model.Owner"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="owner"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Order.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

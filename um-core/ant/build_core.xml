@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+
+<project default="jar" basedir=".">
+	<property file="build_core.properties" />
+	<path id="myclasspath">
+		<fileset dir="${lib}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${srclib}">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="${build}" />
+	</path>
+
+
+	<tstamp>
+		<format property="build.time" pattern="yyyyMMddHHmmss" />
+	</tstamp>
+
+	<!--compile -->
+	<target name="compile">
+		<delete dir="${build}" />
+		<mkdir dir="${build}" />
+		<javac classpathref="myclasspath" srcdir="${src}" destdir="${build}" debug="true" >
+			<include name="**/*.java" />
+		</javac>
+		<copy todir="${build}">
+			<fileset dir="${src}/resources">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+
+
+	<!-- make some jar -->
+	<target name="jar" depends="compile">
+		<jar destfile="${PDjar}/pl-core.jar" basedir="${build}" >
+			<exclude name="**/*.svn" />
+			<exclude name="**/ehcache-hibernate-local.xml" />
+			<exclude name="**/applicationContext*.xml" />
+			<exclude name="**/application.properties" />
+			<exclude name="**/log4j.properties" />
+			<exclude name="**/struts.xml" />
+			<exclude name="**/file.properties" />
+			<exclude name="**/taglib/**" />
+			<metainf dir="${resources}">
+				<include name="**/taglib/**" />
+			</metainf>
+		</jar>
+		<jar destfile="${PLjar}/pl-core.jar" basedir="${build}">
+			<exclude name="**/*.svn" />
+			<exclude name="**/ehcache-hibernate-local.xml" />
+			<exclude name="**/applicationContext*.xml" />
+			<exclude name="**/application.properties" />
+			<exclude name="**/log4j.properties" />
+			<exclude name="**/struts.xml" />
+			<exclude name="**/file.properties" />
+			<exclude name="**/taglib/**" />
+			<metainf dir="${resources}">
+				<include name="**/taglib/**" />
+			</metainf>
+		</jar>
+		<jar destfile="${UAAPjar}/pl-core.jar" basedir="${build}">
+			<exclude name="**/*.svn" />
+			<exclude name="**/ehcache-hibernate-local.xml" />
+			<exclude name="**/applicationContext*.xml" />
+			<exclude name="**/application.properties" />
+			<exclude name="**/log4j.properties" />
+			<exclude name="**/struts.xml" />
+			<exclude name="**/file.properties" />
+			<exclude name="**/taglib/**" />
+			<metainf dir="${resources}">
+				<include name="**/taglib/**" />
+			</metainf>
+		</jar>
+	</target>
+
+	<target name="copy2Server">
+		<exec executable="cmd.exe">
+			<arg line="/c  copyToServer.bat" />
+		</exec>
+
+	</target>
+	<target name="create-war" description="Packages the WAR file" depends="compile">
+		<echo message="Creating the WAR...." />
+		<delete file="${websphere}/${war.file}" />
+		<delete dir="${source}" />
+		<copy todir="${source}">
+			<fileset dir="../webapp">
+				<exclude name="**/html/**" />
+				<exclude name="**/rar1/**" />
+				<exclude name="**/*.svn" />
+			</fileset>
+		</copy>
+		<copy todir="${source}/WEB-INF/classes">
+			<fileset dir="${build}">
+				<include name="**" />
+			</fileset>
+		</copy>
+		<replace file="${source}/WEB-INF/classes/application.properties" token="${jdbc.password_old}" value="${jdbc.password_new}" summary="true" encoding="UTF-8">
+		</replace>
+		<replace file="${source}/WEB-INF/classes/application.properties" token="${jdbc.url_old}" value="${jdbc.url_new}" summary="true" encoding="UTF-8">
+		</replace>
+		<antcall target="war">
+		</antcall>
+	</target>
+
+	<target name="war">
+		<war destfile="${websphere}/${war.file}" webxml="${source}/WEB-INF/web.xml" filesonly="true">
+			<fileset dir="${source}" />
+		</war>
+	</target>
+</project>

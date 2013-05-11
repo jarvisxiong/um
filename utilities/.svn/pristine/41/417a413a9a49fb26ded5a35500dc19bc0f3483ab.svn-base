@@ -1,0 +1,7 @@
+USEUNIT("..\..\tests\testmain.cpp");
+USELIB("..\log4shib\log4shib.lib");
+//---------------------------------------------------------------------------
+This file is used by the project manager only and should be treated like the project file
+
+
+main

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="13815"
+   name=""
+   committed-date="2009-03-18T07:29:28.126971Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/upload"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="13815"
+   name="excelUpload.htm"
+   text-time="2009-12-01T08:34:14.484375Z"
+   committed-date="2009-03-18T07:29:28.126971Z"
+   checksum="c392d3835a6d88c003362ecf9500d16d"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:14.468750Z"/>
+</wc-entries>

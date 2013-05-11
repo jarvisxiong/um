@@ -1,0 +1,138 @@
+.cost-nav{
+	list-style-type:none;
+	/*height:40px;*/
+	/*padding-left:10px;*/
+	font-size:14px;
+}
+.cost-nav li{
+	float:left;
+	margin-left:8px;
+	margin-bottom:6px;
+	font-size:12px;
+	border: 1px solid #cbcbcb;
+	width:80px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	cursor:pointer;
+}
+.cost-nav li:hover{
+	background-color:#0072bb;
+	color:#fff;
+}
+.cost-nav-click{
+	background-color:#0072bb;
+	color:#fff;
+}
+.group-title{
+	color:#0167A2;
+	font-weight:bold;
+	height:30px;
+	padding-left:10px;
+	cursor:pointer;
+}
+table.content_table input[type=text]{
+	width:85%;
+	margin-left:3px;
+}
+table.content_table .click td{
+	background-color: #edeff3;
+	color: #40a3de;
+}
+table.content_table .header th{
+	font-weight:bold;
+}
+fieldset {
+    padding:10px;
+    border:#DDDBDC solid 1px;
+    margin-bottom:10px;
+} 
+legend {
+    color:#316685;
+    font-weight:bold; 
+}
+textarea{
+	font-size:12px;
+}
+.bg-title{
+	background-color:#dbe5f1;
+	height:20px;
+	line-height:20px;
+	color:#000;
+}
+.big_drop_down {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/drop_down.gif");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.big_drop_up {
+	background-color: #E4E7EC;
+	background-image: url("../../images/common/right_grey.gif");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.project_row_item{
+	background-color:#E4E7EC;
+	cursor:pointer;
+	font-size:14px;
+	font-weight:bold;
+	line-height:24px;
+	padding-left:25px;
+	vertical-align:middle;
+}
+.proj_down_item{
+	background-color: #eeeeee;
+	color: #0066a2;
+	font-size:12px;
+	font-weight:bold;
+	line-height:24px;
+	padding-left:25px;
+	vertical-align:middle;
+}
+.proj_up_item{
+	background-color: #eeeeee;
+	font-size:12px;
+	font-weight:bold;
+	line-height:24px;
+	padding-left:25px;
+	vertical-align:middle;
+}
+.project_row_item span{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.proj_drop_down {
+	background-image: url("../../images/common/right_down_blue.gif");
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.proj_drop_up {
+	background-color: #E4E7EC;
+	background-image: url("../../images/common/right_little_grey.gif");
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+table.supp_table{
+	}
+table.supp_table tr{
+	height:24px;
+}
+table.supp_table input[type=text]{
+	width:85%;
+}
+table.supp_table td{
+    padding:0px 0px 0px 8px;
+}
+.mustTrColor{
+    background-color: #FFF68F
+}
+
+.mustTrBid{
+    background-color: #006fb6;
+    color: white;
+}

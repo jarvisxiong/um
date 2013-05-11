@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16793"
+   name=""
+   committed-date="2009-09-11T02:39:06.264332Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/src/com/intelitune/nwms/material"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="13377"
+   name="ShowBarCode.java"
+   text-time="2009-12-01T08:33:48.921875Z"
+   committed-date="2009-03-05T12:37:50.952250Z"
+   checksum="df2736697cc2eff58e2863a293c0f6d5"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.218750Z"/>
+<entry
+   committed-rev="14172"
+   name="EditUnitPackage.java"
+   text-time="2009-12-01T08:33:48.921875Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="010e40ab97eaa86dc14a87f361395912"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.250000Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateUnit.java"
+   text-time="2009-12-01T08:33:48.937500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="269cf79b93a2101ec59128e8901b8052"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.265625Z"/>
+<entry
+   committed-rev="14172"
+   name="EditMaterial.java"
+   text-time="2009-12-01T08:33:48.937500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="c2e7fb364f4238d987b22af25b95cd29"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.281250Z"/>
+<entry
+   committed-rev="14172"
+   name="DealUnitState.java"
+   text-time="2009-12-01T08:33:48.937500Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="d5fc2b4fb0c1b689a08c81b78eb55f98"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.296875Z"/>
+<entry
+   committed-rev="14172"
+   name="UnitPackagePairStateSelect.java"
+   text-time="2009-12-01T08:33:48.953125Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="b5cd9b4a13fc1a07b31d1b8524782106"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.421875Z"/>
+<entry
+   committed-rev="13375"
+   name="ImportMaterialModel.java"
+   text-time="2009-12-01T08:33:48.953125Z"
+   committed-date="2009-03-05T11:57:11.296000Z"
+   checksum="883b2a05bb45be5e4253c01d291736b6"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.421875Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateUnitPackage.java"
+   text-time="2009-12-01T08:33:48.953125Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="c35bd1fc1edc0337e35247c888ec2f46"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.453125Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateMaterial.java"
+   text-time="2009-12-01T08:33:48.968750Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="fe0a425b2ad1cd40df160955edfbad14"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.484375Z"/>
+<entry
+   committed-rev="14172"
+   name="DealUnitPackageState.java"
+   text-time="2009-12-01T08:33:48.968750Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="8794d6e62156185e420bdd0fd92f15b1"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.453125Z"/>
+<entry
+   committed-rev="14172"
+   name="SearchMaterial.java"
+   text-time="2009-12-01T08:33:48.984375Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="cc7b1707297e6b3bf364fad9f0b7ab7b"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.578125Z"/>
+<entry
+   committed-rev="14172"
+   name="DealMaterialState.java"
+   text-time="2009-12-01T08:33:48.984375Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="37897abdb0f06d90482a3feeaf58769e"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.593750Z"/>
+<entry
+   committed-rev="11325"
+   name="GotoDealUnitPackagePair.java"
+   text-time="2009-12-01T08:33:48.984375Z"
+   committed-date="2009-01-05T10:10:48.772374Z"
+   checksum="506e25f999f448d4739e5d98f310939c"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.593750Z"/>
+<entry
+   committed-rev="11443"
+   name="DeminationSelect.java"
+   text-time="2009-12-01T08:33:49.000000Z"
+   committed-date="2009-01-09T05:46:24.358500Z"
+   checksum="88792eb0322e447449d9b3ae3f7c7694"
+   last-author="louis_lu"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.609375Z"/>
+<entry
+   committed-rev="16793"
+   name="ImportMaterial.java"
+   text-time="2009-12-01T08:33:49.000000Z"
+   committed-date="2009-09-11T02:39:06.264332Z"
+   checksum="0cdf086eb3d999921c3acae918ec7486"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.625000Z"/>
+<entry
+   committed-rev="14172"
+   name="ViewMaterial.java"
+   text-time="2009-12-01T08:33:49.000000Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="ec92f7aec4c8e99583e30fcfc50cb2c6"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.734375Z"/>
+<entry
+   committed-rev="13383"
+   name="MaterialMappingModel.java"
+   text-time="2009-12-01T08:33:49.015625Z"
+   committed-date="2009-03-06T03:05:05.952250Z"
+   checksum="3e4fb63c298dc8d8e0911517f2709577"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.750000Z"/>
+<entry
+   committed-rev="14172"
+   name="CreateUnitPackagePair.java"
+   text-time="2009-12-01T08:33:49.031250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="ff1252bc229f60026f74cdea598217ee"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.750000Z"/>
+<entry
+   committed-rev="14172"
+   name="DealUnitPackagePair.java"
+   text-time="2009-12-01T08:33:49.031250Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="a827776c014ee9e780623565e3b6a609"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.765625Z"/>
+<entry
+   committed-rev="14172"
+   name="DealUnitPackagePairState.java"
+   text-time="2009-12-01T08:33:49.046875Z"
+   committed-date="2009-03-27T09:08:08.290500Z"
+   checksum="60b15238085d3e9e3ffbc1b36dac5362"
+   last-author="chase_cheng"
+   kind="file"
+   prop-time="2009-12-01T08:33:48.906250Z"/>
+</wc-entries>

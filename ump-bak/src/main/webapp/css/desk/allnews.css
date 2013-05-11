@@ -1,0 +1,34 @@
+body{
+	font-family:"宋体";
+	font-size: 12px;
+	background-color: #F6F6F5;
+}
+
+div#search { padding: 0px; border-right: 1px solid #FFF; height: 280px; width: 15%; float: left; text-align: center; position: relative; top: 0px; }
+div#search ul { padding: 0px; margin: 0px; list-style: none; width: 100%; }
+div#search ul li { height: 40px; line-height: 40px; font-size: 16px; font-weight: bold; padding: 0px; margin: 0px; }
+div#search ul .active, div#search ul .active a { display: block; background-color: #A4C45F; color: #FFF; }
+div#filter { position: absolute; left: 0px; bottom: 0px; text-align: left; display: none; }
+
+#newsContent { padding: 0px; margin: 0px; width: 83%; text-align: center; overflow: hidden; float: right; }
+table.newsList { padding: 0px; margin: 0px; text-align: center; font-size: 12px; width: 100%; }
+table.newsList th { border-bottom: 1px solid #FFF; color: gray; }
+table.newsList tr.data td { padding: 2px 0px 0px 0px; height: 25px; vertical-align: middle; color: gray; font-weight: bold; }
+table.newsList tr.data td a { font-weight: bold; color: gray; text-decoration: none; }
+
+.mouseOver { background-color: #474747; color: #FFF; }
+.pager { float: right; margin: 20px 20px 0px 0px; font-weight: bold; }
+.pager a { color: #000; }
+
+.text { font-weight: bold; color: gray; }
+.title { font-weight: bold; color: #000; font-size: 12px; }
+a.btn {
+	background-color:#21577a;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:2px 5px;
+	height: 18px;
+	line-height: 18px;
+	cursor: pointer;
+}
+a { text-decoration: none; padding: 0px; margin: 0px; color: #000; }

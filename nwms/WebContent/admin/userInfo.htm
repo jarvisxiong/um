@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div class="box" />
+			<div id="title">
+				$title
+			</div>
+			$form.startTag()
+			<TABLE>
+				<TR>
+					<TD>
+						$form.getField("l_title_userName").label
+					</TD>
+					<TD>
+						$form.getField("l_userName").label
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						$form.getField("l_title_language").label
+					</TD>
+					<TD>
+						$form.getField("l_language").label
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						$form.getField("l_title_status").label
+					</TD>
+					<TD>
+						$form.getField("l_status").label
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						$form.getField("l_title_role").label
+					</TD>
+					<TD>
+						$form.getField("l_role").label
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						$form.getField("l_title_customer").label
+					</TD>
+					<TD>
+						$form.getField("l_customer").label
+					</TD>
+				</TR>
+				<TR>
+					<TD colspan="2">
+						$form.getField("edit") $form.getField("return")
+					</TD>
+				</TR>
+			</TABLE>
+			$form.endTag()
+	</body>
+</html>

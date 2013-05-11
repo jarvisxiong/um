@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.Zone"
+        table="intt_zone"
+    >
+
+        <id
+            name="id"
+            column="id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-Zone.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <many-to-one
+            name="state"
+            class="com.intelitune.nwms.model.ZoneState"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="state"
+        />
+
+        <property
+            name="alias"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="alias"
+        />
+
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-Zone.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+        <joined-subclass
+            name="com.intelitune.nwms.model.StorageZone"
+            table="intt_storageZone"
+        >
+            <key
+                column="zoneId"
+            />
+        <property
+            name="description"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="description"
+        />
+
+        </joined-subclass>
+        <joined-subclass
+            name="com.intelitune.nwms.model.OwnerZone"
+            table="intt_ownerZone"
+        >
+            <key
+                column="zoneId"
+            />
+        <property
+            name="inttClientDetailWSId"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="inttClientDetailWSId"
+        />
+
+        </joined-subclass>
+
+    </class>
+
+</hibernate-mapping>

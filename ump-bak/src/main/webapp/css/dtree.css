@@ -1,0 +1,102 @@
+.dtree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*color: #666;*/
+	padding:0px 2px 2px 2px;
+	white-space: nowrap;
+	margin-left: -15px;
+	text-decoration:none;
+}
+
+/******************************************/
+/* root row*/
+.dtree .rootTreeNodeRow{
+	background-color: #679CC4;
+	padding: 0;
+	width:200px;
+}
+/* support: root row node */
+.dtree .rootTreeNodeRow .node{
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;
+}
+.dtree .rootTreeNodeRow .node:hover {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;
+}
+
+
+.dtree .rootTreeNodeRow .nodeSel{
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	/*font-weight: bolder;*/
+	height: 20px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.dtree .rootTreeNodeRow .nodeSel:hover{
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	line-height: 20px;
+	cursor: default;
+	font-weight: normal;
+}
+/******************************************/
+	
+	
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+.dtree a {
+	color: #333;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+	font-size: 12px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: #0080FF;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+.cx{
+	line-height:12px;
+	padding:0px; 
+	margin:0px;
+	width:12px;
+	height:12px;
+	vertical-align:middle;
+}
+.dtree .dTreeNode{
+
+}
+.dtree .dTreeNodeSelected {
+	cursor: pointer;
+}
+
+.dtree .dTreeNodeSelected a {
+	color: #0080FF;
+}
+
+.dtree .noneChecked{
+	background: url("../images/dtree/checkbox_0.gif") no-repeat;
+}
+.dtree .halfChecked{
+	background: url("../images/dtree/checkbox_2.gif") no-repeat;
+}
+div .allChecked{
+	background: url("../images/dtree/checkbox_1.gif") no-repeat;
+}

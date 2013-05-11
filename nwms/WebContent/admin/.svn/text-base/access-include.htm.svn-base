@@ -1,0 +1,20 @@
+
+<script type='text/javascript'>
+function onCheckName(select) {
+ 	var re = select.value; 
+ 	if(re==null||re==""){
+ 		document.getElementById(select.id+"_ErrorMessage").style.display="";
+ 		document.getElementById(select.id+"_ErrorMessage2").innerHTML="";
+ 		return;
+ 	}else{
+ 		document.getElementById(select.id+"_ErrorMessage").style.display="none";
+ 	}
+	var encode=encodeURI(re);
+	
+	ajaxEngine.registerRequest('getAccess', '${context}/admin/access.htm');
+   	ajaxEngine.registerAjaxElement('form_accessName_ErrorMessage2');
+    ajaxEngine.sendRequest('getAccess', 'accessName=' + encode);
+   
+}
+
+</script>

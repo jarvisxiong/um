@@ -1,0 +1,453 @@
+
+.ui-header{
+ 	background: none repeat scroll 0 0 #F7F7F7;
+    border-bottom: 1px solid #DFDFDF;
+    height: 30px;/*62*/
+    clear: both;
+    margin: 0 auto;
+    width: 960px;
+} 
+/*
+ * @name: 导航
+ * @overview: 一般导航
+ * @require: null
+ */                                                                   
+.ui-nav{    
+	float: right;
+    list-style: none outside none;
+    margin-right: 14px;
+    min-width: 500px;
+}
+.ui-nav-item{    
+	margin: 0 0 0 4px;
+	float: left;
+    position: relative;
+	color: #666666;
+    display: block;
+    font-family: Helvetica,Arial,"Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 30px;/*30px*/
+    padding: 0 7px;
+    text-shadow: 0 1px 0 #EEEEEE;
+    /*color: #000000;*/
+}
+.ui-nav-item:hover, .ui-nav-item-current{
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-color: #C6C6C6 #C6C6C6 -moz-use-text-color;
+    border-style: solid solid none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-width: 1px 1px medium;
+    color: #555555;
+    margin-top: -1px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.ui-nav-item-child{}
+.ui-nav-item-active-child{}
+
+/*
+ * @name: 标题
+ * @overview: 有其他内容包含在内的标题
+ * @require: null;
+ */
+.ui-title{}
+.ui-title-cnt{}
+.ui-title-subcnt{}
+
+/*
+ * @name: 步骤
+ * @overview: 用户操作步骤
+ * @require: null
+ */
+.ui-step{
+}
+.ui-step-item{
+    margin-bottom: 17px;
+    padding-left: 31px;
+    padding-top: 4px;
+}
+.ui-step-current{
+	line-height:31px;
+    padding-left: 31px;
+	background: url("../images/step2.png") no-repeat scroll left top transparent;
+}
+
+/* 可能还会需要 */
+.ui-step-item-first{
+	line-height:31px;
+    padding-left: 31px;
+    background: url("../images/step1.png") no-repeat scroll left top transparent;
+	
+}
+.ui-step-item-last{
+	line-height:31px;
+    padding-left: 31px;
+    background: url("../images/step3.png") no-repeat scroll left top transparent;
+
+}
+
+/*
+ * @name: 列表
+ * @overview: 一般列表样式
+ * @require: null;
+ */
+.ui-list{}
+.ui-list-item{}
+.ui-list-item-hover{}
+
+/*
+ * @name: 重复元素
+ * @overview: 重复出现的元素，我们通常用这种方法来写，这样也会方便JS操作
+ * @require: null
+ */
+.ui-repeater{}
+.ui-repeater-item{}
+.ui-repeater-current{}
+
+/* 
+ * @name: ui-dropdown 
+ * @overview: 通用下拉框
+ * @require: null
+ */
+.ui-dropdown {}
+.ui-dropdown-header {}
+.ui-dropdown-container {}
+
+/* status */
+.ui-dropdown-active .ui-dropdown-header  {}
+.ui-dropdown-active .ui-dropdown-container {}
+
+/*
+ * @name: 分页
+ * @overview: 页面分页
+ * @require: null
+ */
+.ui-page{
+	clear:left;
+	margin:10px;
+}
+.ui-page-item{
+	background-color: #FFFFFF;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 10px;
+    margin-right: 3px;
+    padding: 2px 4px;
+	float:left;
+	cursor:pointer;
+}
+.ui-page-item:hover{
+	border-color:#999999;
+	color:#D54121;
+}
+.ui-page-item-current{
+	background-color: #328AB2;
+    border-color: #328AB2;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* 可能还会用到的 */
+.ui-page-item-info{}
+.ui-page-item-first{}
+.ui-page-item-last{}
+.ui-page-item-prev{
+	color: #2583AD;
+}
+.ui-page-item-next{
+	color: #2583AD;
+}
+
+/* 
+ * @name: ui-tip 
+ * @overview: 通用对话框, 通常是 position:absolute 的
+ * @require: null
+ */
+.ui-tip {}
+.ui-tip-cnt {}
+
+/* 
+ * @name: ui-message 
+ * @overview: 通用提示,通用对话框, 通常是 position: relative 的
+ * @require: null
+ */
+.ui-message {}
+.ui-message-cnt {}
+
+/* status */
+.ui-message-error {}
+.ui-message-warn {}
+.ui-message-success {}
+
+/* 
+ * @name: ui-button
+ * @overview: 通用按钮
+ * @require: null
+ */
+.ui-button {}
+.ui-button-text {}
+.ui-button .ui-icon {}
+
+.ui-button-icon-left {}
+.ui-button-icon-left .ui-icon-rarr {}
+.ui-button-icon-left .ui-button-text {}
+
+.ui-button-icon-right {}
+.ui-button-icon-right .ui-icon-rarr {}
+.ui-button-icon-right .ui-button-text {}
+
+/* status */
+.ui-button-hover {}
+.ui-button-disabled {}
+.ui-state-selected {}
+
+
+/* 
+ * @name: 表单项 
+ * @overview: 通用文本输入框
+ * @require: null
+ */
+.ui-input {
+	background: url("../images/white-grad.png") repeat-x scroll left top #F2F2F2;
+
+}
+.ui-input:hover{
+	background: url("../images/button-grad.png") repeat-x scroll left top #21759B;
+    border-color: #298CBA !important;
+    color: #FFFFFF !important;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    border-color: #13455B !important;
+    color: #EAF2FA !important;
+}
+/* status */
+.ui-input-hover {    
+}
+.ui-input-focus {}
+.ui-input-disabled {}
+
+.ui-label {}
+/* status */
+.ui-label-hover {}
+.ui-label-focus {}
+
+.ui-textarea {}
+/* status */
+.ui-textarea-hover {}
+.ui-textarea-disabled {}
+
+/* 
+ * @name: ui-form 
+ * @overview: 通用表单
+ * @require: ui-input,ui-button
+ */
+
+.ui-form {}
+.ui-form legend {}
+
+.ui-form-item{}
+.ui-form-required {}
+.ui-form-explain {}
+
+/* status */
+.ui-form-hover {}
+.ui-form-focus {}
+.ui-form-error {}
+.ui-form-success {}
+.ui-form-warn {}
+.ui-form-loading {}
+
+/* 
+ * @name: ui-tab 
+ * @overview: 通用tab
+ * @require: null
+ */
+.ui-tab {
+	background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0;    
+}
+.ui-tab-trigger {}
+.ui-tab-trigger-item{     
+	background: none repeat scroll 0 0 transparent;
+    border-bottom: 0 none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 2px 0 0;
+    padding: 0;
+}
+.ui-tab-trigger-item a{
+	background: none repeat scroll 0 0 #EEF5FF;
+    color: #555555;
+    display: block;
+    float: left;
+    line-height: 22px;
+    padding: 5px 10px 3px;
+    text-transform: uppercase;
+}
+.ui-tab-trigger-item a:hover {     
+	background: none repeat scroll 0 0 #4488DD;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ui-tab-trigger-item-current a{
+	background: none repeat scroll 0 0 #4488DD;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.ui-tab-body{
+ 	clear: left;
+	border-bottom: 1px solid #E9E9E9;
+    border-top: 3px solid #4488DD;
+}
+
+.ui-tab-cnt {}
+.ui-tab-cnt-item {}
+.ui-tab-cnt-item-current {}
+
+/*
+ * @name: 表格
+ * @overview: 通用列表
+ * @require: null;
+*/
+.ui-table {
+	/*width:100%;*/
+	margin-top:50px;
+	border: 1px solid #CCCCCC;
+}
+.ui-table thead{
+	background-color: #464646;
+    color: #D7D7D7;
+}
+.ui-table th, .ui-table td{
+	 border-bottom: 1px solid #CCCCCC;
+    font-size: 12px;
+    padding: 6px;
+    vertical-align: text-top;
+}
+.ui-table tr.odd{
+	background-color: #F9F9F9;
+}
+.ui-table a{
+	color: #21759B;
+	text-decoration: none;
+}
+.ui-table a:hover{
+	color: #21759B;
+	text-decoration: none;
+}
+
+
+.ui-rsslink {
+    background: url("../images/feedicon10.png") no-repeat scroll left top transparent;
+    padding-left: 14px;
+}
+.ui-feed {
+    background: url("../images/feedicon.png") no-repeat scroll left center transparent;
+    padding-left: 19px;
+}
+.ui-footer{
+    border-top: 1px solid #DEDEDE;
+    clear: both;
+    margin: 0 auto;
+    padding: 6px 14px;
+    width: 932px;
+}
+
+/*固定左边*/
+.ui-fixed{
+	background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #BBBBBB;
+    padding: 15px 25px;
+    position: fixed;
+    top: 18px;
+    width: 250px;
+}
+/*固定右边*/
+.ui-fixed-cnt{
+    padding: 15px 25px;
+	margin: 0 0 0 300px;
+}
+
+/*留言本*/
+.ui-comment-list{
+	padding-top: 15px;
+	list-style: none outside none;
+}
+.ui-comment-item{
+	 margin-bottom: 30px;
+	padding-left: 10px;
+}
+.ui-comment-item-cnt{ 
+	background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0 0 4px #EEEEEE;
+    margin-left: 90px;
+    padding: 20px;
+    position: relative;
+}
+.ui-comment-item-cnt:after{ 
+    background: url("../images/comment-arrow.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    height: 20px;
+    left: -12px;
+    position: absolute;
+    top: 10px;
+    width: 12px;
+}
+.ui-comment-item-cnt-author{
+ 	color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1em;
+}
+.ui-comment-item-cnt-author:after{
+	background: url("../images/avatar-overlay.png") no-repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    content: "";
+    height: 64px;
+    left: -95px;
+    position: absolute;
+    top: 0;
+    width: 64px;
+}
+.ui-comment-item-cnt-author-vcard{
+ 	left: -90px;
+    position: absolute;
+    top: 6px;
+}
+.ui-comment-item-cnt-reply{ 
+	display:block;
+}
+.ui-comment-item-cnt-reply{
+	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-color: #E3E3E3 #E3E3E3 -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    bottom: 0;
+    color: #666666;
+    display: none;
+    font-size: 10px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 8px;
+    position: absolute;
+    right: 0;
+}

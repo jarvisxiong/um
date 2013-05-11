@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+	<diskStore path="java.io.tmpdir/hibernate/PowerDesk" />
+	
+	<!-- DefaultCache setting. -->
+	<defaultCache maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="true"
+		overflowToDisk="true"/>
+
+	<!-- Special objects setting. -->
+	<cache name="com.hhz.ump.entity.app.AppDictData" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.app.AppDictType" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.app.AppParam" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.app.AppMenu" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.app.AppModuleMenuRel" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.app.AppRoleMenuRel" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+	<cache name="com.hhz.ump.entity.res.ResNode" maxElementsInMemory="10000" memoryStoreEvictionPolicy="LRU" eternal="true" diskPersistent="false"
+		overflowToDisk="true"/>
+</ehcache>

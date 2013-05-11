@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="14894"
+   name=""
+   committed-date="2009-05-07T08:56:36.457375Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/WEB-INF/RoleControl"
+   last-author="zhiye_chen"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14894"
+   name="RoleMapping.xml"
+   text-time="2009-12-01T08:34:15.593750Z"
+   committed-date="2009-05-07T08:56:36.457375Z"
+   checksum="5f54cf7f15711a411b4e61db357ab04d"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:34:15.593750Z"/>
+</wc-entries>

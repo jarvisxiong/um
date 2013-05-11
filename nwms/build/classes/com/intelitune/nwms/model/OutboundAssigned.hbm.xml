@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping
+>
+    <class
+        name="com.intelitune.nwms.model.OutboundAssigned"
+        table="intt_outboundAssigned"
+    >
+
+        <id
+            name="id"
+            column="intt_id"
+            type="java.lang.String"
+        >
+            <generator class="uuid">
+              <!--  
+                  To add non XDoclet generator parameters, create a file named 
+                  hibernate-generator-params-OutboundAssigned.xml 
+                  containing the additional parameters and place it in your merge dir. 
+              --> 
+            </generator>
+        </id>
+
+        <many-to-one
+            name="ooi"
+            class="com.intelitune.nwms.model.OutboundOrderItem"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="intt_outOrderItemId"
+        />
+
+        <many-to-one
+            name="si"
+            class="com.intelitune.nwms.model.StorageItem"
+            cascade="none"
+            outer-join="auto"
+            update="true"
+            insert="true"
+            column="intt_storageItemId"
+        />
+
+        <property
+            name="assignedQty"
+            type="java.lang.Float"
+            update="true"
+            insert="true"
+            column="intt_assignedQty"
+        />
+
+        <property
+            name="isDelete"
+            type="java.lang.Integer"
+            update="true"
+            insert="true"
+            column="intt_isDelete"
+        />
+		
+		 <property
+            name="hawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="hawb"
+        	/>
+		
+		 <property
+            name="mawb"
+            type="java.lang.String"
+            update="true"
+            insert="true"
+            column="mawb"
+        	/>
+        <!--
+            To add non XDoclet property mappings, create a file named
+                hibernate-properties-OutboundAssigned.xml
+            containing the additional properties and place it in your merge dir.
+        -->
+
+    </class>
+
+</hibernate-mapping>

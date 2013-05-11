@@ -1,0 +1,179 @@
+.exec_plan {
+	background-image: url("../../images/plan/exec_plan.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+}
+
+.exec_plan:hover {
+	background-color: white;
+}
+
+.double_plan {
+	background-image: url("../../images/plan/double_plan.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+}
+
+.double_plan:hover {
+	background-color: white;
+}
+
+.project_process {
+	background-image: url("../../images/plan/double_plan.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+
+.project_process:hover {
+	background-color: white;
+}
+
+.btn_over_white{
+	cursor:pointer;
+	height: 26px;
+	line-height: 26px;
+}
+.btn_over_white:hover {
+	background-color: white;
+}
+
+.big_drop_down {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/drop_down.gif");
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.big_drop_down:hover {
+	background-color: white;
+}
+
+.manager_node {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/headline_pic_management.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+.manager_node:hover {
+	background-color: white;
+}
+
+.batch_confirm {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/pic_confirm.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+.batch_confirm:hover {
+	background-color: white;
+}
+
+.link_responser {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/headline_pic_user.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+.link_responser:hover {
+	background-color: white;
+}
+
+.config_opertype {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/headline_pic_collocate.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+.config_opertype:hover {
+	background-color: white;
+}
+
+.manager_plan {
+	background-color: #E4E7EC;
+	background-image: url("../../images/plan/headline_pic_control.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 23px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+.manager_plan:hover {
+	background-color: white;
+}
+
+.full_screen {
+	background-image: url("../../images/common/btn_full_white.gif");
+	background-position: 3px center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding-left: 30px;
+	padding-right: 3px;
+	line-height: 26px;
+	height: 26px;
+}
+
+.full_screen:hover {
+	background-color: white;
+}
+.split_vertial {
+	background-image:url("../../images/common/btn_cutline_3_26.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.nav_left{
+	background-image:url("../../images/plan/move_left.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	width: 30px;
+	height: 26px;
+}
+.nav_left:hover{
+	background-image:url("../../images/plan/move_left_hover.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.nav_right{
+	background-image:url("../../images/plan/move_right.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	width: 30px;
+	height: 26px;
+}
+.nav_right:hover{
+	background-image:url("../../images/plan/move_right_hover.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+}

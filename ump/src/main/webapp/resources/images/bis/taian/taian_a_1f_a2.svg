@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="770" height="450" id="svg2" version="1.1" inkscape:version="0.47pre4 " sodipodi:docname="test.svg" style="display:inline">
+<defs id="defs4">
+<inkscape:perspective sodipodi:type="inkscape:persp3d" inkscape:vp_x="0 : 526.18109 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_z="744.09448 : 526.18109 : 1" inkscape:persp3d-origin="372.04724 : 350.78739 : 1" id="perspective10" />
+<inkscape:perspective id="perspective2832" inkscape:persp3d-origin="0.5 : 0.33333333 : 1" inkscape:vp_z="1 : 0.5 : 1" inkscape:vp_y="0 : 1000 : 0" inkscape:vp_x="0 : 0.5 : 1" sodipodi:type="inkscape:persp3d" />
+<script type="text/ecmascript" id="script6">
+		var fdat="",sdat="";
+		function onAreaOver(evt){
+			var ele=evt.target; 
+			fdat=ele.getAttribute('fill'); 
+			sdat=ele.getAttribute('stroke');
+			ele.setAttribute('fill','#006fb6');//多边形填充颜色
+			ele.setAttribute('stroke','#006fb6');//stroke 多边形 边框颜色
+			
+		}
+		function onAreaOut(evt){
+			var ele=evt.target; 
+			ele.setAttribute('fill',fdat);
+			ele.setAttribute('stroke',sdat);
+		}
+		</script>
+<symbol overflow="visible" id="symbol" style="overflow:visible">
+<path d="m 626,156 2,-2 2,-4 0,-3 -1,-3 -4,-3 -6,-3 -5,-2 -4,-2 -4,8 -6,14" id="path9" style="fill:#000000;stroke:none" />
+</symbol>
+</defs>
+<sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="5.6" inkscape:cx="583.1007" inkscape:cy="273.63795" inkscape:document-units="px" inkscape:current-layer="svg2" showgrid="false" inkscape:window-width="1280" inkscape:window-height="740" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1" />
+<metadata id="metadata7">
+<rdf:RDF>
+<cc:Work>
+<dc:format>
+image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+<dc:title>
+</dc:title>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<image xlink:href="taian_a_1f_a2.png" width="770" height="450" id="image2834" x="-485" y="255.93361" transform="translate(485,-255.9336)" inkscape:label="Layer 1" inkscape:groupmode="layer" style="display:inline" />
+<polygon id="A2-1001" points="686 300,730 300,730 270,686.75 270" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1002" points="708 246.75,708 270,756 270,756 246.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1003" points="708.25 246.75,708.25 222.5,756 222.5,756 246.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1004" points="755.5 222.25,755.5 199.5,707.75 199.5,707.75 223" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1005" points="708 199.75,708 175.5,755.5 175.5,755.5 199.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1006" points="708 175.75,708 152.25,755.5 152.25,755.5 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1007" points="755.25 152.25,755.25 128.5,708 128.5,708 152.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1008" points="708.5 128.75,708.5 105,755.5 105,755.5 128.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1009" points="708.75 105,708.75 80.75,755.75 80.75,755.75 105" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1010" points="637.25 81.5,709 81,708.75 128.75,637.25 128.75" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1011" points="637.75 128.75,637.75 152.5,708 152.5,708 128.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1012" points="661 152.5,661 176.25,708.5 176.25,708.5 152" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1013" points="661 176,661 199.25,708.25 199.25,708.25 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1014" points="661 199,707.75 199,707.75 223.5,661.25 223.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1015" points="661.25 223,708 223,708 246.5,661 246.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1016" points="661.25 246.5,708 246.5,708 270.25,661.25 270.25" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1017" points="413.5 10.5,507.5 10.5,578.5 81.5,578.5 175.5,508 245.5,390.5 245.5,390.5 59,377.5 46" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1018" points="377 46,356.5 66.5,356.5 81,390.5 81,390.5 59" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1019" points="341.5 128.5,391.5 128.5,391.5 151.5,341 151.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1020" points="341.5 151.5,390.5 151.5,390.5 175.5,341.5 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1021" points="341.5 176,390.5 176,390.5 199.5,341.5 199.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1022" points="341.5 199,391 199,391 223.5,341 223.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1023" points="341.5 223.5,390 223.5,390 245,341.5 245" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1024" points="317 175.5,317 245,292.5 245,292.5 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1025" points="293 176,293 245.5,269 245.5,269 175.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1026" points="269 175,246 175,246 245.5,269 245.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1027" points="245.5 164,245.5 246,223 246,223 163.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1028" points="223 164.5,198.5 164.5,198.5 246,223 246" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1029" points="199.5 164,175 164,175 245,199 245" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1030" points="175.5 158.5,175.5 245,151 245,151 158" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1031" points="151 158.5,128 158.5,128 244.5,151 244.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1032" points="104.5 158.5,128 158.5,128 244.5,104 244.5,95.5 244,86 240,77.5 232.5,72 223,70.5 211,71.5 200,78 189.5,85.5 183,96 179.5,104.5 177.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1033" points="104.5 158.5,104.5 81,128.5 81,128.5 158.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1034" points="128.5 81.5,151 81.5,151 158.5,128.5 158.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1035" points="151 81.5,175.5 81.5,175.5 159,150.5 159" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1036" points="175 82,199.5 82,199.5 164,175 164" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1037" points="200 82,222.5 82,222.5 164,200 164" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1038" points="222.5 82,246.5 82,246.5 164,222.5 164" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1039" points="246.5 82,270.5 82,270.5 152.5,246.5 152.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1040" points="270.5 81.5,293 81.5,293 152.5,269.5 152.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="A2-1041" points="293 82,317 82,317 152,293 152" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="AS2-1001" points="607.5 355,607.5 397.5,578.5 397.5,578.5 355" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="AS2-1002" points="578.5 328.5,578.5 369,537.5 369,537.5 327.5" fill="#000000" stroke="none" stroke-opacity="0" />
+<polygon id="AS2-1003" points="537.5 328.5,537.5 369,508.5 369,508.5 328" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1004" points="509 328.5,460 328.5,460 369,509 369" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1005" points="443.5 306.5,443.5 337.5,429.5 337.5,429.5 349.5,403.5 349.5,403.5 306" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1006" points="383 306.5,404 306.5,404 369.5,382.5 369.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1007" points="362 306,362 369,383 369,383 306" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1008" points="362.5 306,342 306,342 369.5,362 369.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1009" points="320.5 306,320.5 369,299 369,299 306.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1010" points="299.5 306.5,277.5 306.5,277.5 369,299 369" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1011" points="278 306.5,258.5 306.5,258.5 369,278 369" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1012" points="209 306,258.5 306,258.5 348.5,208 348.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1013" points="174 306.5,209.5 306.5,209.5 347.5,215 347.5,215 369,172.5 369" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1014" points="128.5 306,174.5 306,174.5 368.5,128 368.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1015" points="104.5 307,127 307,127 349.5,104 349.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1016" points="82.5 306.5,104.5 306.5,104.5 349.5,81.5 349.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1017" points="58.5 307,82 307,82 347.5,58 347.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1018" points="34.5 307.5,58.5 307.5,58.5 348.5,34.5 348.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1019" points="35 347.5,35 394,58 394,58 347" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1020" points="58.5 347.5,82 347.5,82 394,57.5 394" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1021" points="82.5 348.5,106 348.5,106 394.5,81 394.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1022" points="106 349.5,128.5 349.5,128.5 393.5,106 393.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1023" points="128.5 368,145 368,145 424.5,128.5 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1024" points="145 368,174 368,174 425,144.5 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1025" points="174 369,215.5 368.5,214.5 382.5,208.5 383,208 424.5,172.5 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1026" points="240 389,258.5 389,258.5 369,277.5 369,277.5 425,239.5 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1027" points="277.5 369,299.5 369,299.5 425,276 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1028" points="299.5 369.5,321.5 369.5,321.5 425,299.5 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1029" points="343.5 369,362.5 369,362.5 425,343 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1030" points="362.5 369,383.5 369,383.5 424.5,361.5 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1031" points="383.5 369.5,404.5 369.5,404.5 424.5,382.5 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1032" points="404.5 369.5,443.5 369.5,443.5 425.5,403.5 425.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1033" points="444 388.5,459.5 388.5,459.5 367.5,474 367.5,474 424.5,443 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1034" points="473.5 368.5,508.5 368.5,508.5 425,473 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1035" points="508 369,538 369,538 424.5,507.5 424.5" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1036" points="537.5 369,555 369,555 425,537.5 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+<polygon id="AS2-1037" points="555 368.5,579.5 368.5,579.5 425,554.5 425" fill="#000000" stroke="none" stroke-opacity="0" xmlns="http://www.w3.org/2000/svg" />
+</svg>

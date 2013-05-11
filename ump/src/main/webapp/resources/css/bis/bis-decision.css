@@ -1,0 +1,289 @@
+.decTable {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+.decTable thead tr th {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 45px;
+	text-align: center;
+	height: 30px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.decTable tbody tr td {
+	height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.decTable thead tr .first {
+	background-image: none;
+}
+
+.decTable tbody tr:hover {
+	background-color: #C6D9F1;
+}
+
+#no_border {
+	background-color: #FFFFFF;
+	border-top-style:hidden;
+	border-left-style:hidden;
+	border-right-style: solid;
+	border-right-width: 2px;
+}
+
+input {
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #999999;
+}
+
+#header .title1 span {
+	height: 45px;
+	line-height: 40px;
+}
+
+#navigation {
+	margin: 10px;
+}
+
+#navigation li {
+	background: #cbcbcb;
+	position: relative;
+	float: right;
+	width: 90px;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 5px;
+	color: #333333;
+}
+
+#navigation li a:hover {
+	text-decoration: none;
+}
+
+#navigation li.selected {
+	background: #2D8BEF;
+	color: #fff;
+}
+
+#warp #body {
+	margin: 10px;
+	margin-top: 0px;
+	height: auto;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#topBis .input {
+	line-height: 18px;
+	font-size: 12px;
+	height: 20px;
+	width: 60px;
+	margin-right: 3px;
+	size: 4;
+	text-align: center;
+}
+
+#selectPro {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	clear: both;
+	font-size: 12px;
+	height: auto;
+	left: 74px;
+	top: 213px;
+	position: absolute;
+	width: auto;
+}
+
+#selectPro input {
+	float: left;
+	margin-left: 0px;
+	font-size: 12px;
+	cursor: pointer;
+	width: 100px;
+	height: 30px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: none;
+	border-left: none;
+	color: #FFFFFF;
+}
+
+#selectYear {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	clear: both;
+	font-size: 12px;
+	height: auto;
+	left: 10px;
+	position: absolute;
+	top: 120px;
+	width: auto;
+}
+
+#selectYear input {
+	float: left;
+	margin-left: 0px;
+	font-size: 12px;
+	cursor: pointer;
+	width: 80px;
+	height: 26px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: none;
+	border-left: none;
+	color: #000000;
+}
+
+#selectMonth {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	clear: both;
+	font-size: 12px;
+	height: auto;
+	left: 96px;
+	position: absolute;
+	top: 120px;
+	width: auto;
+}
+
+#selectMonth input {
+	float: left;
+	margin-left: 0px;
+	font-size: 12px;
+	cursor: pointer;
+	width: 80px;
+	height: 26px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: none;
+	border-left: none;
+	color: #000000;
+}
+
+#selectWeek {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	clear: both;
+	font-size: 12px;
+	height: auto;
+	left: 206px;
+	position: absolute;
+	top: 120px;
+	width: auto;
+}
+
+#selectWeek input {
+	float: left;
+	margin-left: 0px;
+	font-size: 12px;
+	cursor: pointer;
+	width: 80px;
+	height: 26px;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: none;
+	border-left: none;
+	color: #000000;
+}
+
+.divTitle {
+	font-weight: bold;
+	padding: 6px 5px;
+}
+
+.btnSelect {
+	background-color: #0072bb;
+}
+
+.btnCancel {
+	background-color: #cbcbcb;
+}
+
+.btnGreen {
+	background-color: #449139;
+}
+
+#linetop th {
+	font-weight: normal;
+}
+
+#linebottom div {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+}
+
+#linetop div {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-top: 1px solid #000000;
+}
+
+.countline {
+	padding-top: 5px;
+	padding-bottom: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.countline2 {
+	padding-top: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+}
+
+/*
+*横线
+.underlineDiv {
+	width: 100px;
+	height: 1px;
+	padding: 0px;
+	background-color: black;
+	overflow: hidden;
+}
+*/
+
+/*内容超过一定长度用省略号代替
+	 text-overflow:ellipsis;
+*/
+.short_div {
+	overflow: hidden;
+	word-break: keep-all;
+	white-space: nowrap;
+	margin-left: 3px;
+	width: 120px;
+}
+
+.short_div2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	margin-left: 3px;
+	width: 110px;
+}
+
+#tr_hidden{
+	display: none;
+}
+#tr_block{
+	display: block;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17613"
+   name=""
+   committed-date="2009-12-17T03:31:51.409489Z"
+   url="svn://192.168.0.50/intelitune/nwms/trunk/WebContent/outbound"
+   last-author="michael_wang"
+   kind="dir"
+   uuid="926e1b57-8c21-0410-968d-ae79e5220d9c"
+   repos="svn://192.168.0.50/intelitune"
+   revision="17624"/>
+<entry
+   committed-rev="14885"
+   name="searchAssign.htm"
+   text-time="2009-12-01T08:40:39.765625Z"
+   committed-date="2009-05-07T08:38:17.051125Z"
+   checksum="779d30fef7aa00239e3abb67790a9ad1"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:39.625000Z"/>
+<entry
+   committed-rev="14735"
+   name="orderDetail.htm"
+   text-time="2009-12-01T08:40:39.765625Z"
+   committed-date="2009-04-23T03:27:46.953500Z"
+   checksum="1bd138d4e40b5eaf3b48e2ead2b75cc9"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:39.640625Z"/>
+<entry
+   committed-rev="11881"
+   name="orderCheckout.htm"
+   text-time="2009-12-01T08:40:39.781250Z"
+   committed-date="2009-01-21T02:33:38.650375Z"
+   checksum="215603b4791489a588aae346ceef076a"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:39.671875Z"/>
+<entry
+   committed-rev="13456"
+   name="uploadCheckFile.htm"
+   text-time="2009-12-01T08:40:39.781250Z"
+   committed-date="2009-03-08T07:32:07.999125Z"
+   checksum="ec7de26a6c599e09ca3e45f5a24107d3"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:39.671875Z"/>
+<entry
+   committed-rev="17613"
+   name="itemAssign.htm"
+   text-time="2009-12-18T05:53:30.218750Z"
+   committed-date="2009-12-17T03:31:51.409489Z"
+   checksum="e35d26e5aa1311ee17c3ea9837fd783b"
+   last-author="michael_wang"
+   kind="file"
+   prop-time="2009-12-18T05:53:30.187500Z"/>
+<entry
+   name="outboundlist"
+   kind="dir"/>
+<entry
+   committed-rev="13355"
+   name="orderList.htm"
+   text-time="2009-12-01T08:40:39.812500Z"
+   committed-date="2009-03-05T09:23:02.952250Z"
+   checksum="6c192c95dc650d617665b2d1827d030e"
+   last-author="zhiye_chen"
+   kind="file"
+   prop-time="2009-12-01T08:40:39.765625Z"/>
+</wc-entries>
