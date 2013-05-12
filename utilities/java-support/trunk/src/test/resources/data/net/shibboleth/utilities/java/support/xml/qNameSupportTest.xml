@@ -1,7 +1,0 @@
-<Parent 
-xmlns="http://example.org/DefaultSpace"
-xmlns:myns1="http://example.org/NameSpace1" 
- >
-    <myns1:Child/>
-</Parent>
-    

@@ -1,7 +1,0 @@
-<response>
-	<materialAlias>$!materialAlias</materialAlias>	
-	#foreach($result in $list)
-	<id>$result.id</id>
-	<alias>$result.alias</alias>
-	#end
-</response>

@@ -1,8 +1,0 @@
-<div class="box" />
-	<div id="title">
-		$title
-	</div>
-	<DIV id="box">
-		$form
-		$table
-</DIV>

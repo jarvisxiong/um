@@ -1,4 +1,0 @@
-SUBDIRS = log4shib log4shibDLL testCategory testDLL testMain testNDC testNTEventLog testPattern
-
-EXTRA_DIST = msvc8.sln NTEventLogCategories.mc
-
