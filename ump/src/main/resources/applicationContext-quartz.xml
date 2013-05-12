@@ -8,13 +8,11 @@
 		<property name="triggers">
 			<list>
 				<!-- 可配置多个 -->
-				<!--			<ref bean="remindMeetingCronTrigger" />-->
-				<!-- 			<ref bean="plasCacheSimpleTrigger" /> -->
+				<ref bean="plasCacheSimpleTrigger" />
 				<ref bean="plasCacheCronTrigger" />
 				<ref bean="bisCacheSimpleTrigger" />
 				<ref bean="bisCacheCronTrigger" />
 				
-				<ref bean="tipEasTrigger" />
 				<ref bean="assmAccountsTrigger" />
 
 				<ref bean="res24CronTrigger" />
@@ -23,7 +21,7 @@
 				<ref bean="autoCEOMeetingCronTrigger" />
 				<ref bean="contDelayTimeTrigger" />
 				
-				<ref bean="approveRemindCronTrigger"/>
+<!-- 				<ref bean="approveRemindCronTrigger"/> -->
 				
 				<ref bean="meetingRemindSimpleTrigger" />
 				<ref bean="tenantDebtCronTrigger" />
@@ -32,9 +30,6 @@
 				<!--<ref bean="bisMustAutoCronTrigger" />-->
 				<ref bean="bisContInvalidCronTrigger" />
 				
-				<!-- 每日事务简报 <ref bean="taskRemindCronTrigger" /> -->
-				<!--				<ref bean="userOnlineRefreshSimpleTrigger" />-->
-				<!-- 	执行计划自动提醒配置			<ref bean="execplanRemindingTrigger" /> 	-->
 				<ref bean="automaticProcessingTrigger" />
 				<ref bean="bidAutoTrigger" />
 			</list>
@@ -44,24 +39,6 @@
 		class="com.hhz.ump.aop.AppsMethodInvokingJobDetailFactoryBean"
 		abstract="true">
 		<property name="concurrent" value="false" />
-	</bean>
-	<!-- 执行计划自动提醒 -->
-	<bean id="execplanRemindingTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
-		<property name="jobDetail">
-			<ref bean="remindExpiredExecplans" />
-		</property>
-		<property name="cronExpression">
-			<!-- 每天凌晨两点运行 -->
-			<value>4 4 11 ? * *</value>
-		</property>
-	</bean>
-	<bean id="remindExpiredExecplans" parent="appsAbstractJobDetail">
-		<property name="targetObject">
-			<ref bean="planExecPlanDetailManager" />
-		</property>
-		<property name="targetMethod">
-			<value>daylyRemind</value>
-		</property>
 	</bean>
 	<!-- 合同台账延期定时器 -->
 	<bean id="contDelayTimeTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
@@ -83,28 +60,6 @@
 		<property name="concurrent" value="false" />
 	</bean>
 
-	<!-- 执行总裁例会邮件提醒 -->
-	<bean id="remindMeetingCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
-		<property name="jobDetail">
-			<ref bean="remindMeetingJobDetail" />
-		</property>
-		<property name="cronExpression">
-			<!-- 每天凌晨三点59分59秒运行 -->
-			<value>59 59 3 ? * *</value>
-		</property>
-	</bean>
-	<!--jobBean用于设定启动时运用的Bean与方法-->
-	<bean id="remindMeetingJobDetail" parent="appsAbstractJobDetail">
-		<!-- 调用的类 ,需spring依赖注入@Service-->
-		<property name="targetObject">
-			<ref bean="oaMeetingManager" />
-		</property>
-		<!-- 调用的方法 -->
-		<property name="targetMethod">
-			<value>daylyRemind</value>
-		</property>
-		<property name="concurrent" value="false" />
-	</bean>
 
 
 	<!--机构，人员缓存	-->
@@ -254,25 +209,6 @@
 		<!-- 调用的方法 -->
 		<property name="targetMethod">
 			<value>autoCEOMeeting</value>
-		</property>
-		<property name="concurrent" value="false" />
-	</bean>
-	<!-- 自动发送当日事务邮件提醒 -->
-	<bean id="taskRemindCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
-		<property name="jobDetail">
-			<ref bean="taskRemindJobDetail" />
-		</property>
-		<property name="cronExpression">
-			<!-- 每天18:30运行,发送当日事务邮件提醒 -->
-			<value>0 0 20 ? * *</value>
-		</property>
-	</bean>
-	<bean id="taskRemindJobDetail" parent="appsAbstractJobDetail">
-		<property name="targetObject">
-			<ref bean="oaEmailBodyManager" />
-		</property>
-		<property name="targetMethod">
-			<value>taskRemind</value>
 		</property>
 		<property name="concurrent" value="false" />
 	</bean>
@@ -429,24 +365,6 @@
 	</bean>
 	
 	
-	
-	<!-- 提醒eas的生日/月度考核/转正考核/合同到期  -->
-	<bean id="tipEasTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
-		<property name="jobDetail">
-			<ref bean="tipEas" />
-		</property>
-		<property name="cronExpression">
-			<value>0 0 2 ? * *</value>
-		</property>
-	</bean>
-	<bean id="tipEas" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
-		<property name="targetObject">
-			<ref bean="easService" />
-		</property>
-		<property name="targetMethod">
-			<value>tipEas</value>
-		</property>
-	</bean>
 	<!-- 项目开发计划自动统计功能 -->
 	<bean id="automaticProcessingTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
 		<property name="jobDetail">

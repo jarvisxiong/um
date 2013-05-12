@@ -18,7 +18,6 @@ import com.hhz.ump.aop.HttpRequester;
 import com.hhz.ump.cache.PlasCache;
 import com.hhz.ump.cache.PlasCacheUtil;
 import com.hhz.ump.dao.app.AppAttachFileManager;
-import com.hhz.ump.dao.eas.EasService;
 import com.hhz.ump.dao.oa.OaEmailBodyManager;
 import com.hhz.ump.dao.oa.OaMeetingManager;
 import com.hhz.ump.dao.res.ResApproveInfoManager;
@@ -48,8 +47,6 @@ public class PlasQuartzAction extends ActionSupport {
 	@Autowired
 	private PlasCache plasCache;
 
-	@Autowired
-	private EasService easService;
 
 	private String className;
 
@@ -233,18 +230,6 @@ public class PlasQuartzAction extends ActionSupport {
 
 	public void setClassName(String className) {
 		this.className = className;
-	}
-
-	//eas提醒
-	public String tipEas() {
-
-		String type = Struts2Utils.getParameter("type");
-		if (easService.execute(type)) {
-			Struts2Utils.renderText("success");
-		} else {
-			Struts2Utils.renderText("type 不对！");
-		}
-		return null;
 	}
 	public String testPlasNode(){
 
